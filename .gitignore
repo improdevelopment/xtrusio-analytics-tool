@@ -11,3 +11,7 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+
+# GeoIP database (too large for GitHub, downloaded at runtime)
+misc/DBIP-City.mmdb
+*.mmdb
