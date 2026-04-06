@@ -29,3 +29,9 @@ RUN echo "memory_limit=256M" > /usr/local/etc/php/conf.d/matomo.ini && \
     echo "max_execution_time=300" >> /usr/local/etc/php/conf.d/matomo.ini
 
 WORKDIR /var/www/html
+
+# Copy and set entrypoint script
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
