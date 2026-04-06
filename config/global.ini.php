@@ -1285,7 +1285,7 @@ Plugins[] = VisitsSummary
 Plugins[] = VisitFrequency
 Plugins[] = VisitTime
 Plugins[] = VisitorInterest
-Plugins[] = RssWidget
+; Plugins[] = RssWidget
 Plugins[] = Feedback
 Plugins[] = Monolog
 

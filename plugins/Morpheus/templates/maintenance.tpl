@@ -3,20 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="robots" content="noindex,nofollow">
-	<title>Matomo is undergoing maintenance</title>
+	<title>Xtrusio is undergoing maintenance</title>
 	<link rel="shortcut icon" href="%faviconUrl%" />
 	<link rel="stylesheet" type="text/css" href="plugins/Morpheus/stylesheets/simple_structure.css" />
 </head>
 <body id="simple">
 
 <div class="logo">
-	<img title="Matomo" alt="Matomo" style="height: 40px;" src="%logoUrl%" />
+	<img title="Xtrusio" alt="Xtrusio" style="height: 40px;" src="%logoUrl%" />
 </div>
 
 <div class="box">
 
 	<div class="header">
-		<h1>Matomo is undergoing maintenance</h1>
+		<h1>Xtrusio is undergoing maintenance</h1>
 	</div>
 
 	<div class="content">

@@ -25,33 +25,33 @@ $piwik_minimumPHPVersion = '7.2.5';
 $piwik_currentPHPVersion = PHP_VERSION;
 $minimumPhpInvalid = version_compare($piwik_minimumPHPVersion, $piwik_currentPHPVersion) > 0;
 if ($minimumPhpInvalid) {
-    $piwik_errorMessage .= "<p><strong>To run Matomo you need at least PHP version $piwik_minimumPHPVersion</strong></p>
+    $piwik_errorMessage .= "<p><strong>To run Xtrusio you need at least PHP version $piwik_minimumPHPVersion</strong></p>
 				<p>Unfortunately it seems your webserver is using PHP version $piwik_currentPHPVersion. </p>
-				<p>Please try to update your PHP version, Matomo is really worth it! Nowadays most web hosts
+				<p>Please try to update your PHP version, Xtrusio is really worth it! Nowadays most web hosts
 				support PHP $piwik_minimumPHPVersion.</p>";
 } else {
     if (!extension_loaded('session')) {
-        $piwik_errorMessage .= "<p><strong>Matomo and Zend_Session require the session extension</strong></p>
+        $piwik_errorMessage .= "<p><strong>Xtrusio and Zend_Session require the session extension</strong></p>
 					<p>It appears your PHP was compiled with <pre>--disable-session</pre>.
-					To enjoy Matomo, you need PHP compiled without that configure option.</p>";
+					To enjoy Xtrusio, you need PHP compiled without that configure option.</p>";
     }
 
     if (!function_exists('ini_set')) {
-        $piwik_errorMessage .= "<p><strong>Matomo and Zend_Session require the <code>ini_set()</code> function</strong></p>
+        $piwik_errorMessage .= "<p><strong>Xtrusio and Zend_Session require the <code>ini_set()</code> function</strong></p>
 					<p>It appears your PHP has disabled this function.
-					To enjoy Matomo, you need remove <pre>ini_set</pre> from your <pre>disable_functions</pre> directive in php.ini, and restart your webserver.</p>";
+					To enjoy Xtrusio, you need remove <pre>ini_set</pre> from your <pre>disable_functions</pre> directive in php.ini, and restart your webserver.</p>";
     }
 
     if (ini_get('mbstring.func_overload')) {
-        $piwik_errorMessage .= "<p><strong>Matomo does not work when PHP is configured with <pre>mbstring.func_overload = " . ini_get('mbstring.func_overload') . "</pre></strong></p>
+        $piwik_errorMessage .= "<p><strong>Xtrusio does not work when PHP is configured with <pre>mbstring.func_overload = " . ini_get('mbstring.func_overload') . "</pre></strong></p>
 					<p>It appears your mbstring extension in PHP is configured to override string functions.
-					To enjoy Matomo, you need to modify php.ini <pre>mbstring.func_overload = 0</pre>, and restart your webserver.</p>";
+					To enjoy Xtrusio, you need to modify php.ini <pre>mbstring.func_overload = 0</pre>, and restart your webserver.</p>";
     }
 
     if (!function_exists('json_encode')) {
-        $piwik_errorMessage .= "<p><strong>Matomo requires the php-json extension which provides the functions <code>json_encode()</code> and <code>json_decode()</code></strong></p>
+        $piwik_errorMessage .= "<p><strong>Xtrusio requires the php-json extension which provides the functions <code>json_encode()</code> and <code>json_decode()</code></strong></p>
 					<p>It appears your PHP has not yet installed the php-json extension.
-					To use Matomo, please ask your web host to install php-json or install it yourself, for example on debian system: <code>sudo apt-get install php-json</code>. <br/>Then restart your webserver and refresh this page.</p>";
+					To use Xtrusio, please ask your web host to install php-json or install it yourself, for example on debian system: <code>sudo apt-get install php-json</code>. <br/>Then restart your webserver and refresh this page.</p>";
     }
 
     if (!file_exists(PIWIK_VENDOR_PATH . '/autoload.php')) {
@@ -63,15 +63,15 @@ if ($minimumPhpInvalid) {
         }
         $piwik_errorMessage .= "<p>It appears the <a href='https://getcomposer.org/' rel='noreferrer noopener' target='_blank'>composer</a> tool is not yet installed. You can install Composer in a few easy steps:\n\n" .
                     "<br/>" . $composerInstall .
-                    " This will initialize composer for Matomo and download libraries we use in vendor/* directory." .
+                    " This will initialize composer for Xtrusio and download libraries we use in vendor/* directory." .
                     "\n\n<br/><br/>Then reload this page to access your analytics reports." .
-            "\n\n<br/><br/>For more information check out this FAQ: <a href='https://matomo.org/faq/how-to-install/faq_18271/' rel='noreferrer noopener' target='_blank'>How do I use Matomo from the Git repository?</a>." .
-                    "\n\n<br/><br/>Note: if for some reasons you cannot install composer, instead install the latest Matomo release from " .
-                    "<a href='https://builds.matomo.org/piwik.zip' rel='noreferrer noopener'>builds.matomo.org</a>.</p>";
+            "\n\n<br/><br/>For more information check out this FAQ: <a href='#' rel='noreferrer noopener' target='_blank'>How do I use Xtrusio from the Git repository?</a>." .
+                    "\n\n<br/><br/>Note: if for some reasons you cannot install composer, instead install the latest Xtrusio release from " .
+                    "<a href='#' rel='noreferrer noopener'>Xtrusio</a>.</p>";
     }
 }
 
-define('PAGE_TITLE_WHEN_ERROR', 'Matomo &rsaquo; Error');
+define('PAGE_TITLE_WHEN_ERROR', 'Xtrusio &rsaquo; Error');
 
 if (!function_exists('Piwik_GetErrorMessagePage')) {
     /**
@@ -121,7 +121,7 @@ if (!function_exists('Piwik_GetErrorMessagePage')) {
         $hasCountdownRedirect = !empty($redirectUrl) && !empty($countdown);
 
         if ($writeErrorLog) {
-            error_log(sprintf("{$errorLogPrefix}Error in Matomo: %s", str_replace("\n", " ", strip_tags($message))));
+            error_log(sprintf("{$errorLogPrefix}Error in Xtrusio: %s", str_replace("\n", " ", strip_tags($message))));
         }
 
         if (!headers_sent()) {
@@ -168,11 +168,11 @@ if (!function_exists('Piwik_GetErrorMessagePage')) {
             };
 
             $optionalLinks = '<ul>
-                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('https://matomo.org') . '">Matomo.org homepage</a></li>
-                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('https://matomo.org/faq/') . '">Frequently Asked Questions</a></li>
-                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('https://matomo.org/docs/') . '">User Guides</a></li>
-                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('https://forum.matomo.org/') . '">Matomo Forums</a></li>
-                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('https://matomo.org/support/') . '">Professional Support for Matomo</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('#') . '">Xtrusio</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('#') . '">Frequently Asked Questions</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('#') . '">User Guides</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('#') . '">Xtrusio Support</a></li>
+                            <li><a rel="noreferrer noopener" target="_blank" href="' . $adjustUrl('#') . '">Professional Support for Xtrusio</a></li>
                             </ul>';
         }
         if ($optionalLinkBack) {
@@ -189,7 +189,7 @@ if (!function_exists('Piwik_GetErrorMessagePage')) {
 
         $backLinks = '<p>'
                     . $optionalLinkBack
-                    . ' | <a href="index.php">Go to Matomo</a>'
+                    . ' | <a href="index.php">Go to Xtrusio</a>'
                     . '</p>';
 
         $redirectSection = '';

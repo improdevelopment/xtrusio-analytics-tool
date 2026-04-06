@@ -17,12 +17,11 @@
 <body id="installation">
 <div class="container">
 
-    <div class="header" style="display: flex; align-items: center; justify-content: space-between; padding: 20px 0;">
-        <div class="logo" style="display: flex; align-items: center; gap: 15px;">
-            <img title="Xtrusio {{ piwikVersion }}" src="plugins/Morpheus/images/logo.svg" onerror="this.src='plugins/Morpheus/images/logo.png'" style="height: 50px; width: auto;"/>
-            <h1 style="margin: 0; font-size: 28px; font-weight: 700; color: #000000;">Xtrusio Analytics</h1>
+    <div class="header" style="background-color: #000000; display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; margin: -8px -8px 20px -8px;">
+        <div class="logo">
+            <img title="Xtrusio {{ piwikVersion }}" src="plugins/Morpheus/images/logo.svg" onerror="this.src='plugins/Morpheus/images/logo.png'" style="height: 40px; width: auto;"/>
         </div>
-        <div class="language-selector" style="margin-left: auto;">
+        <div class="language-selector" style="margin-left: auto; color: #fff;">
             {{ postEvent('Template.topBar')|raw }}
         </div>
 
