@@ -1,0 +1,14 @@
+{% set closingHeadTag %}<code>{{ '</head>'|e('html') }}</code>{% endset %}
+<p>{{ 'General_HelloUser'|translate(login) }}</p>
+<p>{{ 'CoreAdminHome_JsTrackingCodeMissingEmail1'|translate(siteName) }}</p>
+<p>{{ 'CoreAdminHome_JsTrackingCodeMissingEmail2'|translate(closingHeadTag)|raw }}</p>
+<p>{{ 'CoreAdminHome_JsTrackingCodeMissingEmail3'|translate('<a href="'~trackingCodeUrl~'">', '</a>', externallink('#'), '</a>')|raw }}</p>
+<p>{{ 'SitesManager_InstallationGuides'|translate }} :
+    <a href="{{ '#'|trackmatomolink }}"  target="_blank" rel="noopener">WordPress</a> |
+    <a href="{{ '#'|trackmatomolink }}" taret="_blank" rel="noopener">Squarespace</a> |
+    <a href="{{ '#'|trackmatomolink }}" target="_blank" rel="noopener">Wix</a> |
+    <a href="{{ '#'|trackmatomolink }}" target="_blank" rel="noopener">SharePoint</a>
+    <a href="{{ '#'|trackmatomolink }}" target="_blank" rel="noopener">Joomla</a> |
+    <a href="{{ '#'|trackmatomolink }}" target="_blank" rel="noopener">Shopify</a> |
+    <a href="{{ '#'|trackmatomolink }}" target="_blank" rel="noopener">Google Tag Manager</a>
+</p>

@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  matomo-db:
+    image: mariadb:10.11
+    container_name: imapro-analytics-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: imapro_root_2024
+      MYSQL_DATABASE: matomo
+      MYSQL_USER: matomo
+      MYSQL_PASSWORD: imapro_matomo_2024
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - imapro-network
+
+  matomo:
+    build: .
+    container_name: imapro-analytics
+    restart: always
+    depends_on:
+      - matomo-db
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    networks:
+      - imapro-network
+
+volumes:
+  db_data:
+
+networks:
+  imapro-network:
+    driver: bridge

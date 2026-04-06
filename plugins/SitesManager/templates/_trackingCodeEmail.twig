@@ -1,0 +1,89 @@
+{% if consentManagerName %}
+{{ 'CoreAdminHome_JSTracking_ConsentManagerDetected'|translate(consentManagerName, consentManagerUrl) }}
+
+{% endif %}
+{% if 'GoogleAnalytics3' in trackers %}
+{{ 'SitesManager_GADetectedEmail'|translate('Google Analytics 3', 'GA', externalrawlink('#'))|raw }}
+
+{% endif %}
+{% if 'GoogleAnalytics4' in trackers %}
+{{ 'SitesManager_GADetectedEmail'|translate('Google Analytics 4', 'GA', externalrawlink('#'))|raw }}
+
+{% endif %}
+{% if 'GoogleTagManager' in trackers %}
+{{ 'SitesManager_GTMDetectedEmail'|translate(externalrawlink('#'))|raw }}
+
+{% endif %}
+
+{% if 'VueJs' in jsFrameworks %}
+    {{ 'SitesManager_VueDetectedEmail'|translate('vue-matomo', externalrawlink('#'))|raw }}
+
+{% endif %}
+
+{% if 'ReactJs' in jsFrameworks %}
+{{ 'SitesManager_ReactDetectedEmail'|translate(externalrawlink('#'))|raw }}
+
+{% endif %}
+{% if consentManagerName or 'GoogleAnalytics3' in trackers or 'GoogleAnalytics4' in trackers or 'GoogleTagManager' in trackers or 'Cloudflare' in cms or 'VueJs' in jsFrameworks %}
+{{ 'CoreAdminHome_JSTracking_ConsentManagerEmailNote'|translate }}
+
+{% endif %}
+{% if showMatomoLinks %}** {{ 'General_JsTrackingTag'|translate }}{% endif %}
+
+{{ 'CoreAdminHome_JSTracking_CodeNoteBeforeClosingHeadEmail'|translate("'head'") }}
+{{ jsTag|raw }}
+
+{% if showMatomoLinks %}{{ 'SitesManager_EmailInstructionsDocsPlainText'|translate(externalrawlink('#'))|raw }}{% endif %}
+
+{{ 'SitesManager_EmailInstructionsGenerateTrackingCode'|translate(piwikUrl ~ linkTo({'module': 'CoreAdminHome', 'action': 'trackingCodeGenerator'}))|raw }}
+
+{% if showMatomoLinks %}
+** {{ 'SitesManager_InstallationGuides'|translate }}
+WordPress: {{ externalrawlink('#') }}
+Squarespace: {{ externalrawlink('#') }}
+Wix: {{ externalrawlink('#') }}
+SharePoint: {{ externalrawlink('#') }}
+Joomla: {{ externalrawlink('#') }}
+Shopify: {{ externalrawlink('#') }}
+Google Tag Manager: {{ externalrawlink('#') }}
+Cloudflare: {{ externalrawlink('#') }}
+Vue.js: {{ externalrawlink('#') }}
+React: {{ externalrawlink('#') }}
+
+** {{ 'SitesManager_Integrations'|translate }}
+{{ 'CoreAdminHome_JSTrackingIntro3a'|translate('', '') }}
+{{ externalrawlink('#') }}
+
+** {{ 'SitesManager_LogAnalytics'|translate }}
+{{ 'SitesManager_LogAnalyticsDescription'|translate('', '') }}
+{{ externalrawlink('#') }}
+
+** {{ 'SitesManager_MobileAppsAndSDKs'|translate }}
+{{ 'SitesManager_MobileAppsAndSDKsDescription'|translate('', '') }}
+{{ externalrawlink('##programming-language-platforms-and-frameworks') }}
+
+** {{ 'CoreAdminHome_HttpTrackingApi'|translate }}
+{{ 'CoreAdminHome_HttpTrackingApiDescription'|translate('', '') }}
+{{ externalrawlink('#') }}
+
+** {{ 'SitesManager_SiteWithoutDataSinglePageApplication'|translate }}
+{{ 'CoreAdminHome_SinglePageApplicationDescription'|translate('', '') }}
+{{ externalrawlink('#') }}
+
+** Cloudflare
+{{ 'CoreAdminHome_CloudflareDescription'|translate('', '') }}
+{{ externalrawlink('#') }}
+
+** Vue.js
+{{ 'CoreAdminHome_VueDescription'|translate('', '') }}
+{{ externalrawlink('#') }}
+
+** React.js
+{{ 'CoreAdminHome_ReactDescription'|translate('', '') }}
+{{ externalrawlink('#') }}
+
+** {{ 'SitesManager_EmailInstructionsSiteDetailsHeading'|translate }}
+{{ 'SitesManager_EmailInstructionsSiteDetails'|translate }}
+* {{ 'SitesManager_EmailInstructionsYourSiteId'|translate(idSite) }}
+* {{ 'SitesManager_EmailInstructionsYourTrackingUrl'|translate(trackingUrl) }}
+{% endif %}
