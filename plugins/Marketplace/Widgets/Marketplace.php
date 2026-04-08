@@ -25,6 +25,7 @@ class Marketplace extends Widget
         $config->setParameters(array('embed' => '1'));
         $config->setIsNotWidgetizable();
         $config->setOrder(19);
-        $config->setIsEnabled(!Piwik::isUserIsAnonymous());
+        // White-label: hide from dashboard, accessible only via Settings > Plugins
+        $config->setIsEnabled(false);
     }
 }

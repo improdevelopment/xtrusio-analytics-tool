@@ -34,7 +34,8 @@ class GetNewPlugins extends Widget
         $config->setCategoryId('Marketplace_Marketplace');
         $config->setName('Marketplace_LatestMarketplaceUpdates');
         $config->setOrder(19);
-        $config->setIsEnabled(!Piwik::isUserIsAnonymous());
+        // White-label: hide from dashboard, accessible only via Settings > Plugins
+        $config->setIsEnabled(false);
     }
 
     public function render()
