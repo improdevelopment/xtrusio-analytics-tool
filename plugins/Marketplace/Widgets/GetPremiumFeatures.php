@@ -34,7 +34,8 @@ class GetPremiumFeatures extends Widget
         $config->setSubcategoryId('Marketplace_PaidPlugins');
         $config->setName('Marketplace_PaidPlugins');
         $config->setOrder(20);
-        $config->setIsEnabled(!Piwik::isUserIsAnonymous());
+        // White-label: hide premium features widget
+        $config->setIsEnabled(false);
     }
 
     public function render()

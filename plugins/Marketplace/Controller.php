@@ -263,11 +263,10 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
     {
         $view = $this->configureViewAndCheckPermission('@Marketplace/overview');
 
-        $view->paidPluginsToInstallAtOnce = $this->getAllPaidPluginsToInstallAtOnce();
+        $view->paidPluginsToInstallAtOnce = [];
         $view->isValidConsumer = $this->consumer->isValidConsumer();
         $view->pluginTypeOptions = array(
             'plugins' => Piwik::translate('General_Plugins'),
-            'premium' => Piwik::translate('Marketplace_PaidPlugins'),
             'themes' => Piwik::translate('CorePluginsAdmin_Themes'),
         );
         $view->pluginSortOptions = array(
@@ -323,6 +322,11 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         $sort = (new Sort())->getSort($sort);
 
         $plugins = $this->plugins->searchPlugins($query, $sort, $themesOnly, $purchaseType);
+
+        // White-label: filter out paid plugins, only show free ones
+        $plugins = array_values(array_filter($plugins, function ($plugin) {
+            return !empty($plugin['isFree']);
+        }));
 
         foreach ($plugins as &$plugin) {
             if ($plugin['isDownloadable']) {
