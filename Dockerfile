@@ -33,12 +33,13 @@ WORKDIR /var/www/html
 # Copy all source code into the image (avoids slow Windows bind mount for PHP files)
 COPY . .
 
-# Copy entrypoint script
+# Copy entrypoint script (sed fixes Windows CRLF line endings)
 COPY docker-entrypoint.sh /docker-entrypoint.sh
-RUN chmod +x /docker-entrypoint.sh
+RUN sed -i 's/\r$//' /docker-entrypoint.sh && chmod +x /docker-entrypoint.sh
 
-# Ensure writable directories
-RUN chown -R www-data:www-data config tmp misc && \
+# Ensure writable directories exist and have correct permissions
+RUN mkdir -p config tmp/assets tmp/cache tmp/logs tmp/tcpdf tmp/templates_c tmp/sessions misc && \
+    chown -R www-data:www-data config tmp misc && \
     chmod -R 775 config tmp misc
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
