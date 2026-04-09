@@ -30,17 +30,17 @@ The database credentials are pre-configured from your `.env` file — the Databa
 
 ## Database Setup Credentials
 
-On step 3 of the installer, use the values from your `.env` file:
+On step 3 of the installer, enter these values (pre-configured in `.env`):
 
-| Field | `.env` Variable | Default in `.env.example` |
-|-------|----------------|--------------------------|
-| Database Server | _(always)_ | `xtrusio-db` |
-| Login | `MYSQL_USER` | `xtrusio_user` |
-| Password | `MYSQL_PASSWORD` | _(set in your .env)_ |
-| Database Name | `MYSQL_DATABASE` | `xtrusio` |
-| Table Prefix | _(keep default)_ | `matomo_` |
+| Field | Value |
+|-------|-------|
+| Database Server | `xtrusio-db` |
+| Login | `xtrusio_user` |
+| Password | `xtrusio_1234` |
+| Database Name | `xtrusio` |
+| Table Prefix | `matomo_` |
 
-These are the same credentials you set in `.env` during setup.
+No changes needed — just `cp .env.example .env` and these values work out of the box.
 
 ## Clean Reinstall
 
