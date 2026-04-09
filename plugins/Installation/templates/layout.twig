@@ -56,7 +56,7 @@
         <div class="col s9 content">
             {% set nextButton %}
                 <p class="next-step">
-                    <a class="btn" href="{{ linkTo({'action':nextModuleName, 'token_auth':null, 'method':null }) }}">
+                    <a class="btn" href="{{ linkTo({'module': 'Installation', 'action':nextModuleName, 'token_auth':null, 'method':null }) }}">
                         {{ 'General_Next'|translate }} &raquo;</a>
                 </p>
             {% endset %}
