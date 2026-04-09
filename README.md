@@ -38,7 +38,7 @@ On step 3 of the installer, enter these values (pre-configured in `.env`):
 | Login | `xtrusio_user` |
 | Password | `xtrusio_1234` |
 | Database Name | `xtrusio` |
-| Table Prefix | `matomo_` |
+| Table Prefix | `xtrusio_` |
 
 No changes needed — just `cp .env.example .env` and these values work out of the box.
 

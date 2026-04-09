@@ -96,9 +96,6 @@ class SitesManager extends \Piwik\Plugin
 
     public function redirectDashboardToWelcomePage(&$module, &$action)
     {
-        // White-label: always show dashboard directly, skip "choose tracking method" page
-        return;
-
         if ($module !== 'CoreHome' || $action !== 'index') {
             return;
         }

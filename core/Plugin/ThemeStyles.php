@@ -111,7 +111,7 @@ class ThemeStyles
     /**
      * @var string
      */
-    public $colorHeaderBackground = '#000000';
+    public $colorHeaderBackground = '#191919';
 
     /**
      * @var string

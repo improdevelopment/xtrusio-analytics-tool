@@ -25,7 +25,7 @@ host = "${MYSQL_HOST:-xtrusio-db}"
 username = "${MYSQL_USER}"
 password = "${MYSQL_PASSWORD}"
 dbname = "${MYSQL_DATABASE}"
-tables_prefix = "matomo_"
+tables_prefix = "${MYSQL_TABLE_PREFIX:-xtrusio_}"
 charset = "utf8mb4"
 
 [General]
