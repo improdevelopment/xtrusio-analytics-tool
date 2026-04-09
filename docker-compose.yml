@@ -25,9 +25,9 @@ services:
       - .:/var/www/html
     command: >
       bash -c "
-      chown -R www-data:www-data /var/www/html/config /var/www/html/tmp /var/www/html/misc 2>/dev/null;
-      mkdir -p /var/www/html/tmp;
-      chmod -R 775 /var/www/html/config /var/www/html/tmp;
+      mkdir -p /var/www/html/tmp/assets /var/www/html/tmp/cache /var/www/html/tmp/logs /var/www/html/tmp/tcpdf /var/www/html/tmp/templates_c /var/www/html/config /var/www/html/misc;
+      chown -R www-data:www-data /var/www/html/config /var/www/html/tmp /var/www/html/misc;
+      chmod -R 775 /var/www/html/config /var/www/html/tmp /var/www/html/misc;
       apache2-foreground
       "
     networks:
