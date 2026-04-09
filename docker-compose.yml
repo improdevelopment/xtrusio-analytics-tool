@@ -1,7 +1,7 @@
 services:
-  matomo-db:
+  xtrusio-db:
     image: mariadb:10.11
-    container_name: imapro-analytics-db
+    container_name: xtrusio-db
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
@@ -17,19 +17,19 @@ services:
       retries: 10
       start_period: 30s
     networks:
-      - imapro-network
+      - xtrusio-network
 
   matomo:
     build: .
-    container_name: imapro-analytics
+    container_name: xtrusio-app
     restart: always
     depends_on:
-      matomo-db:
+      xtrusio-db:
         condition: service_healthy
     ports:
       - "${APP_PORT:-8080}:80"
     environment:
-      MYSQL_HOST: matomo-db
+      MYSQL_HOST: xtrusio-db
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
@@ -38,11 +38,11 @@ services:
       - ./tmp:/var/www/html/tmp
       - ./misc:/var/www/html/misc
     networks:
-      - imapro-network
+      - xtrusio-network
 
 volumes:
   db_data:
 
 networks:
-  imapro-network:
+  xtrusio-network:
     driver: bridge

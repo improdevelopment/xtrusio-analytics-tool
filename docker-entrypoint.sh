@@ -21,7 +21,7 @@ if [ ! -f "$CONFIG_FILE" ]; then
 ; <?php exit; ?> DO NOT REMOVE THIS LINE
 ; file automatically generated or modified by Xtrusio; you can manually override the default values in global.ini.php by redefining them in this file.
 [database]
-host = "${MYSQL_HOST:-matomo-db}"
+host = "${MYSQL_HOST:-xtrusio-db}"
 username = "${MYSQL_USER}"
 password = "${MYSQL_PASSWORD}"
 dbname = "${MYSQL_DATABASE}"

@@ -78,8 +78,8 @@ Replace `YOUR-XTRUSIO-URL` and `YOUR-SITE-ID` with your actual values from the s
 docker-compose up -d          # Start in background
 docker-compose down            # Stop
 docker-compose restart         # Restart
-docker logs imapro-analytics   # View app logs
-docker logs imapro-analytics-db # View DB logs
+docker logs xtrusio-app        # View app logs
+docker logs xtrusio-db         # View DB logs
 docker-compose down -v         # Stop + delete all data
 ```
 
