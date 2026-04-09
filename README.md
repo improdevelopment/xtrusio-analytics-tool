@@ -28,6 +28,20 @@ Open **http://localhost:8080** and complete the 8-step installation wizard.
 
 The database credentials are pre-configured from your `.env` file — the Database Setup step will be pre-filled automatically.
 
+## Database Setup Credentials
+
+On step 3 of the installer, use the values from your `.env` file:
+
+| Field | `.env` Variable | Default in `.env.example` |
+|-------|----------------|--------------------------|
+| Database Server | _(always)_ | `xtrusio-db` |
+| Login | `MYSQL_USER` | `xtrusio_user` |
+| Password | `MYSQL_PASSWORD` | _(set in your .env)_ |
+| Database Name | `MYSQL_DATABASE` | `xtrusio` |
+| Table Prefix | _(keep default)_ | `matomo_` |
+
+These are the same credentials you set in `.env` during setup.
+
 ## Clean Reinstall
 
 Reset everything (deletes all data and database):
