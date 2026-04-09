@@ -381,7 +381,7 @@ class FileIntegrity
 
     protected static function isModifiedPathValid($path)
     {
-        if ($path === 'piwik.js' || $path === 'matomo.js') {
+        if ($path === 'piwik.js' || $path === 'matomo.js' || $path === 'xtrusio.js') {
             // we could have used a postEvent hook to enrich "\Piwik\Manifest::$files;" which would also benefit plugins
             // that want to check for file integrity but we do not want to risk to break anything right now. It is not
             // as trivial because piwik.js might be already updated, or updated on the next request. We cannot define

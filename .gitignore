@@ -1,8 +1,20 @@
+# Environment secrets
+.env
+
 # Local config (has DB credentials, salt etc.)
 config/config.ini.php
 
 # Temp files & cache
 tmp/
+tmp/cache/
+tmp/logs/
+tmp/assets/
+tmp/tcpdf/
+tmp/sessions/
+tmp/templates_c/
+
+# Dependencies
+node_modules/
 
 # OS files
 .DS_Store
@@ -12,3 +24,7 @@ Thumbs.db
 # GeoIP database (too large for GitHub, downloaded at runtime)
 misc/DBIP-City.mmdb
 *.mmdb
+
+# IDE
+.vscode/
+.idea/

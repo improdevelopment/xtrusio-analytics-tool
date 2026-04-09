@@ -125,7 +125,7 @@ var matomoAnalytics = {initialize: function (options) {
 
         let isTrackingRequest = (event.request.url.includes('/matomo.php')
                             || event.request.url.includes('/piwik.php'));
-        let isTrackerRequest = event.request.url.endsWith('/matomo.js')
+        let isTrackerRequest = event.request.url.endsWith('/xtrusio.js')
                             || event.request.url.endsWith('/piwik.js');
 
         if (isTrackerRequest) {

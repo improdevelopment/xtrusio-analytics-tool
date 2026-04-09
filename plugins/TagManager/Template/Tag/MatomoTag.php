@@ -260,7 +260,7 @@ class MatomoTag extends BaseTag
             $tracker = $trackerUpdater->getUpdatedTrackerFileContent();
 
             if (!$tracker) {
-                $tracker = @file_get_contents(PIWIK_DOCUMENT_ROOT . '/matomo.js');
+                $tracker = @file_get_contents(PIWIK_DOCUMENT_ROOT . '/xtrusio.js');
             }
             if (!$tracker) {
                 $tracker = @file_get_contents(PIWIK_DOCUMENT_ROOT . '/piwik.js');

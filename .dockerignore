@@ -1,0 +1,7 @@
+.git
+.vscode
+tmp/sessions/sess_*
+tmp/cache/*
+tmp/templates_c/*
+tmp/assets/*
+debug*.php

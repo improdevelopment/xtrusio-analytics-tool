@@ -38,7 +38,7 @@ class TrackerJsCheck implements Diagnostic
     {
         // for users that installed matomo 3.7+ we only check for matomo.js being writable... for all other users we
         // check both piwik.js and matomo.js as they can use both
-        $filesToCheck = array('matomo.js');
+        $filesToCheck = array('xtrusio.js');
 
         $jsCodeGenerator = new TrackerCodeGenerator();
         if (SettingsPiwik::isMatomoInstalled() && $jsCodeGenerator->shouldPreferPiwikEndpoint()) {

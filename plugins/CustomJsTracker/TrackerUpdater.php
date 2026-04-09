@@ -25,7 +25,7 @@ class TrackerUpdater
 {
     public const DEVELOPMENT_PIWIK_JS = '/js/piwik.js';
     public const ORIGINAL_PIWIK_JS = '/js/piwik.min.js';
-    public const TARGET_MATOMO_JS = '/matomo.js';
+    public const TARGET_MATOMO_JS = '/xtrusio.js';
 
     /**
      * @var File
@@ -144,9 +144,9 @@ class TrackerUpdater
             }
         }
 
-        // we need to make sure to sync matomo.js / piwik.js
-        $this->updateAlternative('piwik.js', 'matomo.js', $newContent);
-        $this->updateAlternative('matomo.js', 'piwik.js', $newContent);
+        // we need to make sure to sync xtrusio.js / piwik.js
+        $this->updateAlternative('piwik.js', 'xtrusio.js', $newContent);
+        $this->updateAlternative('xtrusio.js', 'piwik.js', $newContent);
     }
 
     private function updateAlternative($fromFile, $toFile, $newContent)

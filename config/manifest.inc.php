@@ -953,7 +953,7 @@ class Manifest {
 		"libs/upgradephp/README" => array("373", "82f5a425fbfeb8e9de548c5ef96f5ac7f7f8e761de2e165910b2235dbb1aa88a"),
 		"libs/upgradephp/dev.php" => array("305", "138b2cc6cf50db40277525d6df3afa31e6313b51a2185afed2db4cb8fde7889b"),
 		"libs/upgradephp/upgrade.php" => array("16768", "7259b19e37c62eab12845d34c534d2a532b3397925d26f837192cf0f91bac833"),
-		"matomo.js" => array("67976", "643dc9512a4efa9959a6475a7e7fcdf906b492aedd5c423e83867f8f153dd13e"),
+		"xtrusio.js" => array("67976", "643dc9512a4efa9959a6475a7e7fcdf906b492aedd5c423e83867f8f153dd13e"),
 		"matomo.php" => array("334", "d77efd3de041050fdb0de85fab57a1cc4bc7bb3a5181e20c6a44f4ffa08ffd50"),
 		"misc/How to install Matomo.html" => array("341", "81220a3636c9facc627e3e3346f832373b58875bab3432ec062251668b5f4427"),
 		"misc/cron/.htaccess" => array("807", "0875fb3348995b4ab1861544f4e6b3d6cd9e3e9c72aad1713e43799825f8856b"),

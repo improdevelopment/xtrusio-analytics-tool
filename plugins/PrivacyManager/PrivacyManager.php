@@ -960,6 +960,9 @@ class PrivacyManager extends Plugin
      */
     public static function isCookieLessTrackingForced(): bool
     {
+        if (!\Piwik\SettingsPiwik::isMatomoInstalled()) {
+            return false;
+        }
         $config = new Config();
         return $config->forceCookielessTracking;
     }

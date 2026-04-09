@@ -4,12 +4,18 @@ services:
     container_name: imapro-analytics-db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: imapro_root_2024
-      MYSQL_DATABASE: matomo
-      MYSQL_USER: matomo
-      MYSQL_PASSWORD: imapro_matomo_2024
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     volumes:
       - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
     networks:
       - imapro-network
 
@@ -18,18 +24,19 @@ services:
     container_name: imapro-analytics
     restart: always
     depends_on:
-      - matomo-db
+      matomo-db:
+        condition: service_healthy
     ports:
-      - "8080:80"
+      - "${APP_PORT:-8080}:80"
+    environment:
+      MYSQL_HOST: matomo-db
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     volumes:
-      - .:/var/www/html
-    command: >
-      bash -c "
-      mkdir -p /var/www/html/tmp/assets /var/www/html/tmp/cache /var/www/html/tmp/logs /var/www/html/tmp/tcpdf /var/www/html/tmp/templates_c /var/www/html/config /var/www/html/misc;
-      chown -R www-data:www-data /var/www/html/config /var/www/html/tmp /var/www/html/misc;
-      chmod -R 775 /var/www/html/config /var/www/html/tmp /var/www/html/misc;
-      apache2-foreground
-      "
+      - ./config:/var/www/html/config
+      - ./tmp:/var/www/html/tmp
+      - ./misc:/var/www/html/misc
     networks:
       - imapro-network
 

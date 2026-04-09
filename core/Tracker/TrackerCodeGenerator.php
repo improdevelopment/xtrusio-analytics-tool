@@ -251,7 +251,7 @@ class TrackerCodeGenerator
 
     public function getJsTrackerEndpoint()
     {
-        $name = 'matomo.js';
+        $name = 'xtrusio.js';
         if ($this->shouldPreferPiwikEndpoint()) {
             $name = 'piwik.js';
         }

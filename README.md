@@ -1,63 +1,57 @@
 # Xtrusio Analytics
 
-White-labeled analytics platform built on Matomo, customized with Xtrusio branding.
+White-labeled web analytics platform. Self-hosted, privacy-focused, built on Matomo.
 
-## Prerequisites
+## Requirements
 
-- [Docker](https://www.docker.com/products/docker-desktop/) installed
-- [Docker Compose](https://docs.docker.com/compose/) installed
-- Git installed
+- [Docker](https://www.docker.com/products/docker-desktop/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
-## Installation
-
-### 1. Clone the repository
+## Quick Start
 
 ```bash
+# 1. Clone the repo
 git clone <repo-url>
-cd matomo-wihte-labling
+cd xtrusio-analytics-tool
+
+# 2. Create your environment file
+cp .env.example .env
+
+# 3. Edit .env with your credentials
+#    (change passwords before deploying to production!)
+
+# 4. Start the application
+docker-compose up --build
 ```
 
-### 2. Start the application
+Open **http://localhost:8080** and complete the 8-step installation wizard.
+
+The database credentials are pre-configured from your `.env` file — the Database Setup step will be pre-filled automatically.
+
+## Clean Reinstall
+
+Reset everything (deletes all data and database):
 
 ```bash
-docker-compose up -d --build
+docker-compose down -v
+docker-compose up --build
 ```
 
-This will start two containers:
-- **imapro-analytics** — Xtrusio web app (PHP + Apache)
-- **imapro-analytics-db** — MariaDB database
+## First-Time Install Notes
 
-### 3. Open in browser
+- If you see a **"tables already exist"** warning on step 4, click **"Delete the detected tables"** — this means a previous install left data in the database. Use `docker-compose down -v` to avoid this.
+- After install completes, `config/config.ini.php` is auto-generated with your database credentials and salt — **do not commit this file** (it's already in `.gitignore`).
 
+## Updating
+
+```bash
+git pull
+docker-compose up --build
 ```
-http://localhost:8080
-```
 
-### 4. Complete the setup wizard
+## Adding the Tracking Code
 
-You will see the Xtrusio installation wizard. Follow these steps:
-
-1. **Welcome** — Click Next
-2. **System Check** — Click Next
-3. **Database Setup** — Enter:
-   - Database Server: `matomo-db`
-   - Login: `matomo`
-   - Password: `imapro_matomo_2024`
-   - Database Name: `matomo`
-   - Table Prefix: `matomo_`
-4. **Creating the Tables** — Wait for completion
-5. **Superuser** — Create your admin account (username + password)
-6. **Set up a Website** — Add your website name and URL
-7. **JavaScript Tracking Code** — Copy the tracking code and add it to your website
-8. **Congratulations** — Done!
-
-### 5. Login
-
-After setup, login with the superuser credentials you created in step 5.
-
-## Adding the tracking code
-
-After setup, you will get a JavaScript tracking code. Add it to your website's `<head>` tag:
+After setup, add this to your website's `<head>` tag:
 
 ```html
 <!-- Xtrusio -->
@@ -70,64 +64,26 @@ After setup, you will get a JavaScript tracking code. Add it to your website's `
     _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', 'YOUR-SITE-ID']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    g.async=true; g.src=u+'xtrusio.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- End Xtrusio Code -->
+<!-- End Xtrusio -->
 ```
 
-Replace `YOUR-XTRUSIO-URL` and `YOUR-SITE-ID` with your actual values from the setup.
+Replace `YOUR-XTRUSIO-URL` and `YOUR-SITE-ID` with your actual values from the setup wizard.
 
-## Managing users
-
-1. Go to **Settings** (gear icon) > **System** > **Users**
-2. Click **Add new user**
-3. Set username, email, and password
-4. Assign permissions:
-   - **View** — Can only view reports
-   - **Write** — Can view reports + create goals/segments
-   - **Admin** — Can manage website settings
-   - **Super User** — Full system access
-
-## Useful commands
+## Useful Commands
 
 ```bash
-# Start the application
-docker-compose up -d
-
-# Stop the application
-docker-compose down
-
-# Restart the application
-docker-compose restart
-
-# View logs
-docker logs imapro-analytics
-docker logs imapro-analytics-db
-
-# Reset everything (deletes all data)
-docker-compose down -v
-docker-compose up -d --build
+docker-compose up -d          # Start in background
+docker-compose down            # Stop
+docker-compose restart         # Restart
+docker logs imapro-analytics   # View app logs
+docker logs imapro-analytics-db # View DB logs
+docker-compose down -v         # Stop + delete all data
 ```
 
-## Folder structure
-
-```
-├── config/              # Configuration files
-├── core/                # Core PHP framework
-├── plugins/             # All plugins (UI, features, themes)
-│   ├── Morpheus/        # Theme (logos, styles)
-│   │   └── images/      # Logo files (replace for custom branding)
-│   ├── CoreHome/        # Main UI templates
-│   └── Login/           # Login page
-├── docker-compose.yml   # Docker setup
-├── Dockerfile           # PHP + Apache container
-└── .gitignore           # Ignored files
-```
-
-## Customizing logos
-
-Replace these files with your own logos:
+## Customizing Logos
 
 | File | Purpose | Recommended size |
 |------|---------|-----------------|
@@ -135,6 +91,19 @@ Replace these files with your own logos:
 | `plugins/Morpheus/images/logo.png` | Main logo (fallback) | 300x60px |
 | `plugins/Morpheus/images/logo-header.png` | Navbar logo | 150x30px |
 | `plugins/CoreHome/images/favicon.ico` | Browser tab icon | 32x32px |
+
+## Folder Structure
+
+```
+├── config/              # Configuration (auto-generated, gitignored)
+├── core/                # Core PHP framework
+├── plugins/             # All plugins (UI, features, themes)
+├── docker-compose.yml   # Docker services
+├── Dockerfile           # PHP + Apache image
+├── docker-entrypoint.sh # Container startup script
+├── .env.example         # Environment template (copy to .env)
+└── .gitignore           # Ignored files
+```
 
 ## License
 

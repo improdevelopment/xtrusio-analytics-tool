@@ -362,7 +362,7 @@ class MatomoConfigurationVariable extends BaseVariable
                 $field->title = Piwik::translate('TagManager_MatomoConfigurationMatomoJsEndpointTitle');
                 $field->uiControl = FieldConfig::UI_CONTROL_SINGLE_SELECT;
                 $field->availableValues = array(
-                    'matomo.js' => 'matomo.js',
+                    'xtrusio.js' => 'xtrusio.js',
                     'piwik.js' => 'piwik.js',
                     'js/' => 'js/',
                     'js/tracker.php' => 'js/tracker.php',

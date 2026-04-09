@@ -193,16 +193,7 @@
                 self.disabledRowDom = $(domElem);
 
                 var numberOfColumns = $(domElem).children().length;
-                $insertAfter.after('\
-                <tr id="' + divIdToReplaceWithSubTable + '" class="cellSubDataTable">\
-                    <td colspan="' + numberOfColumns + '">\
-                        <span class="loadingPiwik" style="display:inline">\
-                            <span class="matomo-loader"><span></span><span></span><span></span></span>\
-                            Loading...\
-                        </span>\
-                    </td>\
-                </tr>\
-                ');
+                $insertAfter.after('<tr id="' + divIdToReplaceWithSubTable + '" class="cellSubDataTable"><td colspan="' + numberOfColumns + '"><span class="loadingPiwik" style="display:inline"><span class="matomo-loader"><span></span><span></span><span></span></span>Loading...</span></td></tr>');
                 var savedActionVariable = self.param.action;
 
                 // reset all the filters from the Parent table

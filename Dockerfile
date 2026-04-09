@@ -29,3 +29,17 @@ RUN echo "memory_limit=256M" > /usr/local/etc/php/conf.d/matomo.ini && \
     echo "max_execution_time=300" >> /usr/local/etc/php/conf.d/matomo.ini
 
 WORKDIR /var/www/html
+
+# Copy all source code into the image (avoids slow Windows bind mount for PHP files)
+COPY . .
+
+# Copy entrypoint script
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN chmod +x /docker-entrypoint.sh
+
+# Ensure writable directories
+RUN chown -R www-data:www-data config tmp misc && \
+    chmod -R 775 config tmp misc
+
+ENTRYPOINT ["/docker-entrypoint.sh"]
+CMD ["apache2-foreground"]

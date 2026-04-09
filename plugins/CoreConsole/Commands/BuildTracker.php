@@ -50,7 +50,7 @@ class BuildTracker extends ConsoleCommand
 
         $jsPath = PIWIK_INCLUDE_PATH . '/js';
         if (!$plugin) {
-            $command = "cd $jsPath && sed '/<DEBUG>/,/<\\/DEBUG>/d' < piwik.js | sed 's/eval/replacedEvilString/' | java -jar yuicompressor-2.4.8.jar --type js --line-break 1000 | sed 's/replacedEvilString/eval/' | sed 's/^[/][*]/\\/*!/' > piwik.min.js && cp piwik.min.js ../piwik.js && cp piwik.min.js ../matomo.js";
+            $command = "cd $jsPath && sed '/<DEBUG>/,/<\\/DEBUG>/d' < piwik.js | sed 's/eval/replacedEvilString/' | java -jar yuicompressor-2.4.8.jar --type js --line-break 1000 | sed 's/replacedEvilString/eval/' | sed 's/^[/][*]/\\/*!/' > piwik.min.js && cp piwik.min.js ../piwik.js && cp piwik.min.js ../xtrusio.js";
             if ($output->isVerbose()) {
                 $output->writeln("Command: $command");
             }

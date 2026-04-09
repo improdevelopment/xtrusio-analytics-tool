@@ -52,7 +52,7 @@ if (is_dir(PIWIK_INCLUDE_PATH . '/vendor')) {
 // Composer autoloader
 require PIWIK_VENDOR_PATH . '/autoload.php';
 
-$file = '../matomo.js';
+$file = '../xtrusio.js';
 
 $daysExpireFarFuture = 10;
 
