@@ -52,11 +52,10 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-    ports:
-      # On VPS, reverse-proxy (Caddy/Nginx) forwards 443 → 127.0.0.1:8080.
-      # Binding to 127.0.0.1 prevents direct public access to the app port.
-      # For local dev without reverse proxy, change to "${APP_PORT:-8080}:80".
-      - "127.0.0.1:${APP_PORT:-8080}:80"
+    # On VPS: no host port — Caddy talks via shared docker network.
+    # For local dev, uncomment the ports block below:
+    # ports:
+    #   - "${APP_PORT:-8080}:80"
     environment:
       MYSQL_HOST: xtrusio-db
       MYSQL_DATABASE: ${MYSQL_DATABASE}
@@ -78,6 +77,7 @@ services:
         max-file: "5"
     networks:
       - xtrusio-network
+      - caddy-net            # shared with existing Caddy container
 
 volumes:
   db_data:
@@ -86,3 +86,9 @@ volumes:
 networks:
   xtrusio-network:
     driver: bridge
+  caddy-net:
+    # Pre-existing shared network from /opt/docker/caddy/docker-compose.yml.
+    # Caddy joins this network, so when xtrusio-app also joins it,
+    # Caddy can reach the app directly as "xtrusio-app:80" (no host port).
+    external: true
+    name: caddy-public
