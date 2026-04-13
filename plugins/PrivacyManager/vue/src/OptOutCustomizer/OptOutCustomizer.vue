@@ -109,7 +109,7 @@
     <h3>{{ translate('PrivacyManager_OptOutPreview') }}</h3>
     <iframe
       id="previewIframe"
-      style="border: 1px solid #333; height: 200px; width: 600px;"
+      style="border: 1px solid #E9E9E7; height: 200px; width: 600px;"
       :src="iframeUrl"
       :class="{ withBg }"
     />

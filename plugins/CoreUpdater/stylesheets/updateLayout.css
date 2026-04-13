@@ -37,7 +37,7 @@ form#oneclickupdate {
 
 
 body#simple .languageSelection {
-    color: #4183C4;
+    color: #2383E2;
     padding-top: 8px;
 }
 
@@ -58,12 +58,12 @@ strong {
 
 #more-results {
     text-decoration: underline;
-    color: #1976d2;
+    color: #2383E2;
     cursor: pointer;
 }
 
 .ui-button {
-    background-color: #43a047 !important;
+    background-color: #0F7B6C !important;
 }
 
 .no-close .ui-dialog-titlebar-close {

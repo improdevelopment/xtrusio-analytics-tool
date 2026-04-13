@@ -260,7 +260,7 @@ class TrackerCodeGenerator
 
     public function getPhpTrackerEndpoint()
     {
-        $name = 'matomo.php';
+        $name = 'xtrusio.php';
         if ($this->shouldPreferPiwikEndpoint()) {
             $name = 'piwik.php';
         }

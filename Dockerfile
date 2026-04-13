@@ -26,7 +26,17 @@ RUN a2enmod rewrite
 RUN echo "memory_limit=256M" > /usr/local/etc/php/conf.d/matomo.ini && \
     echo "upload_max_filesize=64M" >> /usr/local/etc/php/conf.d/matomo.ini && \
     echo "post_max_size=64M" >> /usr/local/etc/php/conf.d/matomo.ini && \
-    echo "max_execution_time=300" >> /usr/local/etc/php/conf.d/matomo.ini
+    echo "max_execution_time=300" >> /usr/local/etc/php/conf.d/matomo.ini && \
+    echo "opcache.enable=1" >> /usr/local/etc/php/conf.d/matomo.ini && \
+    echo "opcache.memory_consumption=256" >> /usr/local/etc/php/conf.d/matomo.ini && \
+    echo "opcache.max_accelerated_files=20000" >> /usr/local/etc/php/conf.d/matomo.ini && \
+    echo "opcache.validate_timestamps=0" >> /usr/local/etc/php/conf.d/matomo.ini && \
+    echo "opcache.interned_strings_buffer=16" >> /usr/local/etc/php/conf.d/matomo.ini && \
+    echo "realpath_cache_size=4096K" >> /usr/local/etc/php/conf.d/matomo.ini && \
+    echo "realpath_cache_ttl=600" >> /usr/local/etc/php/conf.d/matomo.ini
+
+# Install Redis PHP extension for caching
+RUN pecl install redis && docker-php-ext-enable redis
 
 WORKDIR /var/www/html
 

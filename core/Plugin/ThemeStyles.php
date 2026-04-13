@@ -56,7 +56,7 @@ class ThemeStyles
     /**
      * @var string
      */
-    public $colorBrand = '#000000';
+    public $colorBrand = '#2383E2';
 
     /**
      * @var string
@@ -66,7 +66,7 @@ class ThemeStyles
     /**
      * @var string
      */
-    public $colorFocusRing = '#0969da';
+    public $colorFocusRing = '#2383E2';
 
     /**
      * @var string
@@ -76,47 +76,47 @@ class ThemeStyles
     /**
      * @var string
      */
-    public $colorText = '#212121';
+    public $colorText = '#37352F';
 
     /**
      * @var string
      */
-    public $colorTextLight = '#444';
+    public $colorTextLight = '#787774';
 
     /**
      * @var string
      */
-    public $colorTextLighter = '#666666';
+    public $colorTextLighter = '#9B9A97';
 
     /**
      * @var string
      */
-    public $colorTextContrast = '#37474f';
+    public $colorTextContrast = '#FFFFFF';
 
     /**
      * @var string
      */
-    public $colorLink = '#000000';
+    public $colorLink = '#2383E2';
 
     /**
      * @var string
      */
-    public $colorBaseSeries = '#ee3024';
+    public $colorBaseSeries = '#2383E2';
 
     /**
      * @var string
      */
-    public $colorHeadlineAlternative = '#4E4E4E';
+    public $colorHeadlineAlternative = '#37352F';
 
     /**
      * @var string
      */
-    public $colorHeaderBackground = '#191919';
+    public $colorHeaderBackground = '#333333';
 
     /**
      * @var string
      */
-    public $colorHeaderText =  '#fff';
+    public $colorHeaderText =  '#FFFFFF';
 
     /**
      * @var string
@@ -131,7 +131,7 @@ class ThemeStyles
     /**
      * @var string
      */
-    public $colorMenuContrastTextActive = '#000000';
+    public $colorMenuContrastTextActive = '#2383E2';
 
     /**
      * @var string
@@ -156,17 +156,17 @@ class ThemeStyles
     /**
      * @var string
      */
-    public $colorBackgroundBase = '#eff0f1';
+    public $colorBackgroundBase = '#FFFFFF';
 
     /**
      * @var string
      */
-    public $colorBackgroundTinyContrast = '#f2f2f2';
+    public $colorBackgroundTinyContrast = '#FBFBFA';
 
     /**
      * @var string
      */
-    public $colorBackgroundLowContrast = '#d9d9d9';
+    public $colorBackgroundLowContrast = '#F7F6F3';
 
     /**
      * @var string
@@ -176,22 +176,22 @@ class ThemeStyles
     /**
      * @var string
      */
-    public $colorBackgroundHighContrast = '#202020';
+    public $colorBackgroundHighContrast = '#F1F1EF';
 
     /**
      * @var string
      */
-    public $colorBorder = '#cccccc';
+    public $colorBorder = '#E9E9E7';
 
     /**
      * @var string
      */
-    public $colorCode = '#f3f3f3';
+    public $colorCode = '#37352F';
 
     /**
      * @var string
      */
-    public $colorCodeBackground = '#4d4d4d';
+    public $colorCodeBackground = '#F7F6F3';
 
     /**
      * @var string
@@ -210,7 +210,7 @@ class ThemeStyles
         $this->colorMenuContrastTextSelected = $this->colorMenuContrastText;
         $this->colorMenuContrastBackground = $this->colorBackgroundContrast;
         $this->colorWidgetExportedBackgroundBase = $this->colorBackgroundContrast;
-        $this->colorWidgetTitleText = $this->colorText;
+        $this->colorWidgetTitleText = '#2383E2';
         $this->colorWidgetTitleBackground = $this->colorBackgroundContrast;
         $this->colorWidgetBackground = $this->colorBackgroundContrast;
         $this->colorWidgetBorder = $this->colorBackgroundTinyContrast;

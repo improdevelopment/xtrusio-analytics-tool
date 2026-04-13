@@ -61,10 +61,10 @@
               :id="`${keyword}${letter}`"
             >
               <div v-for="(entry, index) in entries" :key="index">
-                <h3 style="color:#4183C4;font-weight: bold;">{{ entry.name }}</h3>
+                <h3 style="color:#2383E2;font-weight: bold;">{{ entry.name }}</h3>
                 <p
                   v-if="entry.subtitle"
-                  style="color:#999;text-transform:uppercase;font-weight:normal;margin-top:-16px;"
+                  style="color:#9B9A97;text-transform:uppercase;font-weight:normal;margin-top:-16px;"
                 >
                   {{ translate(entry.subtitle) }}
                 </p>
@@ -72,7 +72,7 @@
                   <span v-html="$sanitize(entry.documentation)"></span>
 
                   <br v-if="entry.id"/>
-                  <span style="color: #bbb;" v-if="entry.id">
+                  <span style="color: #9B9A97;" v-if="entry.id">
                     {{ entry.id }}{{ keyword === 'metrics' || entry.is_metric ? ' (API)' : '' }}
                   </span>
                 </p>

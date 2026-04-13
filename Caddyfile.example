@@ -1,0 +1,35 @@
+# Xtrusio Analytics — Caddy reverse proxy config
+# Auto-provisions Let's Encrypt SSL. Drop this at /etc/caddy/Caddyfile on the VPS.
+# Restart: systemctl reload caddy
+
+analytics.yourdomain.com {
+    reverse_proxy 127.0.0.1:8080 {
+        header_up X-Forwarded-For {remote_host}
+        header_up X-Forwarded-Proto {scheme}
+        header_up X-Forwarded-Host {host}
+    }
+
+    encode gzip zstd
+
+    # Security headers
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "SAMEORIGIN"
+        Referrer-Policy "strict-origin-when-cross-origin"
+    }
+
+    # Block access to sensitive files
+    @blocked {
+        path /config/* /tmp/* *.ini.php /.env /.git/*
+    }
+    respond @blocked 403
+
+    # Log requests (rotate weekly)
+    log {
+        output file /var/log/caddy/xtrusio.log {
+            roll_size 10mb
+            roll_keep 5
+        }
+    }
+}

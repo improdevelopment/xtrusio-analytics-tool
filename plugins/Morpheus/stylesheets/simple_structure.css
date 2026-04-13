@@ -1,7 +1,7 @@
 /* Most of the code here can be removed once we switch to Bootstrap */
 body {
   font-family: Verdana, sans-serif;
-  color: #212121;
+  color: #37352F;
 }
 
 body#simple {
@@ -13,7 +13,7 @@ body#simple {
   color: #888;
   text-align: center;
   font-size: 6px;
-  background-color: #3450a3 !important;
+  background-color: #333333 !important;
   padding: 15px 0;
 }
 
@@ -27,7 +27,7 @@ body#simple {
 }
 
 #simple .box .header {
-  background-color: #eff0f1;
+  background-color: #FFFFFF;
   padding: 40px 80px;
   text-align: center;
 }
@@ -92,7 +92,7 @@ body#simple {
 }
 
 #simple .box .footer {
-  background-color: #eff0f1;
+  background-color: #FFFFFF;
   padding: 15px;
   text-align: center;
 }
@@ -121,7 +121,7 @@ body#simple {
 }
 
 a {
-  color: #1976d2;
+  color: #2383E2;
 }
 
 #subh1 {

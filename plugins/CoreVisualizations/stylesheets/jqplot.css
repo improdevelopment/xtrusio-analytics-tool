@@ -85,7 +85,7 @@
 }
 
 a.rowevolution-startmulti {
-    color: #4183C4 !important;
+    color: #2383E2 !important;
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
@@ -154,7 +154,7 @@ a.rowevolution-startmulti {
 .rowevolution table.metrics td.text {
     font-size: 13px;
     line-height: 18px;
-    color: #7E7363;
+    color: #787774;
     font-weight: bold;
 }
 
@@ -179,11 +179,11 @@ a.rowevolution-startmulti {
 }
 
 .rowevolution table.metrics td.text span.good {
-    color: #43a047;
+    color: #0F7B6C;
 }
 
 .rowevolution table.metrics td.text span.bad {
-    color: #d2312d;
+    color: #E03E3E;
 }
 
 .rowevolution .metric-selectbox,
@@ -240,7 +240,7 @@ a.rowevolution-startmulti {
     font-weight: bold;
     font-size: 12px;
     padding: 0 0 6px 22px;
-    color: #7E7363;
+    color: #787774;
 }
 
 .jqplot-seriespicker-popover p.headline.recordsToPlot {

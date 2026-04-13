@@ -28,3 +28,7 @@ misc/DBIP-City.mmdb
 # IDE
 .vscode/
 .idea/
+
+# VPS runtime files (keep .example versions in git)
+Caddyfile
+/backups/

@@ -16,6 +16,30 @@ services:
       timeout: 5s
       retries: 10
       start_period: 30s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - xtrusio-network
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
     networks:
       - xtrusio-network
 
@@ -26,22 +50,38 @@ services:
     depends_on:
       xtrusio-db:
         condition: service_healthy
+      redis:
+        condition: service_healthy
     ports:
-      - "${APP_PORT:-8080}:80"
+      # On VPS, reverse-proxy (Caddy/Nginx) forwards 443 → 127.0.0.1:8080.
+      # Binding to 127.0.0.1 prevents direct public access to the app port.
+      # For local dev without reverse proxy, change to "${APP_PORT:-8080}:80".
+      - "127.0.0.1:${APP_PORT:-8080}:80"
     environment:
       MYSQL_HOST: xtrusio-db
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      XTRUSIO_TRUSTED_HOSTS: ${XTRUSIO_TRUSTED_HOSTS:-}
+      XTRUSIO_FORCE_SSL: ${XTRUSIO_FORCE_SSL:-0}
+      XTRUSIO_BEHIND_PROXY: ${XTRUSIO_BEHIND_PROXY:-0}
     volumes:
       - ./config:/var/www/html/config
       - ./tmp:/var/www/html/tmp
       - ./misc:/var/www/html/misc
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
     networks:
       - xtrusio-network
 
 volumes:
   db_data:
+  redis_data:
 
 networks:
   xtrusio-network:
