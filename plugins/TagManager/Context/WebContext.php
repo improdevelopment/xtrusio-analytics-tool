@@ -280,7 +280,7 @@ class WebContext extends BaseContext
         $path = $this->getWebPathForRelease($container['idsite'], $container['idcontainer'], $environment, $container['created_date']);
 
         $embedCode = <<<INST
-<!-- Matomo Tag Manager -->
+<!-- Xtrusio Tag Manager -->
 <script>
   var _mtm = window._mtm = window._mtm || [];
   _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
@@ -289,7 +289,7 @@ class WebContext extends BaseContext
     g.async=true; g.src='$path'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- End Matomo Tag Manager -->
+<!-- End Xtrusio Tag Manager -->
 INST;
 
         return [[

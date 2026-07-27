@@ -116,6 +116,9 @@ class UpdateCheck
      */
     public static function isNewestVersionAvailable()
     {
+        // Xtrusio: update notifications disabled — never advertise a newer version.
+        return false;
+
         $latestVersion = self::getLatestVersion();
         if (
             !empty($latestVersion)
