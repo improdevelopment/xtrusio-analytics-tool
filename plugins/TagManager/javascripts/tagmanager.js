@@ -27,13 +27,13 @@
 
     /*!! previewModeHook */
 
-    if (typeof window.MatomoTagManager !== 'object') {
+    if (typeof window.XtrusioTagManager !== 'object') {
 
         if (typeof window._mtm !== 'object') {
             window._mtm = [];
         }
 
-        window.MatomoTagManager = (function () {
+        window.XtrusioTagManager = (function () {
             var timeScriptLoaded = new Date().getTime();
 
             function pushDebugLogMessage()
@@ -991,23 +991,23 @@
                     }
 
                     // If the element has the attribute indicating that it should be masked, return true.
-                    if (element.hasAttribute('data-matomo-mask') || element.hasAttribute('data-piwik-mask')) {
+                    if (element.hasAttribute('data-xtrusio-mask')) {
                         return true;
                     }
 
                     // If the element has the attribute indicating that it shouldn't be masked, return false.
-                    if (element.hasAttribute('data-matomo-unmask') || element.hasAttribute('data-piwik-unmask')) {
+                    if (element.hasAttribute('data-xtrusio-unmask')) {
                         return false;
                     }
 
                     // Find the closest parent with the mask or unmask attribute. If it's the mask, return true. I originally used the closest function, but it appears that some browsers don't support it.
                     var parentElement = element.parentElement;
                     while (parentElement) {
-                        if (parentElement.hasAttribute('data-matomo-mask') || parentElement.hasAttribute('data-piwik-mask')) {
+                        if (parentElement.hasAttribute('data-xtrusio-mask')) {
                             return true;
                         }
 
-                        if (parentElement.hasAttribute('data-matomo-unmask') || parentElement.hasAttribute('data-piwik-unmask')) {
+                        if (parentElement.hasAttribute('data-xtrusio-unmask')) {
                             return false;
                         }
 
@@ -1027,11 +1027,11 @@
                     }
 
                     // Does the current node have a mask attribute or a parent that does?
-                    if (element.hasAttribute('data-matomo-mask') || element.hasAttribute('data-piwik-mask') || TagManager.dom.shouldElementBeMasked(element)) {
+                    if (element.hasAttribute('data-xtrusio-mask') || TagManager.dom.shouldElementBeMasked(element)) {
                         return true;
                     }
 
-                    return element.querySelector('[data-matomo-mask],[data-piwik-mask]') !== null;
+                    return element.querySelector('[data-xtrusio-mask]') !== null;
                 },
                 getElementTextWithMaskedChildren: function (element) {
                     var text = '';
@@ -1770,8 +1770,8 @@
                 enableDebugMode: function () { Debug.enabled = true; }
             };
 
-            if ('matomoTagManagerAsyncInit' in windowAlias && utils.isFunction(windowAlias.matomoTagManagerAsyncInit)) {
-                windowAlias.matomoTagManagerAsyncInit(TagManager);
+            if ('xtrusioTagManagerAsyncInit' in windowAlias && utils.isFunction(windowAlias.xtrusioTagManagerAsyncInit)) {
+                windowAlias.xtrusioTagManagerAsyncInit(TagManager);
             }
             function processMtmPush() {
                 var i, j, methodName, parameterArray, theCall;

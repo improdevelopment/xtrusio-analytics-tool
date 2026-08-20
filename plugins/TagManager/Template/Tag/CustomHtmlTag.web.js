@@ -214,7 +214,7 @@
                                 TagManager.customHtmlDataStore = [];
                             }
                             TagManager.customHtmlDataStore.push(theVarValue);
-                            value += 'window.MatomoTagManager.customHtmlDataStore[' + (TagManager.customHtmlDataStore.length - 1) +']';
+                            value += 'window.XtrusioTagManager.customHtmlDataStore[' + (TagManager.customHtmlDataStore.length - 1) +']';
                         } else if (TagManager.dom.isElementContext(value, 'style')
                                  || TagManager.dom.isAttributeContext(value, 'style')) {
                             if (hasValueSet) {

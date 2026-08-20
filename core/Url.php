@@ -936,12 +936,32 @@ class Url
      *
      * @return ($url is string ? string : null)      www.matomo.org/faq/123?mtm_campaign=Matomo_App&mtm_source=Matomo_App_OnPremise&mtm_medium=App.CoreAdminHome.trackingCodeGenerator
      */
+    /**
+     * Whitelabel: true if $url points at an upstream vendor domain.
+     */
+    private static function isVendorLink(?string $url): bool
+    {
+        if ($url === null) {
+            return false;
+        }
+        return in_array(self::getHostFromUrl($url), [
+            'matomo.org', 'www.matomo.org', 'developer.matomo.org', 'plugins.matomo.org',
+            'piwik.org', 'www.piwik.org',
+        ], true);
+    }
+
     public static function addCampaignParametersToMatomoLink(
         ?string $url = null,
         ?string $campaign = null,
         ?string $source = null,
         ?string $medium = null
     ): ?string {
+
+        // Whitelabel: when hide_matomo_links is on, never emit an upstream
+        // vendor URL into the UI. '#' keeps the markup valid and inert.
+        if (GeneralConfig::getConfigValue('hide_matomo_links') && self::isVendorLink($url)) {
+            return '#';
+        }
 
         // Ignore if disabled by config setting
         if (GeneralConfig::getConfigValue('disable_tracking_matomo_app_links')) {
@@ -990,6 +1010,12 @@ class Url
         ?string $source = null,
         ?string $medium = null
     ): string {
+        // Whitelabel: render vendor links as plain, unclickable text. Callers
+        // append a literal '</a>', so we must still return an anchor tag.
+        if (GeneralConfig::getConfigValue('hide_matomo_links') && self::isVendorLink($url)) {
+            return '<a>';
+        }
+
         $url = self::addCampaignParametersToMatomoLink($url, $campaign, $source, $medium);
 
         return '<a target="_blank" rel="noreferrer noopener" href="' . $url . '">';

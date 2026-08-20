@@ -936,6 +936,12 @@ enable_referrer_definition_syncs = 1
 ; so it can be disabled here if necessary.
 disable_tracking_matomo_app_links = 0
 
+; Whitelabel: when 1, help and documentation links pointing at upstream vendor
+; domains (matomo.org, developer.matomo.org, plugins.matomo.org, piwik.org) are
+; rendered as plain unclickable text instead of links, so the upstream brand
+; never appears in the UI or in page source.
+hide_matomo_links = 1
+
 ; Compression level used in ArchiveWriter when creating blob archives
 ; Valid values are 0 for no compression up to 9 for maximum compression. If -1 is used, the default compression of the zlib library (level 6) is used.
 ; Change with caution as using a higher compression may decrease archiving performance.
