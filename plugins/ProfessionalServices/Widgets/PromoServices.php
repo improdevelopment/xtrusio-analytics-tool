@@ -35,7 +35,7 @@ class PromoServices extends \Piwik\Widget\Widget
 
     public static function configure(WidgetConfig $config)
     {
-        $config->setCategoryId('About Matomo');
+        $config->setCategoryId('About Xtrusio');
         $config->setName('ProfessionalServices_WidgetPremiumServicesForPiwik');
 
         $advertising = StaticContainer::get('Piwik\ProfessionalServices\Advertising');

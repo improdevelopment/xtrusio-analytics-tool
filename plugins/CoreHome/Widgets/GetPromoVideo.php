@@ -29,9 +29,13 @@ class GetPromoVideo extends Widget
 
     public static function configure(WidgetConfig $config)
     {
-        $config->setCategoryId('About Matomo');
+        $config->setCategoryId('About Xtrusio');
         $config->setName('Installation_Welcome');
         $config->setOrder(10);
+
+        // Whitelabel: this widget promotes upstream vendor video tutorials.
+        // Disabled so it is neither rendered nor offered in the widget picker.
+        $config->disable();
     }
 
     public function render()

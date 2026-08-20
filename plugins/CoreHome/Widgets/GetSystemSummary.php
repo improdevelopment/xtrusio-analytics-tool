@@ -40,7 +40,7 @@ class GetSystemSummary extends Widget
 
     public static function configure(WidgetConfig $config)
     {
-        $config->setCategoryId('About Matomo');
+        $config->setCategoryId('About Xtrusio');
         $config->setName('CoreHome_SystemSummaryWidget');
         $config->setOrder(15);
         $config->setIsEnabled(Piwik::hasUserSuperUserAccess());

@@ -18,7 +18,7 @@ class GetTrackingFailures extends Widget
 {
     public static function configure(WidgetConfig $config)
     {
-        $config->setCategoryId('About Matomo');
+        $config->setCategoryId('About Xtrusio');
         $config->setName('CoreAdminHome_TrackingFailures');
         $config->setOrder(5);
 

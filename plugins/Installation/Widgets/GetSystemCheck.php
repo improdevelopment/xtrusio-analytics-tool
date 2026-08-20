@@ -31,7 +31,7 @@ class GetSystemCheck extends Widget
 
     public static function configure(WidgetConfig $config)
     {
-        $config->setCategoryId('About Matomo');
+        $config->setCategoryId('About Xtrusio');
         $config->setName('Installation_SystemCheck');
         $config->setOrder(16);
 

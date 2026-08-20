@@ -170,15 +170,13 @@ class Dashboard extends \Piwik\Plugin
             if ($advertising->areAdsForProfessionalServicesEnabled() && $pluginManager->isPluginActivated('ProfessionalServices')) {
                 $advertisingWidget = '{"uniqueId":"widgetProfessionalServicespromoServices","parameters":{"module":"ProfessionalServices","action":"promoServices"}},';
             }
-            $piwikPromoWidget = '{"uniqueId":"widgetCoreHomegetPromoVideo","parameters":{"module":"CoreHome","action":"getPromoVideo"}}';
             $insightsWidget = '';
             if ($pluginManager->isPluginActivated('Insights')) {
                 $insightsWidget = '{"uniqueId":"widgetInsightsgetOverallMoversAndShakers","parameters":{"module":"Insights","action":"getOverallMoversAndShakers"}},';
             }
             $defaultLayout = '[
                 [
-                    {"uniqueId":"widgetLivewidget","parameters":{"module":"Live","action":"widget"}},
-                    ' . $piwikPromoWidget . '
+                    {"uniqueId":"widgetLivewidget","parameters":{"module":"Live","action":"widget"}}
                 ],
                 [
                     {"uniqueId":"widgetVisitsSummarygetEvolutionGraphforceView1viewDataTablegraphEvolution","parameters":{"forceView":"1","viewDataTable":"graphEvolution","module":"VisitsSummary","action":"getEvolutionGraph"}},
@@ -188,8 +186,7 @@ class Dashboard extends \Piwik\Plugin
                 ],
                 [
                     {"uniqueId":"widgetUserCountryMapvisitorMap","parameters":{"module":"UserCountryMap","action":"visitorMap"}},
-                    {"uniqueId":"widgetReferrersgetReferrerType","parameters":{"module":"Referrers","action":"getReferrerType"}},
-                    {"uniqueId":"widgetRssWidgetrssPiwik","parameters":{"module":"RssWidget","action":"rssPiwik"}}
+                    {"uniqueId":"widgetReferrersgetReferrerType","parameters":{"module":"Referrers","action":"getReferrerType"}}
                 ]
             ]';
         }

@@ -12,7 +12,7 @@ class QuickLinks extends Widget
 {
     public static function configure(WidgetConfig $config)
     {
-        $config->setCategoryId('About Matomo');
+        $config->setCategoryId('About Xtrusio');
         $config->setName('CoreHome_QuickLinks');
         $config->setOrder(16);
         $config->setIsEnabled(Piwik::hasUserSuperUserAccess());

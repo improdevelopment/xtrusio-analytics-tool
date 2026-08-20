@@ -17,7 +17,7 @@ class RssChangelog extends \Piwik\Widget\Widget
 {
     public static function getCategory()
     {
-        return 'About Matomo';
+        return 'About Xtrusio';
     }
 
     public static function getName()

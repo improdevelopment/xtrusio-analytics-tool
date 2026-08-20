@@ -29,9 +29,12 @@ class GetDonateForm extends Widget
 
     public static function configure(WidgetConfig $config)
     {
-        $config->setCategoryId('About Matomo');
+        $config->setCategoryId('About Xtrusio');
         $config->setName('CoreHome_SupportPiwik');
         $config->setOrder(5);
+
+        // Whitelabel: this widget solicits donations for the upstream project.
+        $config->disable();
     }
 
     public function render()
