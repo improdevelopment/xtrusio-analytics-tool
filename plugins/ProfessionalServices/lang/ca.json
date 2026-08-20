@@ -13,7 +13,7 @@
         "CustomReportsFeature02": "Aprofundiu en dades específiques per obtenir informació més profunda sobre el comportament i la implicació dels visitants.",
         "CustomReportsFeature03": "Estalvieu temps i recursos automatitzant la generació d'informes, permetent la supervisió en temps real i proporcionant solucions d'anàlisi rendibles sense necessitat d'eines de tercers.",
         "DismissPromoWidget": "Si aquesta funció no és rellevant per als vostres objectius, podeu %1$samagar aquesta secció%2$s.",
-        "DismissedNotification": "El menú %1$s ja no es mostrarà, tret que el connector estigui instal·lat a la vostra instància de Matomo.",
+        "DismissedNotification": "El menú %1$s ja no es mostrarà, tret que el connector estigui instal·lat a la vostra instància de Xtrusio.",
         "FormAnalyticsFeature01": "Compreneu com interactuen els visitants amb els vostres formularis per trobar àrees de millora.",
         "FormAnalyticsFeature02": "Identifiqueu els errors habituals dels visitants i els problemes de validació als vostres formularis per millorar la satisfacció dels visitants i les taxes de conversió.",
         "FormAnalyticsFeature03": "Obteniu informació més detallada sobre com interactuen els diferents grups de visitants amb els vostres formularis i adapteu les vostres estratègies en conseqüència.",
@@ -40,6 +40,6 @@
         "SessionRecordingsFeature01": "Vegeu com els visitants interactuen amb el vostre lloc en temps real i descobriu informació valuosa per millorar l'experiència dels visitants.",
         "SessionRecordingsFeature02": "Identifiqueu barreres i viatges exitosos dels visitants, que generen taxes de conversió més altes.",
         "SessionRecordingsFeature03": "Obteniu informació detallada sobre com interactuen els visitants amb contingut, formularis o elements específics per adaptar el vostre contingut i disseny per satisfer millor les preferències dels visitants.",
-        "WidgetPremiumServicesForPiwik": "Funcions i serveis premium per a Matomo"
+        "WidgetPremiumServicesForPiwik": "Funcions i serveis premium per a Xtrusio"
     }
 }

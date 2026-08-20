@@ -2,10 +2,10 @@
     "Login": {
         "ChangeYourPassword": "Zmień swoje hasło",
         "ConfirmPasswordToContinue": "Potwierdź hasło, aby kontynuować",
-        "ContactAdmin": "Możliwy powód: Twój serwer może mieć wyłączoną funkcję mail().<br />Zachęcamy do kontaktu z administratorem Matomo.",
+        "ContactAdmin": "Możliwy powód: Twój serwer może mieć wyłączoną funkcję mail().<br />Zachęcamy do kontaktu z administratorem Xtrusio.",
         "ExceptionInvalidSuperUserAccessAuthenticationMethod": "Użytkownik o uprawnieniach Super Użytkownika nie może być autoryzowany przy pomocy mechanizmu '%s'.",
         "ExceptionPasswordMD5HashExpected": "Oczekiwanym parametrem hasła jest hash z MD5 uzyskany z hasła.",
-        "InvalidNonceSSLMisconfigured": "Możesz także %1$s wymusić na Matomo'u korzystanie z bezpiecznego połączenia%2$s: w pliku konfiguracyjnym %3$s ustaw %4$s poniżej sekcji %5$s",
+        "InvalidNonceSSLMisconfigured": "Możesz także %1$s wymusić na Xtrusio'u korzystanie z bezpiecznego połączenia%2$s: w pliku konfiguracyjnym %3$s ustaw %4$s poniżej sekcji %5$s",
         "InvalidOrExpiredToken": "Token jest błędny lub już wygasł.",
         "InvalidUsernameEmail": "Błędna nazwa użytkownika i/lub adres e-mail",
         "LogIn": "Zaloguj się",

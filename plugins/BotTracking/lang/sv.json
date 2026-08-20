@@ -2,7 +2,7 @@
     "BotTracking": {
         "PageUrl": "Sidans URL",
         "NoDataHttpTrackingApi": "HTTP Spårnings-API",
-        "SiteWithoutDataBackToMatomo": "Tillbaka till Matomo",
+        "SiteWithoutDataBackToMatomo": "Tillbaka till Xtrusio",
         "SiteWithoutDataInstallWithX": "Installera med %1$s",
         "SiteWithoutDataStepByStepGuide": "Steg-för-steg-guide"
     }

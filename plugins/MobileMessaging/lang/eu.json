@@ -5,7 +5,7 @@
         "MobileReport_AdditionalPhoneNumbers": "Telefono zenbaki gehiago gehitu ditzakezu",
         "MobileReport_MobileMessagingSettingsLink": "Mugikorreko mezuen ezarpenak orrian",
         "MobileReport_NoPhoneNumbers": "Aktibatu gutxienez mugikorreko zenbaki bat",
-        "MultiSites_Must_Be_Activated": "Zure webguneen estatistiken SMS testuak sortzeko, gaitu MultiSites plugina Matomon.",
+        "MultiSites_Must_Be_Activated": "Zure webguneen estatistiken SMS testuak sortzeko, gaitu MultiSites plugina Xtrusion.",
         "PhoneNumbers": "Telefono zenbakiak",
         "PluginDescription": "Sortu eta deskargatu SMS txosten pertsonalizatuak eta bidali mugikorrera egunero, astero edo hilabetero.",
         "SMS_Content_Too_Long": "[luzeegia]",
@@ -13,8 +13,8 @@
         "Settings_APIKey": "API gakoa",
         "Settings_CountryCode": "Herrialde kodea",
         "Settings_CredentialInvalid": "Zure %1$s SMS API kontua konfiguratuta dago, baina errore bat gertatu da erabilgarri dauden kredituak eskuratzean.",
-        "Settings_CredentialNotProvided": "Telefonoko zenbakiak sortu eta kudeatu ahal izateko, konektatu Matomo zure SMS kontura goian.",
-        "Settings_CredentialNotProvidedByAdmin": "Telefonoko zenbakiak sortu eta kudeatu ahal izateko, eskatu zure administratzaileari Matomo SMS kontu batera konektatzeko.",
+        "Settings_CredentialNotProvided": "Telefonoko zenbakiak sortu eta kudeatu ahal izateko, konektatu Xtrusio zure SMS kontura goian.",
+        "Settings_CredentialNotProvidedByAdmin": "Telefonoko zenbakiak sortu eta kudeatu ahal izateko, eskatu zure administratzaileari Xtrusio SMS kontu batera konektatzeko.",
         "Settings_CredentialProvided": "Zure %s SMS API kontua behar bezala konfiguratuta dago!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Konfiguratutako telefono zenbakiak soilik zuk ikusi eta erabili ditzakezu, ez beste erabiltzaileek.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Konfiguratutako SMS hornitzailea soilik zuk erabiliko duzu, ez beste erabiltzaileek.",
@@ -30,7 +30,7 @@
         "Settings_PhoneNumbers_Add": "Gehitu telefono zenbaki berria",
         "Settings_PhoneNumbers_CountryCode_Help": "Ez badakizu telefonoaren herrialde-kodea, bilatu herrialdea hemen.",
         "Settings_PhoneNumbers_Help": "Telefonoan SMS (testu-mezu) txostenak jaso aurretik telefono zenbakia sartu behar da behean.",
-        "Settings_PhoneNumbers_HelpAdd": "\"Gehitu\" klik egiten duzunean, kode bat duen SMS bat bidaliko da telefonora. Kodea jasotzen duen erabiltzaileak Matomon saioa hasi, Ezarpenetan klik egin eta jarraian Mugikorreko mezuak atalean sartu behar da. Bertan kodea sartu ondoren testu txostenak jaso ahal izango ditu telefonoan.",
+        "Settings_PhoneNumbers_HelpAdd": "\"Gehitu\" klik egiten duzunean, kode bat duen SMS bat bidaliko da telefonora. Kodea jasotzen duen erabiltzaileak Xtrusion saioa hasi, Ezarpenetan klik egin eta jarraian Mugikorreko mezuak atalean sartu behar da. Bertan kodea sartu ondoren testu txostenak jaso ahal izango ditu telefonoan.",
         "Settings_PleaseSignUp": "SMS txostenak sortu eta zure webguneen estatistiken testu mezu laburrak zure mugikorrean jasotzeko, erregistratu SMS APIan eta sartu zure informazioa behean.",
         "Settings_SMSAPIAccount": "Kudeatu SMS API kontua",
         "Settings_SMSProvider": "SMS hornitzailea",
@@ -42,6 +42,6 @@
         "Settings_VerificationCodeJustSent": "SMS bat bidali dizugu zenbaki honetara kode batekin. Sartu kode hori goian eta egin klik \"Balioztatu\".",
         "TopLinkTooltip": "Bidali web analitika txostenak zure e-postara edo telefono mugikorrera.",
         "UserKey": "Erabiltzaile-gakoa",
-        "VerificationText": "Kodea %1$s da. Zure telefono zenbakia balioztatu eta Matomoren SMS txostenak jasotzeko, kopiatu kode hau Matomoko formularioan → %2$s → %3$s."
+        "VerificationText": "Kodea %1$s da. Zure telefono zenbakia balioztatu eta Xtrusioren SMS txostenak jasotzeko, kopiatu kode hau Xtrusioko formularioan → %2$s → %3$s."
     }
 }

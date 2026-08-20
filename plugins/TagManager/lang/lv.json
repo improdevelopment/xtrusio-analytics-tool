@@ -19,7 +19,7 @@
         "InvalidDebugUrlError": "Kļūda",
         "LearnMore": "Uzzināt vairāk",
         "MatomoConfigurationMatomoCustomDimensionsTitle": "Pielāgoti parametri",
-        "MatomoConfigurationMatomoDisableCampaignParametersDescription": "Ja šī opcija ir atzīmēta, Matomo neizsekos kampaņas parametrus un tie tiks noņemti no izsekotajiem URL.",
+        "MatomoConfigurationMatomoDisableCampaignParametersDescription": "Ja šī opcija ir atzīmēta, Xtrusio neizsekos kampaņas parametrus un tie tiks noņemti no izsekotajiem URL.",
         "MatomoConfigurationMatomoDisableCampaignParametersTitle": "Atslēgt kampaņas parametru izsekošanu",
         "MatomoConfigurationMatomoJsEndpointCustom": "Pielāgots",
         "MatomoConfigurationMatomoTrackingEndpointCustom": "Pielāgots",

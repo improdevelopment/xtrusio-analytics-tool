@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "此User-Agent被检测为%1$s。 默认情况下，Matomo中不会跟踪此用户代理的默认访问。",
+        "BotDetected": "此User-Agent被检测为%1$s。 默认情况下，Xtrusio中不会跟踪此用户代理的默认访问。",
         "BrowserCode": "浏览器代码",
         "BrowserEngine": "浏览器引擎",
         "BrowserEngineDocumentation": "此报表展示访客使用的浏览器核心。%s对网站开发者来说最重要的就是访客使用何种渲染引擎。标签包括引擎名称以及在括号中标注的此引擎最常见浏览器。",
@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "该报告展示了您的访问者正在使用的设备。由于某些型号的名称被多个品牌使用，所以设备型号与品牌一起显示。",
         "DeviceModels": "设备型号",
         "DeviceType": "设备类型",
-        "DeviceTypeReportDocumentation": "该报告展示了您的访问者所使用的设备类型。该报告将始终显示Matomo能够检测到的所有设备类型，即使没有特定类型的访问。",
+        "DeviceTypeReportDocumentation": "该报告展示了您的访问者所使用的设备类型。该报告将始终显示Xtrusio能够检测到的所有设备类型，即使没有特定类型的访问。",
         "DeviceTypes": "设备类型",
         "Devices": "设备",
         "DevicesDetection": "访客设备",

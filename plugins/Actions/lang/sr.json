@@ -28,7 +28,7 @@
         "ColumnUniqueClicksDocumentation": "Broj poseta koje uključuju klik na ovaj link. Ako je link kliknut više puta tokom jedne posete, računa se samo jedan klik.",
         "ColumnUniqueDownloads": "Jedinstvenih preuzimanja",
         "ColumnUniqueOutlinks": "Jedinstveni izlazni linkovi",
-        "DownloadsReportDocumentation": "U ovom izveštaju možete videti koje su fajlove posetioci kliknuli. %s Ono što Matomo računa kao download jeste klik na link za skidanje fajla. Bilo da je fajl skinut ili ne, to nije poznato Matomo-u.",
+        "DownloadsReportDocumentation": "U ovom izveštaju možete videti koje su fajlove posetioci kliknuli. %s Ono što Xtrusio računa kao download jeste klik na link za skidanje fajla. Bilo da je fajl skinut ili ne, to nije poznato Xtrusio-u.",
         "EntryPageTitles": "Naslovi ulaznih stranica",
         "EntryPageTitlesReportDocumentation": "Ovaj izveštaj sadrži informacije o naslovima ulaznih stranica koje su korišćene tokom određenog perioda.",
         "EntryPagesReportDocumentation": "Ovaj izveštaj sadrži informacije o ulaznim stranicama koje su korišćene tokom određenog perioda. Ulazna stranica je prva stranica koju posetilac vidi tokom svoje posete. %s Ulazni linkovi su prikazani kao stablo foldera.",

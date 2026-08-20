@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Kopiera instrumentpanel till användare",
         "CreateNewDashboard": "Skapa ny instrumentpanel",
         "Dashboard": "Instrumentpanel",
-        "DashboardCategoryHelp": "Det här är en instrumentpanel-sida. En instrumentpanel är en samling med Matomos widgets som du själv lägger till för att passa dina specifika behov. Blanda och matcha vilka som helst av Matomos widgets för att få den information som %1$s*du*%2$s vill få överblick av.",
+        "DashboardCategoryHelp": "Det här är en instrumentpanel-sida. En instrumentpanel är en samling med Xtrusios widgets som du själv lägger till för att passa dina specifika behov. Blanda och matcha vilka som helst av Xtrusios widgets för att få den information som %1$s*du*%2$s vill få överblick av.",
         "DashboardCopied": "Den nuvarande instrumentpanelen har kopierats till den valda användaren.",
         "DashboardEmptyNotification": "Instrumentpanelen innehåller inga widgets. Börja med att lägga till widgets eller återställ instrumentpanelen till standardutseendet.",
         "DashboardName": "Instrumentpanelens namn:",

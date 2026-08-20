@@ -5,7 +5,7 @@
         "EmailHello": "สวัสดี",
         "MonthlyScheduleHelp": "ตารางเวลารายเดือน: รายงานจะถูกส่งไปวันแรกของแต่ละเดือน",
         "Pagination": "หน้า %1$s จาก %2$s",
-        "PiwikReports": "รายงาน Matomo",
+        "PiwikReports": "รายงาน Xtrusio",
         "ReportFormat": "รูปแบบรายงาน",
         "ReportType": "ส่งรายงานผ่านทาง",
         "SendReportNow": "ส่งรายงาน",

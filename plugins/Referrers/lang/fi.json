@@ -50,7 +50,7 @@
         "TypeSocialNetworks": "%s somesta",
         "TypeWebsites": "%s verkkosivuilta",
         "URLCampaignBuilder": "Kampanja-URL:n teko",
-        "URLCampaignBuilderIntro": "%1$sURL-muodostaja %2$sluo URL:eja käytettäväksi Matomon seurantakampanjoissa. Katso ohjeista miten %3$skampanjaseuranta%4$stoimii.",
+        "URLCampaignBuilderIntro": "%1$sURL-muodostaja %2$sluo URL:eja käytettäväksi Xtrusion seurantakampanjoissa. Katso ohjeista miten %3$skampanjaseuranta%4$stoimii.",
         "URLCampaignBuilderResult": "URL liitettäväksi kampanjoihin, sähköposteihin, Facebook-mainoksiin tai twiitteihin:",
         "UsingNDistinctUrls": "(käytetään %s yksilöllistä osoitetta)",
         "ViewAllReferrers": "Näytä kaikki viittaukset",

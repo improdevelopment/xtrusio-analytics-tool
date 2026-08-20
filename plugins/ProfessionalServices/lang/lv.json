@@ -13,7 +13,7 @@
         "CustomReportsFeature02": "Iedziļinieties konkrētos datos, lai gūtu dziļāku ieskatu apmeklētāju uzvedībā un iesaistīšanās procesā.",
         "CustomReportsFeature03": "Ietaupiet laiku un resursus, automatizējot ziņojumu ģenerēšanu, atļaujot reāllaika uzraudzību un nodrošinot izmaksu efektīvus analīzes risinājumus bez trešo pušu rīku nepieciešamības.",
         "DismissPromoWidget": "Ja šis rīks neattiecas uz jūsu mērķiem, varat %1$spaslēpt šo sadaļu%2$s.",
-        "DismissedNotification": "%1$s izvēlne vairs netiks rādīta, ja vien spraudnis nav instalēts jūsu Matomo.",
+        "DismissedNotification": "%1$s izvēlne vairs netiks rādīta, ja vien spraudnis nav instalēts jūsu Xtrusio.",
         "FormAnalyticsFeature01": "Izprotiet, kā apmeklētāji iesaistās jūsu veidlapu aizpildīšanā, lai saprastu, kas uzlabojams.",
         "FormAnalyticsFeature02": "Identificējiet bieži sastopamas apmeklētāju kļūdas un validācijas problēmas savās formās, lai palielinātu apmeklētāju apmierinātību un reklāmguvumu rādītājus.",
         "FormAnalyticsFeature03": "Iegūstiet dziļāku ieskatu par to, kā dažādas apmeklētāju grupas mijiedarbojas ar jūsu formām, un atbilstoši pielāgojiet jūsu stratēģijas.",
@@ -40,6 +40,6 @@
         "SessionRecordingsFeature01": "Apskatiet, kā apmeklētāji mijiedarbojas ar vietni reāllaikā un atklājiet vērtīgus ieskatus, lai uzlabotu apmeklētāju pieredzi.",
         "SessionRecordingsFeature02": "Identificējiet šķēršļus un veiksmīgu apmeklētāju pieredzi, kas noved pie augstākiem reklāmguvumu rādītājiem.",
         "SessionRecordingsFeature03": "Iegūstiet padziļinātu ieskatu par to, kā apmeklētāji izmanto noteiktu saturu, formas vai elementus, lai pielāgotu saturu un noformējumu tā, lai tas labāk atbilstu apmeklētāju vēlmēm.",
-        "WidgetPremiumServicesForPiwik": "Maksas funkcijas un pakalpojumi Matomo"
+        "WidgetPremiumServicesForPiwik": "Maksas funkcijas un pakalpojumi Xtrusio"
     }
 }

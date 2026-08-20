@@ -70,6 +70,9 @@ services:
       - ./config:/var/www/html/config
       - ./tmp:/var/www/html/tmp
       - ./misc:/var/www/html/misc
+      # Tag Manager writes generated container_*.js here. Bind-mounted so
+      # published containers survive an image rebuild.
+      - ./js:/var/www/html/js
     logging:
       driver: "json-file"
       options:

@@ -12,7 +12,7 @@
         "CurrentlySelectedSegment": "Aktualnie wybrana grupa: %s",
         "CustomSegment": "Grupa użytkownika",
         "CustomUnprocessedSegmentApiError1": "Żądany segment nie został jeszcze utworzony w Edytorze segmentów, dlatego dane raportu nie zostały wstępnie przetworzone.",
-        "CustomUnprocessedSegmentApiError2": "Aby zobaczyć dane dla tego segmentu, musisz przejść do Matomo i ręcznie utworzyć ten segment w Edytorze segmentów.",
+        "CustomUnprocessedSegmentApiError2": "Aby zobaczyć dane dla tego segmentu, musisz przejść do Xtrusio i ręcznie utworzyć ten segment w Edytorze segmentów.",
         "CustomUnprocessedSegmentApiError3": "(Alternatywnie, nowy segment można utworzyć programowo, korzystając z metody API SegmentEditor.add).",
         "DataAvailableAtLaterDate": "Twój raport analizy grup odwiedzających będzie dostępny później. Przepraszamy za niedogodności.",
         "DefaultAllVisits": "Wszystkie wizyty",

@@ -45,7 +45,7 @@
         "TypeDirectEntries": "%s přímých vstupů",
         "TypeSearchEngines": "%s z vyhledavačů",
         "TypeWebsites": "%s z webových stránek",
-        "URLCampaignBuilderIntro": "Nástroj %1$sURL Builder%2$s umožňuje generovat adresy URL pro sledování kampaně v systému Matomo. Další informace naleznete v dokumentaci k nástroji %3$sCampaign Tracking%4$s.",
+        "URLCampaignBuilderIntro": "Nástroj %1$sURL Builder%2$s umožňuje generovat adresy URL pro sledování kampaně v systému Xtrusio. Další informace naleznete v dokumentaci k nástroji %3$sCampaign Tracking%4$s.",
         "URLCampaignBuilderResult": "Vygenerovaná adresa URL, kterou můžete zkopírovat a vložit do svých kampaní, e-mailového zpravodaje, reklam na Facebooku nebo tweetů:",
         "UsingNDistinctUrls": "(používá %s jedinečných url)",
         "ViewAllReferrers": "Zobrazit všechny referrery",

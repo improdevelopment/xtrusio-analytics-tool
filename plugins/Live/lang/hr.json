@@ -59,7 +59,7 @@
         "VisitorLogNoDataMessagePurged": "Podaci su vjerojatno izbrisani jer je uključeno redovno brisanje starih neobrađenih podataka, a datum ovog izvještaja je stariji od %s dana. Superkorisnik može promijeniti ovu postavku u Administracija → Privatnost.",
         "VisitorLogPolicySettingRequirementNote": "Dnevnik posjeta mora biti deaktiviran.",
         "VisitorLogSubcategoryHelp1": "Dnevnik posjeta detaljno prikazuje svaki posjet koji tvoja web-stranica primi. Saznaj koje su radnje pojedinačni posjetitelji izvršili, kako su dospjeli na tvoju stranicu, ponešto o tome tko su i još više (uz istovremeno pridržavanje lokalnih propisa o privatnosti).",
-        "VisitorLogSubcategoryHelp2": "Dok drugi izvještaji u Matomou pokazuju kako se tvoji posjetitelji ponašaju na agregiranoj razini, dnevnik posjeta pruža detaljne informacije. Također možeš koristiti segmente za sužavanje odabira na određene vrste posjeta in na taj način bolje razumjeti svoje posjetitelje.",
+        "VisitorLogSubcategoryHelp2": "Dok drugi izvještaji u Xtrusiou pokazuju kako se tvoji posjetitelji ponašaju na agregiranoj razini, dnevnik posjeta pruža detaljne informacije. Također možeš koristiti segmente za sužavanje odabira na određene vrste posjeta in na taj način bolje razumjeti svoje posjetitelje.",
         "VisitorLogSubcategoryHelp3": "Saznaj više u vodiču za dnevnik posjeta.",
         "VisitorProfile": "Profil posjetitelja",
         "VisitorsInRealTime": "Posjeti u stvarnom vremenu",

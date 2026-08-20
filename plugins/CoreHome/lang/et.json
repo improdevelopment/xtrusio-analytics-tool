@@ -4,7 +4,7 @@
         "ChangePeriod": "Muuda ajavahemikku",
         "ChangeVisualization": "Muuda visualiseerimist",
         "CheckForUpdates": "Kontrolli uuendusi",
-        "CheckPiwikOut": "Proovi Matomout!",
+        "CheckPiwikOut": "Proovi Xtrusiout!",
         "ChooseWebsite": "Vali veebileht",
         "ChooseX": "Vali %1$s",
         "ClickToEditX": "Muutmiseks klõpsi - %s",
@@ -20,19 +20,19 @@
         "PeriodRange": "vahemik",
         "ReportGeneratedOn": "Raport genereeritud %s",
         "ReportGeneratedXAgo": "Raport genereeritud %s tagasi",
-        "SharePiwikShort": "Matomo! Tasuta ja avatud lähtekoodiga veebianalüütika tarkvara. Andmed on sinu kontrolli all.",
+        "SharePiwikShort": "Xtrusio! Tasuta ja avatud lähtekoodiga veebianalüütika tarkvara. Andmed on sinu kontrolli all.",
         "ShareThis": "Jaga seda",
         "ShowJSCode": "Näita sisestatavat JavaScript koodi",
         "SkipToContent": "Mine sisu juurde",
-        "SupportPiwik": "Toeta Matomout!",
+        "SupportPiwik": "Toeta Xtrusiout!",
         "SystemSummaryNWebsites": "%d veebilehte",
         "SystemSummaryPhpVersion": "PHP versioon",
         "SystemSummaryWidget": "Süsteemi kokkuvõte",
         "TableNoData": "Antud tabeli jaoks andmed puuduvad.",
         "ThereIsNoDataForThisReport": "Raporti jaoks puuduvad antud perioodis andmed.",
         "UnFlattenDataTable": "Antud raport on lame %s Tee see hierarhiliseks",
-        "ViewAllPiwikVideoTutorials": "Vaata kõiki Matomou video õpetusi",
+        "ViewAllPiwikVideoTutorials": "Vaata kõiki Xtrusiou video õpetusi",
         "WebAnalyticsReports": "Veebi analüüsi raportid",
-        "YouAreUsingTheLatestVersion": "Kasutad uusimat Matomou versiooni!"
+        "YouAreUsingTheLatestVersion": "Kasutad uusimat Xtrusiou versiooni!"
     }
 }

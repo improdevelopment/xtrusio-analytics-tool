@@ -7,7 +7,7 @@
         "MobileReport_AdditionalPhoneNumbers": "Você pode adicionar mais números de telefone acessando",
         "MobileReport_MobileMessagingSettingsLink": "a página de configurações do Mobile Messaging",
         "MobileReport_NoPhoneNumbers": "Por favor, ative ao menos um número de telefone acessando",
-        "MultiSites_Must_Be_Activated": "Para gerar textos SMS com as estatísticas do seu site, habilite o plugin MultiSites no Matomo.",
+        "MultiSites_Must_Be_Activated": "Para gerar textos SMS com as estatísticas do seu site, habilite o plugin MultiSites no Xtrusio.",
         "NumberAlreadyAdded": "O número de telefone %1$s já foi adicionado.",
         "PhoneNumbers": "Números de telefone",
         "PluginDescription": "Crie e descarregue relatórios SMS personalizados e envie-os para o seu celular diariamente, semanalmente ou mensalmente.",
@@ -16,8 +16,8 @@
         "Settings_APIKey": "Chave da API",
         "Settings_CountryCode": "Código do País",
         "Settings_CredentialInvalid": "A sua conta da API SMS %1$s está configurada, mas ocorreu um erro ao tentar obter os créditos disponíveis.",
-        "Settings_CredentialNotProvided": "Antes de criar e gerenciar números de telefone, conecte o Matomo à sua conta SMS acima.",
-        "Settings_CredentialNotProvidedByAdmin": "Antes de criar e gerenciar números de telefone, peça ao administrador para conectar o Matomo a uma conta SMS.",
+        "Settings_CredentialNotProvided": "Antes de criar e gerenciar números de telefone, conecte o Xtrusio à sua conta SMS acima.",
+        "Settings_CredentialNotProvidedByAdmin": "Antes de criar e gerenciar números de telefone, peça ao administrador para conectar o Xtrusio a uma conta SMS.",
         "Settings_CredentialProvided": "A sua conta da API SMS %s está configurada corretamente!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Os números de telefone configurados podem ser vistos e utilizados apenas por si e não por outros utilizadores.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "O fornecedor de SMS configurado será utilizado apenas por si e não por quaisquer outros utilizadores.",
@@ -34,7 +34,7 @@
         "Settings_PhoneNumbers_Add": "Adicionar um novo número de telefone",
         "Settings_PhoneNumbers_CountryCode_Help": "Se você não sabe o código telefônico do país, procure pelo seu país aqui.",
         "Settings_PhoneNumbers_Help": "Antes de receber relatórios por SMS (mensagens de texto) em um telefone, o número de telefone deve ser inserido abaixo.",
-        "Settings_PhoneNumbers_HelpAdd": "Quando clicar em \"Adicionar\", será enviado um SMS contendo um código para o telefone. O utilizador que receber o código deverá então iniciar sessão no Matomo, clicar em Definições e, depois, clicar em Mensagens Móveis. Após introduzir o código, o utilizador poderá receber relatórios de texto no seu telefone.",
+        "Settings_PhoneNumbers_HelpAdd": "Quando clicar em \"Adicionar\", será enviado um SMS contendo um código para o telefone. O utilizador que receber o código deverá então iniciar sessão no Xtrusio, clicar em Definições e, depois, clicar em Mensagens Móveis. Após introduzir o código, o utilizador poderá receber relatórios de texto no seu telefone.",
         "Settings_PleaseSignUp": "Para criar relatórios de SMS e receber mensagens de texto curtas com as estatísticas de seus sites em seu celular, inscreva-se com a API de SMS e insira suas informações abaixo.",
         "Settings_ResendVerification": "Reenviar código de verificação",
         "Settings_SMSAPIAccount": "Gerenciar conta de API de SMS",
@@ -49,6 +49,6 @@
         "TopLinkTooltip": "Obtenha relatórios de análise da Web entregues em sua caixa de entrada de e-mail ou em seu telefone celular.",
         "UserKey": "Chave de utilizador",
         "VerificationCodeRecentlySentError": "Um código de verificação para o número de telefone %1$s já foi solicitado recentemente.",
-        "VerificationText": "O código é %1$s. Para validar o seu número de telefone e receber relatórios do Matomo por SMS, por favor copie este código para o formulário acessível via Matomo → %2$s → %3$s."
+        "VerificationText": "O código é %1$s. Para validar o seu número de telefone e receber relatórios do Xtrusio por SMS, por favor copie este código para o formulário acessível via Xtrusio → %2$s → %3$s."
     }
 }

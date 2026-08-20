@@ -2,7 +2,7 @@
     "BotTracking": {
         "PageUrl": "URL de la página",
         "NoDataHttpTrackingApi": "API de seguimiento HTTP",
-        "SiteWithoutDataBackToMatomo": "Volver a Matomo",
+        "SiteWithoutDataBackToMatomo": "Volver a Xtrusio",
         "SiteWithoutDataInstallWithX": "Instalar con %1$s",
         "SiteWithoutDataStepByStepGuide": "Guía paso a paso"
     }

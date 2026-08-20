@@ -3,8 +3,8 @@
         "DataSize": "Informacijos kiekis",
         "DatabaseUsage": "Duombazės naudojimas",
         "IndexSize": "Indekso dydis",
-        "LearnMore": "Norint geriau susipažinti su Matomo duomenų apdorojimu bei kaip priversti Matomo veikti geriau vidutinės ir didelės apkrovos svetainėse, siūlome pastudijuoti dokumentaciją %s.",
-        "MainDescription": "Matomo saugo visus Jūsų duomenis MySQL duombazėje. Šiuo metu Matomo lentelės naudoja %s.",
+        "LearnMore": "Norint geriau susipažinti su Xtrusio duomenų apdorojimu bei kaip priversti Xtrusio veikti geriau vidutinės ir didelės apkrovos svetainėse, siūlome pastudijuoti dokumentaciją %s.",
+        "MainDescription": "Xtrusio saugo visus Jūsų duomenis MySQL duombazėje. Šiuo metu Xtrusio lentelės naudoja %s.",
         "RowCount": "Eilučių kiekis",
         "Table": "Lentelė",
         "TotalSize": "Bendras dydis"

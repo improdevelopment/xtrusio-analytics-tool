@@ -18,7 +18,7 @@
         "GeoIPDocumentationSuffix": "Postavi GeoIP u administracijskom kartici za geolokaciju za osiguravanje podataka za ovaj izvještaj. Komercijalne %1$sMaxMind%2$s GeoIP baze podataka su točnije od besplatnih. %3$sKlikni ovdje%4$s za prikaz točnosti tih baza podataka.",
         "GeoIpDbIpAccuracyNote": "DB-IP baze podataka geolokacije su besplatne i mogu se automatski preuzeti. MaxMind je točniji za gradove, ali zahtijeva %1$sizradu računa%2$s.",
         "Geolocation": "Geolokacija",
-        "GeolocationPageDesc": "Ovdje možeš promijeniti način na koji Matomo određuje lokacije posjetitelja.",
+        "GeolocationPageDesc": "Ovdje možeš promijeniti način na koji Xtrusio određuje lokacije posjetitelja.",
         "GeolocationProviderBroken": "Tvoj pružatelj usluge geolokacije (%1$s) ne radi. Popravi pružatelja usluge ili postavi jedan drugi.",
         "GeolocationProviderUnavailable": "Tvoj pružatelj usluge geolokacije (%1$s) više nije dostupan. Postavi jedan drugi.",
         "HowToInstallGeoIPDatabases": "Kako mogu dobiti baze podataka geolokacije?",

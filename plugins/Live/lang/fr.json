@@ -59,7 +59,7 @@
         "VisitorLogNoDataMessagePurged": "Les données ont probablement été purgées car la suppression régulière des anciennes données brutes est activée, et la date de ce rapport remonte à plus de %s jours. Un superutilisateur peut modifier ce paramètre en accédant à Administration → Vie privée.",
         "VisitorLogPolicySettingRequirementNote": "Le journal des visites doit être désactivé.",
         "VisitorLogSubcategoryHelp1": "Le journal des visites vous présente en détail chaque visite reçue sur votre site web. Découvrez les actions effectuées par chaque visiteur, comment il a accédé à votre site, quelques informations sur son profil et bien plus encore (tout en respectant la réglementation locale en matière de protection des données).",
-        "VisitorLogSubcategoryHelp2": "Alors que les autres rapports de Matomo présentent le comportement global de vos visiteurs, le journal des visites offre des informations détaillées. Vous pouvez également utiliser des segments pour affiner l'analyse à des types de visites spécifiques et ainsi mieux comprendre vos visiteurs.",
+        "VisitorLogSubcategoryHelp2": "Alors que les autres rapports de Xtrusio présentent le comportement global de vos visiteurs, le journal des visites offre des informations détaillées. Vous pouvez également utiliser des segments pour affiner l'analyse à des types de visites spécifiques et ainsi mieux comprendre vos visiteurs.",
         "VisitorLogSubcategoryHelp3": "Pour en savoir plus, consultez le guide du journal des visiteurs.",
         "VisitorProfile": "Profil visiteur",
         "VisitorsInRealTime": "Visites en temps-réel",

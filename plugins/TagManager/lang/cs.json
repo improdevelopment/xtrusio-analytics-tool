@@ -86,7 +86,7 @@
         "LearnMore": "Další informace",
         "ManageX": "Spravovat %s",
         "MatomoConfigurationMatomoCustomDimensionsTitle": "Vlastní dimenze",
-        "MatomoConfigurationMatomoDisableCampaignParametersDescription": "Pokud je tato možnost zaškrtnuta, Matomo nebude sledovat parametry kampaně a ty budou ze sledovaných adres URL odstraněny.",
+        "MatomoConfigurationMatomoDisableCampaignParametersDescription": "Pokud je tato možnost zaškrtnuta, Xtrusio nebude sledovat parametry kampaně a ty budou ze sledovaných adres URL odstraněny.",
         "MatomoConfigurationMatomoDisableCampaignParametersTitle": "Zakázat sledování parametrů kampaně",
         "MatomoConfigurationMatomoJsEndpointCustom": "Vlastní",
         "MatomoConfigurationMatomoTrackingEndpointCustom": "Vlastní",

@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Tämä kävijäagentti havaittiin olevan %1$s. Tällä käyttäjäagentilla tehtäviä käyntejä ei seurata oletuksena Matomossa.",
+        "BotDetected": "Tämä kävijäagentti havaittiin olevan %1$s. Tällä käyttäjäagentilla tehtäviä käyntejä ei seurata oletuksena Xtrusiossa.",
         "BrowserCode": "Selainkoodi",
         "BrowserEngine": "Selainmoottori",
         "BrowserEngineDocumentation": "Tämä raportti näyttää käyttäjien selaimet jaoteltuna selainmoottorien mukaan. %s Tärkein tieto verkkosivujen kehittäjille on käyttäjien selaimen taustamoottori. Tässä esitetään taustamoottorin nimi ja nimen perässä suluissa moottoria yleisimmin hyödyntävät selaimet.",

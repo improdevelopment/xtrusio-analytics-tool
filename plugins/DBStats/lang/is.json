@@ -3,7 +3,7 @@
         "DataSize": "Gagnastærð",
         "DatabaseUsage": "Notkun gagnagrunns",
         "IndexSize": "stærð vísitöflu",
-        "MainDescription": "Matomo vistar öll vefgreiningagögn inn í MySQL gagnagrunn. Núna eru Matomo töflurnar að nota %s.",
+        "MainDescription": "Xtrusio vistar öll vefgreiningagögn inn í MySQL gagnagrunn. Núna eru Xtrusio töflurnar að nota %s.",
         "RowCount": "Fjöldi raða",
         "Table": "Tafla",
         "TotalSize": "Heildarstærð"

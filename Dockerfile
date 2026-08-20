@@ -48,9 +48,10 @@ COPY docker-entrypoint.sh /docker-entrypoint.sh
 RUN sed -i 's/\r$//' /docker-entrypoint.sh && chmod +x /docker-entrypoint.sh
 
 # Ensure writable directories exist and have correct permissions
-RUN mkdir -p config tmp/assets tmp/cache tmp/logs tmp/tcpdf tmp/templates_c tmp/sessions misc && \
-    chown -R www-data:www-data config tmp misc && \
-    chmod -R 775 config tmp misc
+RUN mkdir -p config tmp/assets tmp/cache tmp/logs tmp/tcpdf tmp/templates_c tmp/sessions misc js && \
+    chown -R www-data:www-data config tmp misc js && \
+    chmod -R 775 config tmp misc && \
+    chmod 775 js
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["apache2-foreground"]

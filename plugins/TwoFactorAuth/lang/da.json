@@ -8,7 +8,7 @@
         "GenerateNewRecoveryCodes": "Generer nye genskabelseskoder",
         "GenerateNewRecoveryCodesInfo": "Når du genererer nye genskabelseskoder, kan de gamle ikke længere bruges. Sørg for at downloade eller udskrive dine nye koder.",
         "InvalidAuthCode": "Tofaktorgodkendelseskoden er ikke korrekt.",
-        "LostAuthenticationDevice": "Hej,%1$sJeg har aktiveret tofaktorgodkendelse og har mistet min godkendelsesenhed. Vil du venligst nulstille tofaktorgodkendelse for mit brugernavn %5$s? Du kan se en vejledning her: %6$s.%2$sURL'en til Matomo er %3$s.%4$sTak",
+        "LostAuthenticationDevice": "Hej,%1$sJeg har aktiveret tofaktorgodkendelse og har mistet min godkendelsesenhed. Vil du venligst nulstille tofaktorgodkendelse for mit brugernavn %5$s? Du kan se en vejledning her: %6$s.%2$sURL'en til Xtrusio er %3$s.%4$sTak",
         "MissingAuthCodeAPI": "Indtast tofaktorgodkendelseskode",
         "RecoveryCodes": "Genskabelseskoder",
         "RecoveryCodesAllUsed": "Alle genskabelseskoder er brugt. Det anbefales kraftigt at generere nye genskabelseskoder.",

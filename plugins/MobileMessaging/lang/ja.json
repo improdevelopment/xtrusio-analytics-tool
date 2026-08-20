@@ -5,7 +5,7 @@
         "MobileReport_AdditionalPhoneNumbers": "にアクセスすると、さらに電話番号を加えられる",
         "MobileReport_MobileMessagingSettingsLink": "モバイルメッセージの設定ページ",
         "MobileReport_NoPhoneNumbers": "アクセスすることにより、少なくとも1つ以上の電話番号を有効にしてください",
-        "MultiSites_Must_Be_Activated": "ウェブサイト統計情報の SMS テキストを生成するには、Matomo で MultiSites プラグインを有効にしてください。",
+        "MultiSites_Must_Be_Activated": "ウェブサイト統計情報の SMS テキストを生成するには、Xtrusio で MultiSites プラグインを有効にしてください。",
         "PhoneNumbers": "電話番号",
         "PluginDescription": "カスタム SMS レポートを作成およびダウンロードし、それらを毎日、毎週、毎月あなたの携帯電話に送信してください。",
         "SMS_Content_Too_Long": "[ 長過ぎます ]",
@@ -13,8 +13,8 @@
         "Settings_APIKey": "API キー",
         "Settings_CountryCode": "国コード",
         "Settings_CredentialInvalid": "%1$s の SMS API アカウントが設定されていますが、使用可能なクレジットを受け取ろうとしているときにエラーが発生しました。",
-        "Settings_CredentialNotProvided": "電話番号の作成と管理の前に、Matomo を上のあなたの SMS アカウントに接続してください。",
-        "Settings_CredentialNotProvidedByAdmin": "電話番号の作成と管理の前に、Matomo を SMS アカウントに接続するよう管理者にお願いしてください。",
+        "Settings_CredentialNotProvided": "電話番号の作成と管理の前に、Xtrusio を上のあなたの SMS アカウントに接続してください。",
+        "Settings_CredentialNotProvidedByAdmin": "電話番号の作成と管理の前に、Xtrusio を SMS アカウントに接続するよう管理者にお願いしてください。",
         "Settings_CredentialProvided": "%s SMS API アカウントは、正しく設定されました!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "設定された電話番号は、あなただけが見ることができ、他のユーザーは見ることができません。",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "設定された SMS プロバイダは、あなただけが使用し、他のユーザは使用しません。",
@@ -30,7 +30,7 @@
         "Settings_PhoneNumbers_Add": "新しい電話番号を追加",
         "Settings_PhoneNumbers_CountryCode_Help": "電話の国コードがわからない場合は、ここであなたの国を検索してください。",
         "Settings_PhoneNumbers_Help": "SMS レポート ( テキストメッセージ ) を受け取る前に、電話番号を以下に入力する必要があります。",
-        "Settings_PhoneNumbers_HelpAdd": "” 追加 \" をクリックすると、コードを含む SMS が電話に送信されます。 コードを受け取ったユーザーは Matomo にログインし、Settings をクリックしてから Mobile Messaging をクリックしてください。 コードを入力すると、ユーザーは自分の電話でテキストレポートを受信できるようになります。",
+        "Settings_PhoneNumbers_HelpAdd": "” 追加 \" をクリックすると、コードを含む SMS が電話に送信されます。 コードを受け取ったユーザーは Xtrusio にログインし、Settings をクリックしてから Mobile Messaging をクリックしてください。 コードを入力すると、ユーザーは自分の電話でテキストレポートを受信できるようになります。",
         "Settings_PleaseSignUp": "SMS レポートを作成し、携帯電話でウェブサイトの統計情報を含む短いテキストメッセージを受け取るには、SMS API でサインアップし、以下にあなたの情報を入力してください。",
         "Settings_SMSAPIAccount": "SMS API アカウントの管理",
         "Settings_SMSProvider": "SMS プロバイダ",
@@ -42,6 +42,6 @@
         "Settings_VerificationCodeJustSent": "この番号に SMS でコードを送信しました。上記のコードを入力して \" 確認 \" をクリックしてください。",
         "TopLinkTooltip": "メール受信箱または携帯電話に届けられたアクセス解析レポートを取得する。",
         "UserKey": "ユーザーキー",
-        "VerificationText": "コードは %1$s です。 電話番号を確認して Matomo SMS レポートを受信するには、このコードを Matomo → %2$s → %3$s からアクセスできるフォームにコピーしてください。"
+        "VerificationText": "コードは %1$s です。 電話番号を確認して Xtrusio SMS レポートを受信するには、このコードを Xtrusio → %2$s → %3$s からアクセスできるフォームにコピーしてください。"
     }
 }

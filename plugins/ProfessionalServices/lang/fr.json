@@ -13,7 +13,7 @@
         "CustomReportsFeature02": "Analysez en profondeur des données spécifiques pour obtenir des insights détaillés sur le comportement et l’engagement des visiteurs.",
         "CustomReportsFeature03": "Gagnez du temps et des ressources en automatisant la génération de rapports, en permettant un suivi en temps réel et en bénéficiant de solutions d’analyse rentables sans avoir besoin d’outils tiers.",
         "DismissPromoWidget": "Si cette fonctionnalité ne correspond pas à vos objectifs, vous pouvez %1$scacher cette section%2$s.",
-        "DismissedNotification": "Le menu %1$s ne sera plus affiché, sauf si le plugin est installé sur votre instance Matomo.",
+        "DismissedNotification": "Le menu %1$s ne sera plus affiché, sauf si le plugin est installé sur votre instance Xtrusio.",
         "FormAnalyticsFeature01": "Comprenez comment les visiteurs interagissent avec vos formulaires afin d’identifier les points à améliorer.",
         "FormAnalyticsFeature02": "Identifiez les erreurs fréquentes des visiteurs et les problèmes de validation dans vos formulaires afin d’améliorer la satisfaction des visiteurs et les taux de conversion.",
         "FormAnalyticsFeature03": "Obtenez des insights approfondis sur la manière dont différents groupes de visiteurs interagissent avec vos formulaires et adaptez vos stratégies en conséquence.",
@@ -40,6 +40,6 @@
         "SessionRecordingsFeature01": "Observez en temps réel comment les visiteurs interagissent avec votre site et découvrez des insights précieux pour améliorer leur expérience.",
         "SessionRecordingsFeature02": "Identifiez les obstacles et les parcours visiteurs réussis afin d’augmenter vos taux de conversion.",
         "SessionRecordingsFeature03": "Obtenez des insights approfondis sur la manière dont les visiteurs interagissent avec des contenus, formulaires ou éléments spécifiques, afin d’adapter votre contenu et votre design pour mieux répondre aux attentes des visiteurs.",
-        "WidgetPremiumServicesForPiwik": "Fonctionnalités Premium &amp; Services pour Matomo"
+        "WidgetPremiumServicesForPiwik": "Fonctionnalités Premium &amp; Services pour Xtrusio"
     }
 }

@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "Konfiguratu GeoIP administrazioko Geolokalizazioa fitxan txosten honentzako datuak hornitzeko. %1$sMaxMind%2$s GeoIP datu-base komertziala zehatzagoa da doakoak baino. %3$sEgin klik hemen%4$s zenbateraino zehatzak diren ikusteko.",
         "GeoIpDbIpAccuracyNote": "DB-IP geolokalizazio datu-baseak doan dira eta automatikoki deskargatu daitezke. MaxMind zehatzagoa da hirientzat, baina %1$skontu bat sortzea%2$s eskatzen du.",
         "Geolocation": "Geolokalizazioa",
-        "GeolocationPageDesc": "Hemen zure Matomoak bisitarien kokapenak zehazteko duen modua aldatu dezakezu.",
+        "GeolocationPageDesc": "Hemen zure Xtrusioak bisitarien kokapenak zehazteko duen modua aldatu dezakezu.",
         "GeolocationProviderBroken": "Zure geolokalizazio hornitzailea (%1$s) hondatuta dago. Konpondu hornitzailea edo konfiguratu beste bat.",
         "GeolocationProviderUnavailable": "Zure geolokalizazio hornitzailea (%1$s) ez dago erabilgarri jada. Konfiguratu beste bat.",
         "HowToInstallGeoIPDatabases": "Nola eskuratu ditzaket geolokalizazio datu-baseak?",

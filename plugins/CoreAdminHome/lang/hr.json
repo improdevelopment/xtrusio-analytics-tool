@@ -2,7 +2,7 @@
     "CoreAdminHome": {
         "Administration": "Administracija",
         "EmailServerSettings": "Postavke email servera",
-        "JSTracking_ConsentManagerConnected": "Čini se da je %1$s već konfiguriran za rad s Matomom.",
+        "JSTracking_ConsentManagerConnected": "Čini se da je %1$s već konfiguriran za rad s Xtrusiom.",
         "JSTracking_MergeAliases": "U izvještaju „Vanjske poveznice” sakrij klikove na poznate alias URL-ove od",
         "JSTracking_MergeAliasesDesc": "Na taj se način klikovi na poveznice prema alias URL-ovima (npr. %s) neće brojati kao „Vanjska poveznica”.",
         "LearnMore": "Saznaj više",
@@ -12,7 +12,7 @@
         "MenuGeneralSettings": "Opće postavke",
         "MenuMeasurables": "Mjerljive jedinice",
         "MenuSystem": "Sustav",
-        "PiwikIsInstalledAt": "Matomo je instaliran na",
+        "PiwikIsInstalledAt": "Xtrusio je instaliran na",
         "TrackingCode": "Kod za praćenje"
     }
 }

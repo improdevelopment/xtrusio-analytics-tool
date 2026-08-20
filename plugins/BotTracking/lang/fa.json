@@ -2,6 +2,6 @@
     "BotTracking": {
         "PageUrl": "آدرس صفحه",
         "NoDataHttpTrackingApi": "API ردیابی HTTP",
-        "SiteWithoutDataBackToMatomo": "بازگشت به Matomo"
+        "SiteWithoutDataBackToMatomo": "بازگشت به Xtrusio"
     }
 }

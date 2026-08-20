@@ -11,7 +11,7 @@
         "SettingsMenu": "پیام رسانی با موبایل",
         "Settings_APIKey": "کلیدAPI",
         "Settings_CountryCode": "کد کشور",
-        "Settings_CredentialNotProvided": "قبل از اینکه شما بتوانید شماره تلفن ایجاد کنید و یا آن را مدیریت نمایید، لطفا Matomo را با اکانت SMS بالا متصل نمایید.",
+        "Settings_CredentialNotProvided": "قبل از اینکه شما بتوانید شماره تلفن ایجاد کنید و یا آن را مدیریت نمایید، لطفا Xtrusio را با اکانت SMS بالا متصل نمایید.",
         "Settings_CredentialProvided": "اکانت SMS API %s شما به درستی پیکربندی شد.",
         "Settings_DeleteAccountConfirm": "آیا شما مطمئن هستید که می خواهید این حساب پیامک را حذف کنید؟",
         "Settings_InvalidActivationCode": "کد وارد شده صحیح نمی باشد , لطفا دوباره تلاش نمایید.",

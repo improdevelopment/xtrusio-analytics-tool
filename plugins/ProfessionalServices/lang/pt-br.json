@@ -13,7 +13,7 @@
         "CustomReportsFeature02": "Analise dados específicos para obter insights mais profundos sobre o comportamento e o envolvimento dos visitantes.",
         "CustomReportsFeature03": "Economize tempo e recursos automatizando a geração de relatórios, permitindo monitoramento em tempo real e fornecendo soluções analíticas econômicas sem a necessidade de ferramentas de terceiros.",
         "DismissPromoWidget": "Se esta funcionalidade não é relevante para suas metas, você pode %1$socultar essa sessão%2$s.",
-        "DismissedNotification": "O menu %1$s não será mais mostrado, a menos que o plugin esteja instalado na sua instância do Matomo.",
+        "DismissedNotification": "O menu %1$s não será mais mostrado, a menos que o plugin esteja instalado na sua instância do Xtrusio.",
         "FormAnalyticsFeature01": "Entenda como os visitantes interagem com seus formulários para encontrar áreas de melhoria.",
         "FormAnalyticsFeature02": "Identifique erros comuns de visitantes e problemas de validação em seus formulários para aumentar a satisfação dos visitantes e as taxas de conversão.",
         "FormAnalyticsFeature03": "Obtenha insights mais profundos sobre como diferentes grupos de visitantes interagem com seus formulários e adapte suas estratégias de acordo.",
@@ -40,6 +40,6 @@
         "SessionRecordingsFeature01": "Veja como os visitantes interagem com seu site em tempo real e descubra informações valiosas para melhorar a experiência do visitante.",
         "SessionRecordingsFeature02": "Identifique barreiras e jornadas de visitantes bem-sucedidas, levando a taxas de conversão mais altas.",
         "SessionRecordingsFeature03": "Obtenha insights detalhados sobre como os visitantes se envolvem com conteúdos, formulários ou elementos específicos, para adaptar seu conteúdo e design para melhor atender às preferências dos visitantes.",
-        "WidgetPremiumServicesForPiwik": "Recursos e Serviços Premium para Matomo"
+        "WidgetPremiumServicesForPiwik": "Recursos e Serviços Premium para Xtrusio"
     }
 }

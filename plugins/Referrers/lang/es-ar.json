@@ -61,7 +61,7 @@
         "TypeSocialNetworks": "%s desde redes sociales",
         "TypeWebsites": "%s desde sitios web",
         "URLCampaignBuilder": "Constructor de dirección web de campaña",
-        "URLCampaignBuilderIntro": "La %1$sherramienta constructora de dirección web%2$s te permite generar direcciones web lista para usar en el rastreo de campañas en Matomo. Leé la documentación sobre %3$srastreo de campañas%4$s para más información.",
+        "URLCampaignBuilderIntro": "La %1$sherramienta constructora de dirección web%2$s te permite generar direcciones web lista para usar en el rastreo de campañas en Xtrusio. Leé la documentación sobre %3$srastreo de campañas%4$s para más información.",
         "URLCampaignBuilderResult": "Generá una dirección web que podés pegar en tus campañas, boletines informativos por correo electrónicos, publicidad en Facebook o tweets:",
         "UsingNDistinctUrls": "(usando %s direcciones web distintas)",
         "ViewAllReferrers": "Ver todos los orígenes de visita",

@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Ce User-Agent est détecté comme %1$s. Les visites avec ce user agent ne seront pas traquées par défaut dans Matomo.",
+        "BotDetected": "Ce User-Agent est détecté comme %1$s. Les visites avec ce user agent ne seront pas traquées par défaut dans Xtrusio.",
         "BrowserCode": "Code navigateur",
         "BrowserEngine": "Moteur de rendu HTML",
         "BrowserEngineDocumentation": "Ce rapport affiche les navigateurs de vos visiteurs divisés par moteurs. %s L'information la plus importante pour des développeurs web est quelle sorte de moteur de rendu utilisent les visiteurs. Les labels contiennent le nom du moteur suivi par le navigateur le plus commun utilisant ce moteur entre parenthèses.",
@@ -32,7 +32,7 @@
         "DeviceModelReportDocumentation": "Ce rapport indique les périphériques que vos visiteurs utilisent. Chaque modèle est affiché en associant la marque de l'appareil car certains noms de modèles sont utilisés par plusieurs marques.",
         "DeviceModels": "Modèles de périphérique",
         "DeviceType": "Type du périphérique",
-        "DeviceTypeReportDocumentation": "Ce rapport indique les types de périphériques que vos visiteurs ont utilisés. Ce rapport indiquera toujours tous les types de périphériques que Matomo est en mesure de détecter, même si aucun visiteur n'a utilisé un type particulier.",
+        "DeviceTypeReportDocumentation": "Ce rapport indique les types de périphériques que vos visiteurs ont utilisés. Ce rapport indiquera toujours tous les types de périphériques que Xtrusio est en mesure de détecter, même si aucun visiteur n'a utilisé un type particulier.",
         "DeviceTypes": "Types de périphérique",
         "Devices": "Périphériques",
         "DevicesDetection": "Périphériques du visiteur",

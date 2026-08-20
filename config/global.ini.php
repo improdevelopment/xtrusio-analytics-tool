@@ -1286,7 +1286,7 @@ Plugins[] = VisitFrequency
 Plugins[] = VisitTime
 Plugins[] = VisitorInterest
 ; Plugins[] = RssWidget
-Plugins[] = Feedback
+; Plugins[] = Feedback
 Plugins[] = Monolog
 
 Plugins[] = Login
@@ -1313,7 +1313,7 @@ Plugins[] = Resolution
 Plugins[] = DevicePlugins
 Plugins[] = Heartbeat
 Plugins[] = Intl
-Plugins[] = Marketplace
+; Plugins[] = Marketplace
 ; Plugins[] = ProfessionalServices
 Plugins[] = UserId
 Plugins[] = CustomJsTracker

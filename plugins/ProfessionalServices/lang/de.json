@@ -6,7 +6,7 @@
         "CTALearnMore": "Erfahre mehr über %1$s",
         "CTAStartFreeTrial": "Kostenlose Testphase starten",
         "DismissPromoWidget": "Wenn dieses Feature nicht relevant für deine Ziele ist, kannst du diesen Abschnitt %1$sverbergen%2$s.",
-        "DismissedNotification": "Das %1$s Menü wird nicht mehr angezeigt, es sei denn, das Plugin wird auf deiner Matomo-Instanz installiert.",
+        "DismissedNotification": "Das %1$s Menü wird nicht mehr angezeigt, es sei denn, das Plugin wird auf deiner Xtrusio-Instanz installiert.",
         "FormAnalyticsFeature01": "Verstehen Sie, wie Besucher mit Ihren Formularen interagieren, um Verbesserungsmöglichkeiten zu finden.",
         "FormAnalyticsFeature03": "Erhalten Sie tiefere Einblicke, wie verschiedene Besuchergruppen mit Ihren Formularen interagieren und passen Sie Ihre Strategien entsprechend an.",
         "FunnelsFeature02": "Analysieren Sie das Verhalten der Besucher basierend auf verschiedenen Kriterien und erhalten Sie wertvolle Einblicke, wie verschiedene Besuchergruppen mit Ihrer Seite interagieren.",
@@ -26,6 +26,6 @@
         "PromoSessionRecording": "Sitzungsaufzeichnungen",
         "PromoUnlockPowerOf": "Entfessle die Kraft von %1$s",
         "SessionRecordingsFeature01": "Sehen Sie in Echtzeit, wie Besucher mit Ihrer Seite interagieren und entdecken Sie wertvolle Einblicke, um das Besuchererlebnis zu verbessern.",
-        "WidgetPremiumServicesForPiwik": "Premium-Funktionen &amp; Dienstleistungen für Matomo"
+        "WidgetPremiumServicesForPiwik": "Premium-Funktionen &amp; Dienstleistungen für Xtrusio"
     }
 }

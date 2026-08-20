@@ -22,7 +22,7 @@
         "NoSubscriptionFound": "Nenhuma inscrição encontrada. Talvez o relatório tenha sido removido ou a inscrição a ele já tenha sido cancelada.",
         "NoTokenProvided": "Nenhum token foi fornecido na URL",
         "Pagination": "Página %1$s de %2$s",
-        "PiwikReports": "Relatórios Matomo",
+        "PiwikReports": "Relatórios Xtrusio",
         "PleaseFindAttachedFile": "Favor verificar seu relatório %1$s de %2$s no arquivo anexado.",
         "PleaseFindBelow": "Veja abaixo o seu relatório %1$s para %2$s.",
         "PluginDescription": "Crie relatórios personalizados e programe-os para serem enviado por dia, semana ou mês para uma ou várias pessoas. Vários formatos de relatório são suportados (imagens html, pdf, csv).",

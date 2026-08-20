@@ -5,7 +5,7 @@
         "AnonymizeUserId": "Zamijeni korisnički ID s pseudonimom",
         "ClickHereSettings": "Klikni za pristup %s postavkama.",
         "ConsentManager": "Upravitelj pristanka",
-        "ConsentManagerConnected": "Čini se da je %1$s već konfiguriran za rad s Matomom.",
+        "ConsentManagerConnected": "Čini se da je %1$s već konfiguriran za rad s Xtrusiom.",
         "ConsentManagerDetected": "Na tvojoj je web stranici otkriven %1$s upravitelj pristanka. Saznaj više o konfiguriranju Matoma za rad s %1$s u %2$sovom vodiču%3$s",
         "DeleteRawDataInfo": "Neobrađeni podaci sadrže sve detalje o svakom pojedinačnom posjetu i svakoj radnji koju su tvoji posjetitelji poduzeli. Kada izbrišeš neobrađene podatke, izbrisane informacije više neće biti dostupne u dnevniku posjetitelja. Također, ako kasnije odlučiš stvoriti segment, segmentirani izvještaji neće postati dostupni za izbrisani vremenski okvir jer se svi agregirani izvještaji generiraju iz tih neobrađenih podataka.",
         "FindMatchingDataSubjects": "Pronađi poklapajuće subjekte podataka",

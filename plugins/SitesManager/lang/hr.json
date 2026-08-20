@@ -3,7 +3,7 @@
         "AddMeasurable": "Dodaj novu mjerljivu jedinicu",
         "AddSite": "Dodaj novu web-stranicu",
         "ChooseMeasurableTypeHeadline": "Što želiš mjeriti?",
-        "ChooseMeasurableTypeSubheader": "Mjerljiva jedinica je bilo koja web stranica, aplikacija ili online sustav koji želiš pratiti i analizirati. Mjerljive jedinice su temelj za prikupljanje podataka i generiranje izvještaja u Matomou.",
+        "ChooseMeasurableTypeSubheader": "Mjerljiva jedinica je bilo koja web stranica, aplikacija ili online sustav koji želiš pratiti i analizirati. Mjerljive jedinice su temelj za prikupljanje podataka i generiranje izvještaja u Xtrusiou.",
         "ChooseMeasurableTypeSubheaderRollUp": "Također možeš grupirati više mjerljivih jedinica pomoću akumuliranja za jedinstveni prikaz.",
         "Currency": "Valuta",
         "DefaultCurrencyForNewWebsites": "Zadana valuta za nove web-stranice",
@@ -16,7 +16,7 @@
         "MenuManage": "Upravljaj",
         "MobileAppsAndSDKs": "Mobilne aplikacije i SDK-ovi",
         "SiteWithoutDataGoogleTagManager": "Google upravljač oznaka",
-        "SiteWithoutDataMatomoTagManager": "Matomo upravljač oznaka",
+        "SiteWithoutDataMatomoTagManager": "Xtrusio upravljač oznaka",
         "Sites": "Web-stranice",
         "Timezone": "Vremenska zona",
         "Type": "Vrsta"

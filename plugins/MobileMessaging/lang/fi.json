@@ -5,15 +5,15 @@
         "MobileReport_AdditionalPhoneNumbers": "Voit lisätä puhelinnumeroita",
         "MobileReport_MobileMessagingSettingsLink": "Mobiiliviestinnän asetukset",
         "MobileReport_NoPhoneNumbers": "Ota käyttöön vähintään yksi puhelinnumero",
-        "MultiSites_Must_Be_Activated": "Saadaksesi SMS-viestejä sivustosi tilastoista, sinun tulee ottaa käyttöön MultiSite-liitännäinen Matomossa.",
+        "MultiSites_Must_Be_Activated": "Saadaksesi SMS-viestejä sivustosi tilastoista, sinun tulee ottaa käyttöön MultiSite-liitännäinen Xtrusiossa.",
         "PhoneNumbers": "Puhelinnumerot",
         "PluginDescription": "Luo ja lataa mukautettuja SMS-raportteja ja saa ne puhelimeesi päivittäin, viikoittain tai kuukausittain.",
         "SMS_Content_Too_Long": "[liian pitkä]",
         "SettingsMenu": "Mobiiliviestit",
         "Settings_APIKey": "API-avain",
         "Settings_CountryCode": "Maakoodi",
-        "Settings_CredentialNotProvided": "Ennen kuin voit luoda ja hallinnoida puhelinnumeroita, sinun tulee yhdistää Matomo SMS-tiliisi yläpuolelta.",
-        "Settings_CredentialNotProvidedByAdmin": "Ennen kuin voit luoda ja hallinnoida puhelinnumeroita, ota yhteyttä ylläpitäjääsi yhdistääksesi Matomo SMS-tiliin.",
+        "Settings_CredentialNotProvided": "Ennen kuin voit luoda ja hallinnoida puhelinnumeroita, sinun tulee yhdistää Xtrusio SMS-tiliisi yläpuolelta.",
+        "Settings_CredentialNotProvidedByAdmin": "Ennen kuin voit luoda ja hallinnoida puhelinnumeroita, ota yhteyttä ylläpitäjääsi yhdistääksesi Xtrusio SMS-tiliin.",
         "Settings_CredentialProvided": "%s SMS API -tilisi on konfiguroitu oikein!",
         "Settings_DeleteAccountConfirm": "Haluatko varmasti poistaa tämän SMS-tilin?",
         "Settings_EnterActivationCode": "Kirjoita aktivointikoodi",
@@ -37,6 +37,6 @@
         "Settings_VerificationCodeJustSent": "Lähetimme juuri tekstiviestin tähän numeroon koodilla varustettuna. Kirjoita koodi yläpuolelle ja klikkaa \"Varmista\".",
         "TopLinkTooltip": "Hank verkkoanalyysiraportteja suoraan sähköpostiisi tai matkapuhelimeesi.",
         "UserKey": "Käyttäjäavain",
-        "VerificationText": "Koodi on %1$s. Varmistaaksesi puhelinnumerosi ja vastaanottaaksesi Matomon SMS-raportteja, kopioi tämä koodi lomakkeeseen, jonka löydät Matomosta kohdasta %2$s → %3$s."
+        "VerificationText": "Koodi on %1$s. Varmistaaksesi puhelinnumerosi ja vastaanottaaksesi Xtrusion SMS-raportteja, kopioi tämä koodi lomakkeeseen, jonka löydät Xtrusiosta kohdasta %2$s → %3$s."
     }
 }

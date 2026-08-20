@@ -3,7 +3,7 @@
         "AiChatbotsRequests": "Zahtjevi UI-chatbotova",
         "AiChatbotsSegmentationTooltip": "Segmentacija nije dostupna za ovu metriku jer zahtjevi UI-chatbota (poput onih iz ChatGPT-a) nisu povezani s redovitim posjetima ili posjetiteljima.",
         "AllWebsitesDashboardDocumentation": "Ovaj izvještaj pruža informativni pregled za svaku tvoju web-stranicu, s najopćenitijim mjernim podacima o tvojim posjetiteljima.",
-        "AllWebsitesDashboardErrorMessage": "Podaci trenutačno nisu dostupni. Razlog može biti privremeni problem sa serverom ili prevelika količina podataka u izvještaju. Pokušaj kasnije ponovo. Ako problem ustraje, obrati se svom Matomo administratoru za pomoć.",
+        "AllWebsitesDashboardErrorMessage": "Podaci trenutačno nisu dostupni. Razlog može biti privremeni problem sa serverom ili prevelika količina podataka u izvještaju. Pokušaj kasnije ponovo. Ako problem ustraje, obrati se svom Xtrusio administratoru za pomoć.",
         "AllWebsitesDashboardTitle": "Sve web-stranice",
         "Evolution": "Razvoj",
         "EvolutionComparisonDay": "%1$s %2$s ovaj dan u usporedbi sa %3$s %2$s u prethodnom djelomičnom razdoblju (%4$s) Razvoj: %5$s",

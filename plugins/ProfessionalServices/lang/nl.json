@@ -13,7 +13,7 @@
         "CustomReportsFeature02": "Verfijn specifieke gegevens voor diepgaande inzichten in bezoekersgedrag en -engagement.",
         "CustomReportsFeature03": "Bespaar tijd en middelen door automatische rapportgeneratie, maak real-time monitoring mogelijk, en bied kosteneffectieve oplossingen zonder noodzaak aan derde partij tools.",
         "DismissPromoWidget": "Indien deze functie niet relevant is voor uw doelen, kan u %1$sdeze sectie verbergen%2$s.",
-        "DismissedNotification": "Het %1$s menu wordt niet meer getoond, tenzij de plugin geïnstalleerd is op uw Matomo instantie.",
+        "DismissedNotification": "Het %1$s menu wordt niet meer getoond, tenzij de plugin geïnstalleerd is op uw Xtrusio instantie.",
         "FormAnalyticsFeature01": "Begrijp hoe bezoekers omgaan met uw formulieren om verbeterpunten te vinden.",
         "FormAnalyticsFeature02": "Identificeer veelvoorkomende fouten en validatieproblemen in uw formulieren, ter verbetering van de bezoekerstevredenheid en conversies.",
         "FormAnalyticsFeature03": "Krijg diepgaande inzichten in hoe verschillende bezoekersgroepen interageren met uw formulieren en stem uw strategieën hierop af.",
@@ -34,6 +34,6 @@
         "SessionRecordingsFeature01": "Bekijk in real time hoe bezoekers interageren met uw site en ontdek waardevolle inzichten om de bezoekerservaring te verbeteren.",
         "SessionRecordingsFeature02": "Identificeer hindernissen en succesvol bezoekersverkeer, die leiden tot hogere conversies.",
         "SessionRecordingsFeature03": "Krijg diepgaande inzichten in hoe bezoekers zich gedragen met specifieke content, formulieren, of elementen, om uw content en design beter af te stemmen op wat bezoekers wensen.",
-        "WidgetPremiumServicesForPiwik": "Premium functionaliteiten &amp; diensten voor Matomo"
+        "WidgetPremiumServicesForPiwik": "Premium functionaliteiten &amp; diensten voor Xtrusio"
     }
 }

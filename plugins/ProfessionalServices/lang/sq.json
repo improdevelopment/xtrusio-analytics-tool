@@ -13,7 +13,7 @@
         "CustomReportsFeature02": "Zhbironi në të dhëna specifike, për vështrime më të thelluara në sjelljen dhe angazhimin e vizitorëve.",
         "CustomReportsFeature03": "Kurseni kohë dhe burime, duke automatizuar prodhim raportesh, duke aktivizuar mbikëqyrje aty për aty dhe duke dhënë zgjidhje statistikore kosto-efikasitet, pa pasur nevojë për mjete nga palë të treta.",
         "DismissPromoWidget": "Nëse kjo veçori s’është me rëndësi për synimet tuaja, mundeni ta %1$sfshihni këtë ndarje%2$s.",
-        "DismissedNotification": "Menuja %1$s s’do të shfaqet më, veç nëse shtojca është instaluar në instancën tuaj Matomo.",
+        "DismissedNotification": "Menuja %1$s s’do të shfaqet më, veç nëse shtojca është instaluar në instancën tuaj Xtrusio.",
         "FormAnalyticsFeature01": "Kuptoni se si angazhohen me formularët tuaj vizitorët, për të gjetur fusha përmirësimi.",
         "FormAnalyticsFeature02": "Identifikoni gabime të rëndomtë vizitorësh dhe probleme vleftësimi brenda formularëve tuaj, që të thelloni kënaqësinë e vizitorëve dhe shkallë shndërrimesh.",
         "FormAnalyticsFeature03": "Përfitoni vështrim më të thellë rreth se si ndërveprojnë grupe të ndryshëm vizitorësh me formularët tuaj dhe përimtoni siç duhet strategjitë tuaja.",
@@ -40,6 +40,6 @@
         "SessionRecordingsFeature01": "Shihni aty për aty se si ndërveprojnë me sajtin tuaj vizitorët dhe zbuloni prirje të çmuara për përmirësimin e funksionimit për vizitorët.",
         "SessionRecordingsFeature02": "Identifikoni pengesa dhe rrugë vizitorësh të suksesshëm, duke shpënë te shkallë më të larta shndërrimesh.",
         "SessionRecordingsFeature03": "Përftoni ide të thelluara rreth se si angazhohen vizitorët me lëndë, formularë apo elementë specifikë, për ta bërë lëndën dhe skemën tuaj grafike të pajtohet më mirë me parapëlqimet e përdoruesve.",
-        "WidgetPremiumServicesForPiwik": "Veçori &amp; Shërbime me Pagesë për Matomo-n"
+        "WidgetPremiumServicesForPiwik": "Veçori &amp; Shërbime me Pagesë për Xtrusio-n"
     }
 }

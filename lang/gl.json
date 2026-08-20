@@ -1,7 +1,7 @@
 {
     "General": {
         "API": "API",
-        "AboutPiwikX": "Acerca de Matomo %s",
+        "AboutPiwikX": "Acerca de Xtrusio %s",
         "Action": "Acción",
         "Actions": "Accións",
         "Add": "Engadir",
@@ -11,7 +11,7 @@
         "And": "e",
         "AveragePrice": "Prezo medio",
         "AverageQuantity": "Cantidade media",
-        "BackToPiwik": "Voltar a Matomo",
+        "BackToPiwik": "Voltar a Xtrusio",
         "Cancel": "Cancelar",
         "ChangePassword": "Cambiar o contrasinal",
         "ClickHere": "Prema aquí para máis información.",
@@ -82,7 +82,7 @@
         "Name": "Nome",
         "NbActions": "Numero de Accións",
         "Never": "Nunca",
-        "NewUpdatePiwikX": "Nova Actualización: Matomo %s",
+        "NewUpdatePiwikX": "Nova Actualización: Xtrusio %s",
         "NewVisitor": "Nova Visita",
         "Next": "Seguinte",
         "No": "Non",

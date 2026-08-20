@@ -28,7 +28,7 @@
         "DeviceModelReportDocumentation": "Tento report zobrazuje zařízení, která vaši návštěvníci používají. Každý model je zobrazen v kombinaci se značkou zařízení, protože některé názvy modelů používá více značek.",
         "DeviceModels": "Modely zařízení",
         "DeviceType": "Typ zařízení",
-        "DeviceTypeReportDocumentation": "Tento report zobrazuje typy zařízení, která návštěvníci používali. Tento report vždy zobrazuje všechny typy zařízení, která je Matomo schopno detekovat, a to i v případě, že s určitým typem nebyly zaznamenány žádné návštěvy.",
+        "DeviceTypeReportDocumentation": "Tento report zobrazuje typy zařízení, která návštěvníci používali. Tento report vždy zobrazuje všechny typy zařízení, která je Xtrusio schopno detekovat, a to i v případě, že s určitým typem nebyly zaznamenány žádné návštěvy.",
         "DeviceTypes": "Typy zařízení",
         "Devices": "Zařízení",
         "DevicesDetection": "Zařízení návštěvníků",

@@ -1,7 +1,7 @@
 {
     "MultiSites": {
         "AllWebsitesDashboardDocumentation": "Denna rapport ger dig en informationsöversikt för var och en av dina webbplatser, som innehåller den mest allmänna statistiken om dina besökare.",
-        "AllWebsitesDashboardErrorMessage": "Data är för närvarande inte tillgänglig. Detta kan bero på ett tillfälligt serverproblem eller att rapporten innehåller för mycket data. Försök igen senare. Om problemet kvarstår, kontakta din Matomo-administratör för hjälp.",
+        "AllWebsitesDashboardErrorMessage": "Data är för närvarande inte tillgänglig. Detta kan bero på ett tillfälligt serverproblem eller att rapporten innehåller för mycket data. Försök igen senare. Om problemet kvarstår, kontakta din Xtrusio-administratör för hjälp.",
         "AllWebsitesDashboardTitle": "Alla webbplatser",
         "Evolution": "Utveckling",
         "EvolutionComparisonDay": "%1$s %2$s denna dag jämfört med %3$s %2$s i den föregående delperioden (%4$s) Utveckling: %5$s",

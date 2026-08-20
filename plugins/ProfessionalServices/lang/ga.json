@@ -13,7 +13,7 @@
         "CustomReportsFeature02": "Druileáil síos ar shonraí sonracha le haghaidh léargais níos doimhne ar iompar agus rannpháirtíocht cuairteoirí.",
         "CustomReportsFeature03": "Sábháil am agus acmhainní trí ghiniúint tuairiscí a uathoibriú, trí fhaireachán fíor-ama a chumasú, agus trí réitigh anailísíochta cost-éifeachtach a sholáthar gan gá le huirlisí tríú páirtí.",
         "DismissPromoWidget": "Mura mbaineann an ghné seo le do spriocanna, is féidir leat %1$s an chuid seo %2$s a cheilt.",
-        "DismissedNotification": "Ní thaispeánfar an roghchlár %1$s a thuilleadh, ach amháin má tá an breiseán suiteáilte ar do chás Matomo.",
+        "DismissedNotification": "Ní thaispeánfar an roghchlár %1$s a thuilleadh, ach amháin má tá an breiseán suiteáilte ar do chás Xtrusio.",
         "FormAnalyticsFeature01": "A thuiscint conas a théann cuairteoirí i ngleic le d’fhoirmeacha chun réimsí feabhsúcháin a aimsiú.",
         "FormAnalyticsFeature02": "Sainaithin earráidí coitianta cuairteoirí agus saincheisteanna bailíochtaithe laistigh d’fhoirmeacha, chun sásamh cuairteoirí agus rátaí comhshó a fheabhsú.",
         "FormAnalyticsFeature03": "Faigh léargais níos doimhne ar an gcaoi a n-idirghníomhaíonn grúpaí éagsúla cuairteoirí le d’fhoirmeacha agus cuir do straitéisí in oiriúint dá réir.",
@@ -40,6 +40,6 @@
         "SessionRecordingsFeature01": "Féach ar an gcaoi a n-idirghníomhaíonn cuairteoirí le do shuíomh i bhfíor-am agus faigh léargais luachmhara chun eispéireas an chuairteora a fheabhsú.",
         "SessionRecordingsFeature02": "Bacainní agus turais rathúla cuairteoirí a aithint, as a dtiocfaidh rátaí comhshó níos airde.",
         "SessionRecordingsFeature03": "Faigh léargais dhomhain ar an gcaoi a dtéann cuairteoirí i ngleic le hábhar, le foirmeacha nó le heilimintí ar leith, chun d'inneachar agus dearadh a oiriúnú chun freastal níos fearr ar roghanna cuairteoirí.",
-        "WidgetPremiumServicesForPiwik": "Gnéithe Préimh &amp; Seirbhísí do Matomo"
+        "WidgetPremiumServicesForPiwik": "Gnéithe Préimh &amp; Seirbhísí do Xtrusio"
     }
 }

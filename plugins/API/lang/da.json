@@ -4,10 +4,10 @@
         "EvolutionMetricName": "%s Udvikling",
         "Glossary": "Ordliste",
         "KeepTokenSecret": "Token_auth er ligeså hemmeligt som brugernavn og adgangskode, %1$sdel det ikke ud%2$s!",
-        "LearnAboutCommonlyUsedTerms2": "Forstå de hyppigst anvendte ord for at få mest muligt ud af Matomo.",
+        "LearnAboutCommonlyUsedTerms2": "Forstå de hyppigst anvendte ord for at få mest muligt ud af Xtrusio.",
         "LoadedAPIs": "%s APIs indlæst",
-        "MoreInformation": "Mere information om Matomo API'er, findes på %1$sIntroduktion til Matomo API%2$s og %3$sMatomo API Reference%4$s.",
-        "PluginDescription": "Alle data i Matomo er tilgængelig gennem enkle API'er. Denne udvidelse er en webservice indgang, som kaldes for at få Web Analytics-data i xml, JSON, php, csv etc.",
+        "MoreInformation": "Mere information om Xtrusio API'er, findes på %1$sIntroduktion til Xtrusio API%2$s og %3$sXtrusio API Reference%4$s.",
+        "PluginDescription": "Alle data i Xtrusio er tilgængelig gennem enkle API'er. Denne udvidelse er en webservice indgang, som kaldes for at få Web Analytics-data i xml, JSON, php, csv etc.",
         "ReportingApiReference": "Rapporterings API Reference",
         "TopLinkTooltip": "Få adgang til dine webanalyse data programmeringsmæssigt gennem en simpel API i JSON, XML, etc.",
         "UserAuthentication": "Brugergodkendelse"

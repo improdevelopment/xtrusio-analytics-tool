@@ -5,7 +5,7 @@
         "MobileReport_AdditionalPhoneNumbers": "Podés agregar más números telefónicos accediendo",
         "MobileReport_MobileMessagingSettingsLink": "página de configuración de mensajería móvil",
         "MobileReport_NoPhoneNumbers": "Por favor, activá al menos un número telefónico accediendo",
-        "MultiSites_Must_Be_Activated": "Para generar mensajes de texto de las estadísticas de tu sitio web, por favor habilitá el plugin MultiSites en Matomo.",
+        "MultiSites_Must_Be_Activated": "Para generar mensajes de texto de las estadísticas de tu sitio web, por favor habilitá el plugin MultiSites en Xtrusio.",
         "PhoneNumbers": "Números telefónicos",
         "PluginDescription": "Creá informes personalizados y descargalos vía mensajes de texto a su teléfono celular de forma diaria, semanal o mensual.",
         "SMS_Content_Too_Long": "[demasiado largo]",
@@ -13,8 +13,8 @@
         "Settings_APIKey": "Clave API",
         "Settings_CountryCode": "Código de país",
         "Settings_CredentialInvalid": "Tu cuenta API de mensajes de texto de %1$s está configurada, pero ocurrió un error al intentar recibir los créditos disponibles.",
-        "Settings_CredentialNotProvided": "Antes que puedas crear y administrar números de teléfono, por favor, conectá Matomo a tu cuenta de mensajes de texto arriba.",
-        "Settings_CredentialNotProvidedByAdmin": "Antes que puedas crear y administrar números de teléfono, por favor, pedile a tu administrador que conecte Matomo a una cuenta de mensajes de texto.",
+        "Settings_CredentialNotProvided": "Antes que puedas crear y administrar números de teléfono, por favor, conectá Xtrusio a tu cuenta de mensajes de texto arriba.",
+        "Settings_CredentialNotProvidedByAdmin": "Antes que puedas crear y administrar números de teléfono, por favor, pedile a tu administrador que conecte Xtrusio a una cuenta de mensajes de texto.",
         "Settings_CredentialProvided": "¡Tu %s cuenta API SMS está correctamente configurada!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Los números de teléfono configurados sólo pueden ser vistos y usados por vos y por ningún otro usuario.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "El proveedor de mensajes de texto configurado sólo será usado por vos y por ningún otro usuario.",
@@ -30,7 +30,7 @@
         "Settings_PhoneNumbers_Add": "Agregá un nuevo número telefónico",
         "Settings_PhoneNumbers_CountryCode_Help": "Si no conocés el código de país del teléfono, buscá tu país acá.",
         "Settings_PhoneNumbers_Help": "Antes de recibir los SMS (mensajes de texto) con los informes en un teléfono, el número telefónico debe ser ingresado abajo.",
-        "Settings_PhoneNumbers_HelpAdd": "Cuando hacés clic en \"Agregar\", se enviará un mensaje de texto a tu teléfono conteniendo un código. El usuario que reciba tu código debe iniciar sesión en Matomo, hacer clic en \"Configuración\" y luego hacer clic en \"Mensajería móvil\". Luego de ingresar el código, el usuario podrá recibir informes de texto en su teléfono.",
+        "Settings_PhoneNumbers_HelpAdd": "Cuando hacés clic en \"Agregar\", se enviará un mensaje de texto a tu teléfono conteniendo un código. El usuario que reciba tu código debe iniciar sesión en Xtrusio, hacer clic en \"Configuración\" y luego hacer clic en \"Mensajería móvil\". Luego de ingresar el código, el usuario podrá recibir informes de texto en su teléfono.",
         "Settings_PleaseSignUp": "Para crear informes SMS y recibir mensajes de texto con las estadísticas de sus sitios de Internet en tu teléfono celular, por favor, registrate con la API de SMS e ingresá tu información abajo.",
         "Settings_SMSAPIAccount": "Administrar API de la cuenta SMS",
         "Settings_SMSProvider": "Proveedor SMS",
@@ -42,6 +42,6 @@
         "Settings_VerificationCodeJustSent": "Te acabamos de enviar un mensaje de texto a este número con un código. Por favor, ingresá ese código arriba y hacé clic en \"Validar\".",
         "TopLinkTooltip": "¡Obtené informes de análisis de tu sitio web enviados a tu casilla de correo electrónico o a tu teléfono celular!",
         "UserKey": "Clave de usuario",
-        "VerificationText": "El código es: %1$s. Para validar tu número telefónico y recibir informes de Matomo vía mensajes de texto, por favor, copiá este código en el formulario que se encuentra en Matomo → %2$s → %3$s."
+        "VerificationText": "El código es: %1$s. Para validar tu número telefónico y recibir informes de Xtrusio vía mensajes de texto, por favor, copiá este código en el formulario que se encuentra en Xtrusio → %2$s → %3$s."
     }
 }

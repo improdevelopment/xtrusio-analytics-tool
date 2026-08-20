@@ -812,7 +812,7 @@ class FrontController extends Singleton
     private static function setRequestIdHeader()
     {
         $requestId = self::getUniqueRequestId();
-        Common::sendHeader("X-Matomo-Request-Id: $requestId");
+        Common::sendHeader("X-Xtrusio-Request-Id: $requestId");
     }
 
     private function consumeSessionTimeoutCookie(): void

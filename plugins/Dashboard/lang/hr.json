@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Kopiraj nadzornu ploču korisniku",
         "CreateNewDashboard": "Stvori novu nadzornu ploču",
         "Dashboard": "Nadzorna ploča",
-        "DashboardCategoryHelp": "Ovo je stranica nadzorne ploče. Nadzorne ploče su zbirka Matomovih widgeta koje ti dodaješ kako bi odgovarali tvojim specifičnim potrebama. Kombiniraj bilo koje od Matomovih widgeta kako bi se na prvi pogled prikazali podaci koje %1$s*ti*%2$s trebaš.",
+        "DashboardCategoryHelp": "Ovo je stranica nadzorne ploče. Nadzorne ploče su zbirka Xtrusiovih widgeta koje ti dodaješ kako bi odgovarali tvojim specifičnim potrebama. Kombiniraj bilo koje od Xtrusiovih widgeta kako bi se na prvi pogled prikazali podaci koje %1$s*ti*%2$s trebaš.",
         "DashboardCopied": "Trenutačna nadzorna ploča je uspješno kopirana odabranom korisniku.",
         "DashboardEmptyNotification": "Tvoja nadzorna ploča ne sadrži widgete. Započni dodavanjem nekoliko widgeta ili jednostavno resetiraj nadzornu ploču na zadani odabir widgeta.",
         "DashboardName": "Ime nadzorne ploče:",

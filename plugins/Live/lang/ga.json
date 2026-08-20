@@ -59,7 +59,7 @@
         "VisitorLogNoDataMessagePurged": "Is dócha gur glanadh na sonraí toisc go bhfuil scriosadh rialta seanshonraí amh ar siúl, agus go bhfuil dáta na tuarascála seo níos mó ná %s lá d'aois. Is féidir le sár-úsáideoir an socrú seo a athrú ach dul chuig Riarachán → Príobháideacht.",
         "VisitorLogPolicySettingRequirementNote": "Ní mór log na gcuairteanna a dhíchumasú.",
         "VisitorLogSubcategoryHelp1": "Léiríonn an loga cuairteanna go mion gach cuairt a fhaigheann do láithreán gréasáin. Faigh amach cé na gníomhartha a rinne gach cuairteoir, conas a shroich siad do shuíomh, beagán faoi cé hiad féin, agus tuilleadh (agus iad fós ag cloí le do rialacháin príobháideachais áitiúla).",
-        "VisitorLogSubcategoryHelp2": "Cé go léiríonn tuarascálacha eile in Matomo conas a iompraíonn do chuairteoirí iad féin ar leibhéal comhiomlán, soláthraíonn loga na gcuairteanna sonraí gráinneach. Is féidir leat míreanna a úsáid freisin chun é a chaolú go cineálacha sonracha cuairteanna chun tuiscint níos fearr a thabhairt le do chuairteoirí.",
+        "VisitorLogSubcategoryHelp2": "Cé go léiríonn tuarascálacha eile in Xtrusio conas a iompraíonn do chuairteoirí iad féin ar leibhéal comhiomlán, soláthraíonn loga na gcuairteanna sonraí gráinneach. Is féidir leat míreanna a úsáid freisin chun é a chaolú go cineálacha sonracha cuairteanna chun tuiscint níos fearr a thabhairt le do chuairteoirí.",
         "VisitorLogSubcategoryHelp3": "Faigh tuilleadh faisnéise sa treoirleabhar cuairte.",
         "VisitorProfile": "Próifíl cuairteora",
         "VisitorsInRealTime": "Cuairteanna i bhfíor-am",

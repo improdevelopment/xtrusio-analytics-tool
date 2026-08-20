@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Kopiuj pulpit do użytkownika",
         "CreateNewDashboard": "Utwórz nowy pulpit",
         "Dashboard": "Pulpit",
-        "DashboardCategoryHelp": "Strona pulpitu. Pulpity są kolekcją widżetów Matomo, które możesz samodzielnie dodawać, w zależności od potrzeb. Miksuj i dobieraj widżety Matomo, żeby mieć dane, których %1$s\"Ty\"%2$s potrzebujesz, pod ręką.",
+        "DashboardCategoryHelp": "Strona pulpitu. Pulpity są kolekcją widżetów Xtrusio, które możesz samodzielnie dodawać, w zależności od potrzeb. Miksuj i dobieraj widżety Xtrusio, żeby mieć dane, których %1$s\"Ty\"%2$s potrzebujesz, pod ręką.",
         "DashboardCopied": "Bieżący pulpit został pomyślnie skopiowany do wybranego użytkownika.",
         "DashboardEmptyNotification": "Twój pulpit nie zawiera żadnych widżetów. Rozpocznij pracę od dodania kilku widżetów, lub po prostu zresetuj pulpit, aby przywrócić domyślny zestaw widżetów.",
         "DashboardName": "Nazwa pulpitu:",

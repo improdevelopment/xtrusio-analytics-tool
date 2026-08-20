@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Deze User-Agent is gedetecteerd als %1$s. Bezoeken met deze User-Agent zullen standaard niet worden gevolgd in Matomo.",
+        "BotDetected": "Deze User-Agent is gedetecteerd als %1$s. Bezoeken met deze User-Agent zullen standaard niet worden gevolgd in Xtrusio.",
         "BrowserCode": "Browsercode",
         "BrowserEngine": "Browser engine",
         "BrowserEngineDocumentation": "Deze grafiek toont de browsers van uw bezoekers, verdeeld in browserfamilies. %s De belangrijkste informatie voor webontwikkelaars is wat voor soort rendering engine hun bezoekers gebruiken. De labels bevatten de namen van de engines, gevolgd door de meest voorkomende browsers die deze engine gebruiken tussen haakjes.",
@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "Dit rapport toont de apparaten die uw bezoekers gebruikten. Elk model is weergegeven in combinatie met het merk, aangezien sommige modelnamen door meerdere merken worden gebruikt.",
         "DeviceModels": "Modellen apparaten",
         "DeviceType": "Soort apparaat",
-        "DeviceTypeReportDocumentation": "Dit rapport toont de apparaattypes die uw bezoekers gebruikten. Het rapport toont steeds alle apparaattypes die Matomo kan herkennen, zelfs als er geen bezoeken met een specifiek type waren.",
+        "DeviceTypeReportDocumentation": "Dit rapport toont de apparaattypes die uw bezoekers gebruikten. Het rapport toont steeds alle apparaattypes die Xtrusio kan herkennen, zelfs als er geen bezoeken met een specifiek type waren.",
         "DeviceTypes": "Soorten apparaten",
         "Devices": "Apparaten",
         "DevicesDetection": "Apparaten bezoekers",

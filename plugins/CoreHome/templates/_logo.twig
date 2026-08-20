@@ -5,11 +5,11 @@
     >
     {% endif %}
     {% if hasSVGLogo %}
-        <img src='{{ logoSVG }}?matomo'
+        <img src='{{ logoSVG }}?xtrusio'
              alt="{% if isCustomLogo %}{{ 'General_PoweredBy'|translate }} {% endif %}Xtrusio"
              class="{% if not isCustomLogo %}default-piwik-logo{% endif %}" />
     {% else %}
-        <img src='{% if useLargeLogo|default(false) %}{{ logoLarge }}{% else %}{{ logoHeader }}{% endif %}?matomo' alt="{% if isCustomLogo %}{{ 'General_PoweredBy'|translate }} {% endif %}Xtrusio" />
+        <img src='{% if useLargeLogo|default(false) %}{{ logoLarge }}{% else %}{{ logoHeader }}{% endif %}?xtrusio' alt="{% if isCustomLogo %}{{ 'General_PoweredBy'|translate }} {% endif %}Xtrusio" />
     {% endif %}
         {% if logoLink is not defined or logoLink is not empty %}
     </a>

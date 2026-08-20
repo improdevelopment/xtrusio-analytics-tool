@@ -12,6 +12,12 @@ mkdir -p /var/www/html/tmp/assets \
 chown -R www-data:www-data /var/www/html/config /var/www/html/tmp /var/www/html/misc
 chmod -R 775 /var/www/html/config /var/www/html/tmp /var/www/html/misc
 
+# Tag Manager writes generated container_*.js into js/. Only the directory
+# needs to be writable — deliberately not a recursive chmod, so the tracked
+# files in js/ keep their 644 mode and git sees no permission churn.
+chown -R www-data:www-data /var/www/html/js
+chmod 775 /var/www/html/js
+
 CONFIG_FILE="/var/www/html/config/config.ini.php"
 
 # Pre-seed config.ini.php if it doesn't exist yet.

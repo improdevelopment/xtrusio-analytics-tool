@@ -58,7 +58,7 @@
         "VisitorLogDocumentation": "此表显示所选日期范围内的最新访问。将鼠标悬停在访问日期上可了解最近一次访问发生的时间。 %1$s 如果日期范围包括今天，您可以实时看到您的访客。 %2$s 此处显示的数据始终是实时的，无论您是否使用归档 cron 作业以及使用频率如何。",
         "VisitorLogNoDataMessagePurged": "由于启用了对旧原始数据的定期删除且此报告的日期已超过%s天，因此可能已清除了数据。 管理员可以通过管理→隐私更改此设置。",
         "VisitorLogSubcategoryHelp1": "访问日志详细显示你的网站收到的每一次访问。了解每个访客做了哪些操作、他们是如何到达你的网站的、一些他们是谁的情况，以及更多（同时仍然遵守你当地的隐私法规）。",
-        "VisitorLogSubcategoryHelp2": "Matomo的其他报告显示了你的访客在总体上的行为，而访问日志提供了细化的细节。你还可以使用分段来缩小访问的具体类型，以便更好地了解你的访客。",
+        "VisitorLogSubcategoryHelp2": "Xtrusio的其他报告显示了你的访客在总体上的行为，而访问日志提供了细化的细节。你还可以使用分段来缩小访问的具体类型，以便更好地了解你的访客。",
         "VisitorLogSubcategoryHelp3": "在访问日志指南中了解更多信息。",
         "VisitorProfile": "访客资料",
         "VisitorsInRealTime": "实时访问",

@@ -17,7 +17,7 @@
         "GeoIPDocumentationSuffix": "このレポートにデータを提供するには、[Geolocation admin] タブで GeoIP を設定します。 商用の %1$sMaxMind %2$sGeoIP データベースは、無料のものよりも正確です。 %3$sここをクリック%4$sして、正確性を確認してください。",
         "GeoIpDbIpAccuracyNote": "DB-IP ジオロケーション データベースは無料で、自動ダウンロードできます。 MaxMind は都市に対してより正確ですが、%1$sアカウントを作成%2$sする必要があります。",
         "Geolocation": "ジオロケーション",
-        "GeolocationPageDesc": "ここで Matomoがビジターの位置を決定する方法を変更できます。",
+        "GeolocationPageDesc": "ここで Xtrusioがビジターの位置を決定する方法を変更できます。",
         "GeolocationProviderBroken": "位置情報プロバイダー (%1$s) が壊れています。 プロバイダーを修正するか、別のプロバイダーをセットアップしてください。",
         "GeolocationProviderUnavailable": "位置情報プロバイダー (%1$s) は利用できなくなりました。 別のものを設定してください。",
         "HowToInstallGeoIPDatabases": "ジオロケーションデータベースを取得するにはどうすればよいですか？",

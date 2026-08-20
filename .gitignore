@@ -32,3 +32,9 @@ misc/DBIP-City.mmdb
 # VPS runtime files (keep .example versions in git)
 Caddyfile
 /backups/
+
+# Tag Manager publishes generated container files into js/ at runtime
+js/container_*.js
+
+# Backups of config files taken during maintenance
+config/*.bak

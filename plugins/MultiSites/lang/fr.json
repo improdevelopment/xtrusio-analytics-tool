@@ -1,7 +1,7 @@
 {
     "MultiSites": {
         "AllWebsitesDashboardDocumentation": "Ce rapport vous donne un aperçu informatif de chacun de vos sites Web, contenant les métriques les plus générales sur vos visiteurs.",
-        "AllWebsitesDashboardErrorMessage": "Les données sont actuellement indisponibles. Cela pourrait être dû à un problème temporaire du serveur ou à un rapport contenant trop de données. Veuillez réessayer plus tard. Si le problème persiste, contactez votre administrateur Matomo pour obtenir de l’aide.",
+        "AllWebsitesDashboardErrorMessage": "Les données sont actuellement indisponibles. Cela pourrait être dû à un problème temporaire du serveur ou à un rapport contenant trop de données. Veuillez réessayer plus tard. Si le problème persiste, contactez votre administrateur Xtrusio pour obtenir de l’aide.",
         "AllWebsitesDashboardTitle": "Tous les sites web",
         "Evolution": "Évolution",
         "EvolutionComparisonDay": "%1$s %2$s ce jour par rapport à %3$s %2$s au cours du délai partiel précédent (%4$s) Évolution : %5$s",

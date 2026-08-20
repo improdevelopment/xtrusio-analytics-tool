@@ -59,7 +59,7 @@
         "VisitorLogNoDataMessagePurged": "Veriler tümüyle silinmiş görünüyor, çünkü eski ham verilerin düzenli olarak silinmesi seçeneği açılmış ve bu raporun tarihi %s günden eski. Bir süper kullanıcı Yönetim → Gizlilik bölümünden bu ayarı değiştirebilir.",
         "VisitorLogPolicySettingRequirementNote": "Ziyaret günlüğü kapatılmalıdır.",
         "VisitorLogSubcategoryHelp1": "Ziyaret günlüğü, siteye yapılan her ziyareti ayrıntılı olarak görüntüler. Her ziyaretçinin yaptığı işlemleri, siteye nasıl ulaştığını, kim olduğu hakkında biraz bilgiyi ve diğer ayrıntıları (ülkenizdeki kişisel veri gizliliği düzenlemelerine uyarak) görebilirsiniz.",
-        "VisitorLogSubcategoryHelp2": "Matomo üzerindeki diğer raporlar ziyaretçilerin toplu olarak nasıl davrandığını gösterirken, ziyaret günlüğü ayrıntıya iner. Ayrıca, ziyaretçileri daha iyi anlamak adına belirli ziyaret türlerini gruplamak için parçaları kullanabilirsiniz.",
+        "VisitorLogSubcategoryHelp2": "Xtrusio üzerindeki diğer raporlar ziyaretçilerin toplu olarak nasıl davrandığını gösterirken, ziyaret günlüğü ayrıntıya iner. Ayrıca, ziyaretçileri daha iyi anlamak adına belirli ziyaret türlerini gruplamak için parçaları kullanabilirsiniz.",
         "VisitorLogSubcategoryHelp3": "Ayrıntılı bilgi almak için ziyaret günlüğü rehberine bakabilirsiniz.",
         "VisitorProfile": "Ziyaretçi profili",
         "VisitorsInRealTime": "Gerçek zamanlı ziyaretler",

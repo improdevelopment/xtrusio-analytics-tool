@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Ky Agjent Përdoruesi është pikasur si %1$s. Si parazgjedhje, vizita me këtë agjent përdoruesi s’do të ndiqen në Matomo.",
+        "BotDetected": "Ky Agjent Përdoruesi është pikasur si %1$s. Si parazgjedhje, vizita me këtë agjent përdoruesi s’do të ndiqen në Xtrusio.",
         "BrowserCode": "Kod shfletuesi",
         "BrowserEngine": "Motor shfletuesi",
         "BrowserEngineDocumentation": "Ky grafik tregon shfletuesit e vizitorëve tuaj, grupuar sipas familjesh shfletuesish. %s Informacioni më i rëndësishëm për programuesit web është lloji i mekanizmit vizatues që përdor shfletuesi. Etiketat përmbajnë emrat e mekanizmave, pasuar në kllapa nga shfletuesit më të zakonshëm që përdorin secilin prej tyre.",
@@ -32,7 +32,7 @@
         "DeviceModelReportDocumentation": "Ky raport shfaq pajisjet që përdorin vizitorët tuaj. Secili model shfaqet me markën e pajisjes, ngaqë disa emra modelesh përdoren nga shumë marka.",
         "DeviceModels": "Modele pajisjesh",
         "DeviceType": "Lloj pajisjeje",
-        "DeviceTypeReportDocumentation": "Ky raport shfaq llojet e pajisjeve që përdornin vizitorët tuaj. Ky raport do të shfaqë përherë krejt llojet e pajisjeve që është në gjendje të pikasë Matomo-ja, edhe pse s’pati vizita me një lloj të caktuar.",
+        "DeviceTypeReportDocumentation": "Ky raport shfaq llojet e pajisjeve që përdornin vizitorët tuaj. Ky raport do të shfaqë përherë krejt llojet e pajisjeve që është në gjendje të pikasë Xtrusio-ja, edhe pse s’pati vizita me një lloj të caktuar.",
         "DeviceTypes": "Lloje pajisjesh",
         "Devices": "Pajisje",
         "DevicesDetection": "Pajisje Vizitorësh",

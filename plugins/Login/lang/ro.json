@@ -1,7 +1,7 @@
 {
     "Login": {
         "BruteForceLog": "Logare prin forță brută",
-        "ContactAdmin": "Motiv posibil: host-ul dumneavoastra a dezactivat functia mail(). <br>Va rugam sa contactati administratorul dumeavoastra Matomo.",
+        "ContactAdmin": "Motiv posibil: host-ul dumneavoastra a dezactivat functia mail(). <br>Va rugam sa contactati administratorul dumeavoastra Xtrusio.",
         "ExceptionInvalidSuperUserAccessAuthenticationMethod": "Un utilizator cu acces de super utilizator nu poate fi autentificat folosind mecanismul '%s' .",
         "ExceptionPasswordMD5HashExpected": "Parametrul parolei este aşteptat să fie un hash MD5 al parolei.",
         "HelpIpRange": "Introduceti o adresa IP sau un interval IP pe linie. Puteti folosi notatia CIDR eg:%1$s sau puteti folosi wildcards, eg:%2$s or %3$s",

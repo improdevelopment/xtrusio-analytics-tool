@@ -23,7 +23,7 @@ use Zend_Session;
  */
 class Session extends Zend_Session
 {
-    public const SESSION_NAME = 'MATOMO_SESSID';
+    public const SESSION_NAME = 'XTRUSIO_SESSID';
 
     public static $sessionName = self::SESSION_NAME;
 

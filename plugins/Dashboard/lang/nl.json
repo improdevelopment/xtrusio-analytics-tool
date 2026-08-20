@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "Dashboard naar gebruiker kopiëren",
         "CreateNewDashboard": "Nieuw dashboard aanmaken",
         "Dashboard": "Dashboard",
-        "DashboardCategoryHelp": "Dit is een dashboardpagina. Dashboards zijn een verzameling van Matomo-widgets die u zelf toevoegt volgens uw specifieke behoeften. Kies en schik alle Matomo-widgets zodat u in één oogopslag de %1$s-gegevens krijgt die *u* %2$s nodig heeft.",
+        "DashboardCategoryHelp": "Dit is een dashboardpagina. Dashboards zijn een verzameling van Xtrusio-widgets die u zelf toevoegt volgens uw specifieke behoeften. Kies en schik alle Xtrusio-widgets zodat u in één oogopslag de %1$s-gegevens krijgt die *u* %2$s nodig heeft.",
         "DashboardCopied": "Huidig dashboard succesvol naar geselecteerde gebruiker gekopieerd.",
         "DashboardEmptyNotification": "Uw dashboard bevat geen widgets. Start met het toevoegen van nieuwe widgets of reset het dashboard naar de standaard widget selectie.",
         "DashboardName": "Naam dashboard:",

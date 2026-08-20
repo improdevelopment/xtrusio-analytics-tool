@@ -2,7 +2,7 @@
     "IntranetMeasurable": {
         "Intranet": "Intranät-webbplats",
         "IntranetDescription": "En intranät-webbplats är en webbplats på ett internt nätverk.",
-        "IntranetLongDescription": "Spåra interna webbplatser som endast är tillgängliga inom din organisations nätverk. Matomo använder förstapartscookies för att mer exakt identifiera unika besökare i intranätmiljöer.",
+        "IntranetLongDescription": "Spåra interna webbplatser som endast är tillgängliga inom din organisations nätverk. Xtrusio använder förstapartscookies för att mer exakt identifiera unika besökare i intranätmiljöer.",
         "Intranets": "Intranät-webbplatser"
     }
 }

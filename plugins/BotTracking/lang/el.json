@@ -25,7 +25,7 @@
         "DocumentUrl": "Διεύθυνση URL εγγράφου",
         "SegmentNotSupported": "Η αναφορά δεν υποστηρίζει τμηματοποίηση. Τα δεδομένα που εμφανίζονται είναι τα πρότυπα, χωρίς τμηματοποίηση δεδομένα αναφοράς.",
         "NoDataHttpTrackingApi": "HTTP API Παρακολούθησης",
-        "SiteWithoutDataBackToMatomo": "Επιστροφή στο Matomo",
+        "SiteWithoutDataBackToMatomo": "Επιστροφή στο Xtrusio",
         "SiteWithoutDataInstallWithX": "Εγκατάσταση με %1$s",
         "SiteWithoutDataStepByStepGuide": "Οδηγός βήμα-βήμα"
     }

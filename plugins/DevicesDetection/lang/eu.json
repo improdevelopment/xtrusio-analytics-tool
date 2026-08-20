@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Erabiltzaile-agente hau %1$s bezala detektatu da. Erabiltzaile-agente hau duten bisiten jarraipenik ez du egiten Matomok modu lehenetsian.",
+        "BotDetected": "Erabiltzaile-agente hau %1$s bezala detektatu da. Erabiltzaile-agente hau duten bisiten jarraipenik ez du egiten Xtrusiok modu lehenetsian.",
         "BrowserCode": "Nabigatzaile-kodea",
         "BrowserEngine": "Nabigatzaile-motorra",
         "BrowserEngineDocumentation": "Txosten honek bisitarien nabigatzaileak erakusten ditu, nabigatzaile-motorraren arabera sailkatuta. %s Web garatzaileentzako informaziorik garrantzitsuena bisitariek erabiltzen duten errendatze-motorra da. Etiketek motorraren izena daukate eta ondoren, parentesi artean, motor hori erabiltzen duen nabigatzaile ohikoena.",
@@ -29,7 +29,7 @@
         "DeviceModelReportDocumentation": "Txosten honek bisitariek erabiltzen dituzten gailuak erakusten ditu. Modelo bakoitza gailuaren markarekin batera bistaratzen da, modelo-izen batzuk hainbat markak erabiltzen dituztelako.",
         "DeviceModels": "Gailuen modeloak",
         "DeviceType": "Gailu-mota",
-        "DeviceTypeReportDocumentation": "Txosten honek bisitariek erabiltzen dituzten gailu-motak erakusten ditu. Txosten honek beti erakutsiko ditu Matomok detektatu ditzakeen gailu-mota guztiak, mota zehatz horretako bisitarik ez badago ere.",
+        "DeviceTypeReportDocumentation": "Txosten honek bisitariek erabiltzen dituzten gailu-motak erakusten ditu. Txosten honek beti erakutsiko ditu Xtrusiok detektatu ditzakeen gailu-mota guztiak, mota zehatz horretako bisitarik ez badago ere.",
         "DeviceTypes": "Gailu-motak",
         "Devices": "Gailuak",
         "DevicesDetection": "Bisitarien gailuak",

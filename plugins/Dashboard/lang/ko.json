@@ -6,7 +6,7 @@
         "CopyDashboardToUser": "대시보드를 사용자에게 복사",
         "CreateNewDashboard": "새로운 대시보드 만들기",
         "Dashboard": "대시보드",
-        "DashboardCategoryHelp": "이것은 대시보드 페이지입니다. 대시보드는 특정 요구 사항에 맞게 추가하는 Matomo의 위젯 모음입니다. Matomo의 위젯을 조합하여 %1$s*사용자*%2$s에게 필요한 데이터를 한 눈에 볼 수 있습니다.",
+        "DashboardCategoryHelp": "이것은 대시보드 페이지입니다. 대시보드는 특정 요구 사항에 맞게 추가하는 Xtrusio의 위젯 모음입니다. Xtrusio의 위젯을 조합하여 %1$s*사용자*%2$s에게 필요한 데이터를 한 눈에 볼 수 있습니다.",
         "DashboardCopied": "대시보드가 선택한 사용자에게 성공적으로 복사되었습니다.",
         "DashboardEmptyNotification": "대시보드에 위젯이 하나도 없습니다. 대시 보드 위젯을 추가하거나 대시 보드를 기본 위젯으로 재설정하세요.",
         "DashboardName": "대시보드 이름:",

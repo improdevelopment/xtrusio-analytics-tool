@@ -59,7 +59,7 @@
         "VisitorLogNoDataMessagePurged": "Ka mundësi që të dhënat të jenë spastruar, ngaqë është aktive fshirja e rregullt e të dhënave të vjetra të papërpunuara dhe data për këtë raport është më e vjetër se %s ditë. Këtë rregullim mund ta ndryshojë një superpërdorues, duke kaluar te Administrim → Privatësi.",
         "VisitorLogPolicySettingRequirementNote": "Lypset që regjistri i vizitave të jetë i çaktivizuar.",
         "VisitorLogSubcategoryHelp1": "Regjistri i vizitave ju shfaq hollësisht çdo vizitë që i vjen sajtit tuaj. Shihni ç’veprime ka ndërmarrë çdo vizitor, si erdhën te sajti juaj, diçka rreth se cilët janë, etj (teksa jeni ende në pajtim me rregulloret vendore tuajat mbi privatësinë).",
-        "VisitorLogSubcategoryHelp2": "Teksa raporte të tjerë në Matomo tregojnë se si sillen vizitorët, parë si tërësi, regjistri i vizitave furnizon hollësi të imta. Mund të përdorni edhe segmente, për ta ngushtuar punën për lloje specifike vizitash, për të kuptuar më mirë vizitorët tuaj.",
+        "VisitorLogSubcategoryHelp2": "Teksa raporte të tjerë në Xtrusio tregojnë se si sillen vizitorët, parë si tërësi, regjistri i vizitave furnizon hollësi të imta. Mund të përdorni edhe segmente, për ta ngushtuar punën për lloje specifike vizitash, për të kuptuar më mirë vizitorët tuaj.",
         "VisitorLogSubcategoryHelp3": "Mësoni më tepër, te udhërrëfyesi për regjistër vizitash.",
         "VisitorProfile": "Profil vizitori",
         "VisitorsInRealTime": "Vizita aty për aty",

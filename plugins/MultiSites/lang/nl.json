@@ -1,7 +1,7 @@
 {
     "MultiSites": {
         "AllWebsitesDashboardDocumentation": "Dit rapport geeft u een informatief overzicht voor elk van uw websites, met de meest algemene statistieken over uw bezoekers.",
-        "AllWebsitesDashboardErrorMessage": "Er is momenteel data beschikbaar. Dit kan zijn door een tijdelijk serverprobleem of het rapport dat te veel data bevat. Probeer het later opnieuw. Indien het probleem blijft, contacteer dan uw Matomo-beheerder voor hulp.",
+        "AllWebsitesDashboardErrorMessage": "Er is momenteel data beschikbaar. Dit kan zijn door een tijdelijk serverprobleem of het rapport dat te veel data bevat. Probeer het later opnieuw. Indien het probleem blijft, contacteer dan uw Xtrusio-beheerder voor hulp.",
         "AllWebsitesDashboardTitle": "Alle websites",
         "Evolution": "Trends",
         "EvolutionComparisonDay": "%1$s %2$s deze dag vergeleken met %3$s %2$s in de vorige deelperiode (%4$s) Evolutie: %5$s",

@@ -4,15 +4,15 @@
         "MobileReport_AdditionalPhoneNumbers": "Du kan tilføje flere telefonnumre ved at åbne",
         "MobileReport_MobileMessagingSettingsLink": "Mobil besked indstillinger",
         "MobileReport_NoPhoneNumbers": "Aktiver mindst ét telefonnummer ved at besøge",
-        "MultiSites_Must_Be_Activated": "For at generere sms-beskeder med din websitestatistik skal du aktivere udvidelsesmodulet MultiSites i Matomo.",
+        "MultiSites_Must_Be_Activated": "For at generere sms-beskeder med din websitestatistik skal du aktivere udvidelsesmodulet MultiSites i Xtrusio.",
         "PhoneNumbers": "Telefonnumre",
         "PluginDescription": "Opret og hent brugerdefinerede sms-rapporter og få dem sendt til din mobiltelefon på daglig, ugentlig eller månedlig basis.",
         "SMS_Content_Too_Long": "[for lang]",
         "SettingsMenu": "Mobile beskeder",
         "Settings_APIKey": "API-nøgle",
         "Settings_CountryCode": "Landekode",
-        "Settings_CredentialNotProvided": "Før du kan oprette og administrere telefonnumre, skal du tilslutte Matomo til din sms-konto ovenfor.",
-        "Settings_CredentialNotProvidedByAdmin": "Før du kan oprette og administrere telefonnumre, skal du bede din administrator om at forbinde Matomo til en sms-konto.",
+        "Settings_CredentialNotProvided": "Før du kan oprette og administrere telefonnumre, skal du tilslutte Xtrusio til din sms-konto ovenfor.",
+        "Settings_CredentialNotProvidedByAdmin": "Før du kan oprette og administrere telefonnumre, skal du bede din administrator om at forbinde Xtrusio til en sms-konto.",
         "Settings_CredentialProvided": "Din %s SMS API-konto er korrekt konfigureret!",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Den konfigurerede sms-udbyder vil kun bliv brugt af dig og ikke af andre brugere.",
         "Settings_DeleteAccountConfirm": "Er du sikker på, at du vil slette denne sms-konto?",
@@ -33,6 +33,6 @@
         "Settings_UpdateOrDeleteAccount": "Du kan også %1$sopdatere%2$s eller %3$sslette%4$s denne konto.",
         "Settings_ValidatePhoneNumber": "Bekræft",
         "TopLinkTooltip": "Få web analyse rapporter leveret til din indbakke eller din mobiltelefon!",
-        "VerificationText": "Koden er %1$s. For at validere dit telefonnummer og modtage Matomos sms-rapporter, kopier koden til formularen på Matomo → %2$s → %3$s."
+        "VerificationText": "Koden er %1$s. For at validere dit telefonnummer og modtage Xtrusios sms-rapporter, kopier koden til formularen på Xtrusio → %2$s → %3$s."
     }
 }

@@ -7,7 +7,7 @@
         "MobileReport_AdditionalPhoneNumbers": "Is féidir leat tuilleadh uimhreacha gutháin a chur leis trí rochtain a fháil",
         "MobileReport_MobileMessagingSettingsLink": "an leathanach socruithe Teachtaireachtaí Soghluaiste",
         "MobileReport_NoPhoneNumbers": "Gníomhachtaigh uimhir theileafóin amháin ar a laghad trí rochtain a fháil",
-        "MultiSites_Must_Be_Activated": "Chun téacsanna SMS do stats láithreáin ghréasáin a ghiniúint, le do thoil cumasaigh an breiseán MultiSites in Matomo.",
+        "MultiSites_Must_Be_Activated": "Chun téacsanna SMS do stats láithreáin ghréasáin a ghiniúint, le do thoil cumasaigh an breiseán MultiSites in Xtrusio.",
         "NumberAlreadyAdded": "Cuireadh an uimhir theileafóin %1$s leis cheana.",
         "PhoneNumbers": "Uimhreacha Teileafóin",
         "PluginDescription": "Cruthaigh agus íoslódáil tuairiscí saincheaptha SMS agus cuir chuig do ghuthán iad ar bhonn laethúil, seachtainiúil nó míosúil.",
@@ -16,8 +16,8 @@
         "Settings_APIKey": "Eochair API",
         "Settings_CountryCode": "Cód Tíre",
         "Settings_CredentialInvalid": "Tá do chuntas SMS API %1$s cumraithe, ach tharla earráid agus tú ag iarraidh na creidmheasanna atá ar fáil a fháil.",
-        "Settings_CredentialNotProvided": "Sular féidir leat uimhreacha gutháin a chruthú agus a bhainistiú, ceangail Matomo le do Chuntas SMS thuas.",
-        "Settings_CredentialNotProvidedByAdmin": "Sular féidir leat uimhreacha gutháin a chruthú agus a bhainistiú, iarr ar do riarthóir Matomo a nascadh le Cuntas SMS.",
+        "Settings_CredentialNotProvided": "Sular féidir leat uimhreacha gutháin a chruthú agus a bhainistiú, ceangail Xtrusio le do Chuntas SMS thuas.",
+        "Settings_CredentialNotProvidedByAdmin": "Sular féidir leat uimhreacha gutháin a chruthú agus a bhainistiú, iarr ar do riarthóir Xtrusio a nascadh le Cuntas SMS.",
         "Settings_CredentialProvided": "Tá do chuntas API SMS %s cumraithe i gceart!",
         "Settings_DelegatedPhoneNumbersOnlyUsedByYou": "Ní féidir ach leatsa agus ní aon úsáideoir eile na huimhreacha gutháin cumraithe a fheiceáil agus a úsáid.",
         "Settings_DelegatedSmsProviderOnlyAppliesToYou": "Ní úsáidfidh tú féin an soláthraí SMS cumraithe ach amháin agus ní úsáidfidh aon úsáideoirí eile é.",
@@ -34,7 +34,7 @@
         "Settings_PhoneNumbers_Add": "Cuir Uimhir Theileafóin nua leis",
         "Settings_PhoneNumbers_CountryCode_Help": "Mura bhfuil cód tíre an ghutháin ar eolas agat, féach do thír anseo.",
         "Settings_PhoneNumbers_Help": "Sula bhfaightear tuairiscí SMS (teachtaireachtaí téacs) ar ghuthán, ní mór an uimhir theileafóin a chur isteach thíos.",
-        "Settings_PhoneNumbers_HelpAdd": "Nuair a chliceálann tú \"Cuir\", seolfar SMS ina bhfuil cód chuig an bhfón. Ba cheart don úsáideoir a fhaigheann an cód logáil isteach ansin chuig Matomo, cliceáil ar Socruithe, ansin cliceáil ar Teachtaireachtaí Soghluaiste. Tar éis dul isteach sa chód, beidh an t-úsáideoir in ann tuairiscí téacs a fháil ar a ghuthán.",
+        "Settings_PhoneNumbers_HelpAdd": "Nuair a chliceálann tú \"Cuir\", seolfar SMS ina bhfuil cód chuig an bhfón. Ba cheart don úsáideoir a fhaigheann an cód logáil isteach ansin chuig Xtrusio, cliceáil ar Socruithe, ansin cliceáil ar Teachtaireachtaí Soghluaiste. Tar éis dul isteach sa chód, beidh an t-úsáideoir in ann tuairiscí téacs a fháil ar a ghuthán.",
         "Settings_PleaseSignUp": "Chun tuairiscí SMS a chruthú agus teachtaireachtaí gearra téacs a fháil le stats do shuíomhanna gréasáin ar d’fhón póca, cláraigh leis an API SMS agus cuir isteach do chuid faisnéise thíos.",
         "Settings_ResendVerification": "Seol an cód fíoraithe ar ais",
         "Settings_SMSAPIAccount": "Bainistigh Cuntas API SMS",
@@ -49,6 +49,6 @@
         "TopLinkTooltip": "Faigh Tuairiscí Analytics Gréasáin seachadta chuig do bhosca isteach ríomhphoist nó chuig d’fhón póca.",
         "UserKey": "Eochair Úsáideora",
         "VerificationCodeRecentlySentError": "Iarradh cód fíorúcháin don uimhir theileafóin %1$s le déanaí.",
-        "VerificationText": "Is é %1$s an cód. Chun d'uimhir theileafóin a bhailíochtú agus tuairiscí SMS Matomo a fháil, cóipeáil an cód seo san fhoirm atá inrochtana trí Matomo → %2$s → %3$s."
+        "VerificationText": "Is é %1$s an cód. Chun d'uimhir theileafóin a bhailíochtú agus tuairiscí SMS Xtrusio a fháil, cóipeáil an cód seo san fhoirm atá inrochtana trí Xtrusio → %2$s → %3$s."
     }
 }

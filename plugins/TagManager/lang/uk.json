@@ -49,7 +49,7 @@
         "ManageX": "Управління %s",
         "MatomoConfigurationMatomoAlwaysUseSendBeaconTitle": "Завжди використовувати sendBeacon",
         "MatomoConfigurationMatomoCustomDimensionsTitle": "Користувацькі вимірювання",
-        "MatomoConfigurationMatomoDisableCampaignParametersDescription": "Коли цей параметр увімкнено, Matomo не буде відстежувати параметри кампанії, і вони будуть видалені з відстежуваних URL-адрес.",
+        "MatomoConfigurationMatomoDisableCampaignParametersDescription": "Коли цей параметр увімкнено, Xtrusio не буде відстежувати параметри кампанії, і вони будуть видалені з відстежуваних URL-адрес.",
         "MatomoConfigurationMatomoDisableCampaignParametersTitle": "Вимкнути відстеження параметрів кампанії",
         "MatomoConfigurationMatomoDomainsTitle": "Домени",
         "MatomoConfigurationMatomoJsEndpointCustom": "Користувацький",

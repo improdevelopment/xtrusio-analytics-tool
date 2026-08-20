@@ -1,6 +1,6 @@
 {
     "DevicesDetection": {
-        "BotDetected": "Questo User-Agent è stato individuato come %1$s. Le visite che avvengono tramite questo user agent non verranno tracciate da Matomo.",
+        "BotDetected": "Questo User-Agent è stato individuato come %1$s. Le visite che avvengono tramite questo user agent non verranno tracciate da Xtrusio.",
         "BrowserCode": "Codice browser",
         "BrowserEngine": "Motore browser",
         "BrowserEngineDocumentation": "Questo report mostra i browser dei vostri visitatori suddivisi in famiglie di browser. %s Le informazioni più importanti per gli sviluppatori web sono che tipo di motore di rendering i loro visitatori stanno usando. Le etichette contengono i nomi dei motori seguiti dal browser più comune che utilizza quel motore, messo tra parentesi.",
@@ -32,7 +32,7 @@
         "DeviceModelReportDocumentation": "Questo report mostra i dispositivi utilizzati dai tuoi visitatori. Ogni modello viene visualizzato insieme alla marca del dispositivo poiché alcuni nomi di modello vengono utilizzati da più marchi.",
         "DeviceModels": "Modelli dispositivi",
         "DeviceType": "Tipo di dispositivo",
-        "DeviceTypeReportDocumentation": "Questo report mostra i tipi di dispositivi utilizzati dai tuoi visitatori. Esso mostrerà sempre tutti i tipi di dispositivi che Matomo è in grado di rilevare, anche se non ci sono state visite con un tipo specifico.",
+        "DeviceTypeReportDocumentation": "Questo report mostra i tipi di dispositivi utilizzati dai tuoi visitatori. Esso mostrerà sempre tutti i tipi di dispositivi che Xtrusio è in grado di rilevare, anche se non ci sono state visite con un tipo specifico.",
         "DeviceTypes": "Tipi di dispositivo",
         "Devices": "Dispositivi",
         "DevicesDetection": "Dispositivi visitatore",

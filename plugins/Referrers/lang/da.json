@@ -41,7 +41,7 @@
         "TypeSocialNetworks": "%s fra sociale netværk",
         "TypeWebsites": "%s fra hjemmesider",
         "URLCampaignBuilder": "Kampagne-URL-bygger",
-        "URLCampaignBuilderIntro": "Med %1$sURL-byggerværktøjet%2$s kan du generere URL'er, der er er klar til brug til sporingskampagner i Matomo. Læs dokumentationen for %3$skampagnesporing%4$s for yderligere information.",
+        "URLCampaignBuilderIntro": "Med %1$sURL-byggerværktøjet%2$s kan du generere URL'er, der er er klar til brug til sporingskampagner i Xtrusio. Læs dokumentationen for %3$skampagnesporing%4$s for yderligere information.",
         "URLCampaignBuilderResult": "Genereret URL, som du kan kopiere og indsætte i dine kampagner, nyhedsbreve, Facebook-annoncer og tweets:",
         "UsingNDistinctUrls": "(bruger %s forskellige URL'er)",
         "ViewAllReferrers": "Vis alle henvisninger",

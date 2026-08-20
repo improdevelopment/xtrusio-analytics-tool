@@ -34,7 +34,7 @@
         "ColumnUniqueClicksDocumentation": "Käynnit, jotka sisälsivät tämän linkin klikkaamisen. Vaikka sama kävijä seuraisi linkkiä useita kertoja, se lasketaan vain kerran.",
         "ColumnUniqueDownloads": "Uniikit lataukset",
         "ColumnUniqueOutlinks": "Yksilölliset lähtevät linkit",
-        "DownloadsReportDocumentation": "Tässä raportissa näet, mitä tiedostoja kävijät ovat ladanneet. %s Matomo laskee lataukseksi latauslinkin klikkaamisen. Matomo ei tiedä, valmistuiko lataus.",
+        "DownloadsReportDocumentation": "Tässä raportissa näet, mitä tiedostoja kävijät ovat ladanneet. %s Xtrusio laskee lataukseksi latauslinkin klikkaamisen. Xtrusio ei tiedä, valmistuiko lataus.",
         "EntryPageTitles": "Saapumissivujen otsikot",
         "EntryPageTitlesReportDocumentation": "Tämä raportti sisältää tietoa saapumissivujen otsikoista annetulla aikavälillä.",
         "EntryPagesReportDocumentation": "Tämä raportti sisältää tietoa saapumissivuista, joita on käytetty annetulla aikavälillä. Saapumissivu on ensimmäinen sivu, jota käyttäjä on katsonut käyntinsä aikana. %s Saapumis-URL:t näytetään kansiorakenteena.",

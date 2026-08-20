@@ -13,7 +13,7 @@
         "GenerateNewRecoveryCodesInfo": "Kun luot uudet palautuskoodit, vanhat palutuskoodit eivät enää toimi. Varmista, että lataat tai tulostat uudet koodit.",
         "InvalidAuthCode": "Kaksivaiheisen tunnistautumisen koodi ei ollut oikein.",
         "MissingAuthCodeAPI": "Määritä kaksivaiheisen tunnistautumisen koodi.",
-        "NotPossibleToLogIn": "Kirjautuminen Matomo-analytiikkaan ei onnistu",
+        "NotPossibleToLogIn": "Kirjautuminen Xtrusio-analytiikkaan ei onnistu",
         "RecoveryCodes": "Palautuskoodit",
         "RecoveryCodesAllUsed": "Kaikki palautuskoodit on käytetty. On suositeltavaa luoda uudet palautuskoodit.",
         "RecoveryCodesExplanation": "Voit käyttää palautuskoodeja päästäksesi tilillesi, kun et voi vastaanottaa kaksivaiheisen tunnistautumisen koodeja esimerkiksi silloin, kun mobiililaitteesi ei ole käytettävissäsi.",

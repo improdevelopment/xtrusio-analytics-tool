@@ -5,7 +5,7 @@
         "CannotListContent": "لم أتمكن من سرد محتويات %1$s: %2$s",
         "DownloadNewDatabasesEvery": "تحديث قاعدة البيانات كلّ",
         "DownloadingDb": "سحب %s",
-        "FoundApacheModules": "وجد Matomo بريمجات Apache التالية",
+        "FoundApacheModules": "وجد Xtrusio بريمجات Apache التالية",
         "GeoIPDatabases": "قواعد بيانات GeoIP",
         "GeoIPImplHasAccessTo": "إصدار GeoIP هذا يمكنه الوصول إلى الأنواع التالية من قواعد البيانات"
     }

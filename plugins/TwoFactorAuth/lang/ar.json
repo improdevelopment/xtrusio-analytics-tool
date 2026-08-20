@@ -11,7 +11,7 @@
         "GenerateNewRecoveryCodes": "توليد رموز استعادة جديدة",
         "InvalidAuthCode": "رمز المصادقة الثنائية غير صحيح.",
         "MissingAuthCodeAPI": "فضلاً حدّد رمز المصادقة الثنائية.",
-        "NotPossibleToLogIn": "لايمكن الدخول إلى تحليلات Matomo",
+        "NotPossibleToLogIn": "لايمكن الدخول إلى تحليلات Xtrusio",
         "RecoveryCodesAllUsed": "لقد استخدمت جميع رموز الاستعادة، نوصي بشدة بإعادة توليد رموز الاستعادة لديك.",
         "RecoveryCodesRegenerated": "تمت إعادة توليد رموز الاستعادة. تأكد من تنزيل رموز الاستعادة الجديدة أو طباعتها.",
         "RecoveryCodesSecurity": "فضلاً التعامل مع رموز الاستعادة بذات المستوى من الأمن الذي تعامل به كلمة المرور الخاصة بك!",
