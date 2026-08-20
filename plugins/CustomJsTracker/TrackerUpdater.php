@@ -144,9 +144,9 @@ class TrackerUpdater
             }
         }
 
-        // we need to make sure to sync xtrusio.js / piwik.js
-        $this->updateAlternative('piwik.js', 'xtrusio.js', $newContent);
-        $this->updateAlternative('xtrusio.js', 'piwik.js', $newContent);
+        // Whitelabel: piwik.js was removed from the webroot, so there is no
+        // alternative filename to sync. Recreating it here would resurrect the
+        // deleted file on every tracker update.
     }
 
     private function updateAlternative($fromFile, $toFile, $newContent)

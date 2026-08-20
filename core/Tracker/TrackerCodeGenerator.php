@@ -273,8 +273,9 @@ class TrackerCodeGenerator
             return false;
         }
 
-        // only since 3.7.0 we use the default matomo.js|php... for all other installs we need to keep BC
-        return DbHelper::wasMatomoInstalledBeforeVersion('3.7.0-b1');
+        // Whitelabel: the legacy piwik.js / piwik.php endpoints were removed from
+        // the webroot, so a snippet must never reference them.
+        return false;
     }
 
     private function getJavascriptTagOptions($idSite, $mergeSubdomains, $mergeAliasUrls)

@@ -1024,8 +1024,6 @@ class Manifest {
 		"node_modules/vue/dist/vue.global.js" => array("643018", "48415a56acfada39761dd86fbe312888d5ad60f1dcf04951474a8efee4ce4679"),
 		"node_modules/vue/dist/vue.global.prod.js" => array("128872", "9c3fb85ff50d62a9d7a962483586d0da9b5dff417bd8607be5b1a021d5ad62c3"),
 		"offline-service-worker.js" => array("6381", "6f2ffc55ed02bc8999a11e33b5d11751021eb5f374bf7487977b2d45c95e214a"),
-		"piwik.js" => array("67976", "643dc9512a4efa9959a6475a7e7fcdf906b492aedd5c423e83867f8f153dd13e"),
-		"piwik.php" => array("2766", "ad8d816914ca0a67febba69fd729bedd3bee5882cb25fa2667498f5c24ebc5ae"),
 		"plugins/AIAgents/AIAgents.php" => array("3538", "947f413412e84d4b110fb60b69352e6bc0cca29138b2fabbc0dd9d87c9b923fb"),
 		"plugins/AIAgents/API.php" => array("3846", "9dfb4bc8a42dff6b56b2d155a80d601a69c0982a96cf97287a2a7624b06883c4"),
 		"plugins/AIAgents/Archiver.php" => array("642", "b1ec30420c3deacd057effa415f8d5d473a228035ad83e9f64e80722872023f5"),
